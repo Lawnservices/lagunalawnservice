@@ -1,4 +1,4 @@
-@media (min-width:300px) and (max-width:1600px) {
+@media (min-width:300px) and (max-width:1100px) {
     .content {
         width: 100%
     }
@@ -33,13 +33,17 @@
         display: block
     }
     .caja {
-        width: 90%;
-        display: block;
+        margin-left: 14%;
+        width: 60%;
+        height: fit-content;
+        display: flex;
+        margin-left: 10px;
         margin-top: 16px
     }
     .caja1 h4 {
         font-size: 16px;
-        color: #00f
+        color: #00f;
+        display: none;
     }
     .llamar {
         font-size: 16px
@@ -52,7 +56,6 @@
         font-size: 16px;
     }
     .preguntas {
-        margin-left: 20PX;
         display: block;
         width: 700px;
     }
@@ -82,6 +85,10 @@
     .pregunta {
         width: 90%;
         display: none
+    }
+    #pregunte {
+        font-size: 18px;
+        font-weight: 400px;
     }
     .contact {
         width: 200px;
@@ -146,12 +153,56 @@
         width: 1250px;
         margin-left: 80px;
     }
+    .contact {
+        width: 260px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+    .caja {
+        width: 40%;
+        float: left;
+        margin-top: 60px;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+    .footer .container {
+        width: 80%;
+    }
+    body {
+        width: fit-content;
+    }
+    ul {
+        width: 80%;
+    }
+    #verde_v {
+        width: fit-content;
+    }
+    .caja {
+        width: 36%;
+        float: left;
+        height: fit-content;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+    .medio_f {
+        width: 100%;
+    }
 }
 
 @media(min-width:320px) and (max-width:460px) {
     .preguntas {
         width: 360px;
-        margin-left: 4px;
+        margin-left: 20px;
     }
     .informacion {
         width: 360px;
@@ -163,5 +214,105 @@
     ul {
         display: block;
         background-color: #6cc091;
+    }
+    .caja {
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        margin-top: 16px
+    }
+    .nav {
+        display: none;
+    }
+    .contact {
+        width: 260px;
+        height: 200px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+}
+
+@media(min-width:460px) and (max-width:800px) {
+    .contact {
+        width: 180px;
+        height: 140px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+    .preguntas {
+        margin-left: 20px;
+    }
+    .caja {
+        width: 36%;
+        float: left;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+}
+
+@media(min-width:800px) and (max-width:1100px) {
+    .contact {
+        width: 180px;
+        height: 140px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+    .preguntas {
+        margin-left: 20px;
+    }
+    .pregunte {
+        width: 700px;
+        margin-left: 12px;
+    }
+    .medio_f {
+        width: 700px;
+        margin-left: 12px;
+    }
+    .caja {
+        width: 36%;
+        float: left;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1100px) {
+    .medio_f {
+        width: 100%;
+    }
+    .pregunte {
+        width: 100%;
+    }
+    .contact {
+        margin-left: 80px;
+    }
+    .preguntas {
+        margin-left: 200px;
+    }
+    .caja {
+        margin-left: 60px;
     }
 }
