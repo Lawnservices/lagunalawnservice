@@ -222,6 +222,12 @@ a:active {
     font-weight: 500;
 }
 
+.pregunte span {
+    color: green;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 
 /* segunda img f/n */
 

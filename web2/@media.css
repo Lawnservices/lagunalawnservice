@@ -1,6 +1,6 @@
 @media (min-width:300px) and (max-width:1100px) {
     .content {
-        width: 100%
+        width: 100%;
     }
     header {
         width: 100%;
@@ -10,14 +10,14 @@
     .nav-link a {
         color: black;
         font-size: 16px;
-        padding: 0 10px
+        padding: 0 10px;
     }
     .navegacion {
-        background-color: teal
+        background-color: teal;
     }
     .navegacion li a {
         font-size: 16px;
-        color: #fff
+        color: #fff;
     }
     /* header f/n */
     /*  nombre*/
@@ -30,7 +30,7 @@
     /* NOMBRE F/N */
     .caja1 {
         width: 100%;
-        display: block
+        display: block;
     }
     .caja {
         margin-left: 14%;
@@ -38,7 +38,7 @@
         height: fit-content;
         display: flex;
         margin-left: 10px;
-        margin-top: 16px
+        margin-top: 16px;
     }
     .caja1 h4 {
         font-size: 16px;
@@ -46,11 +46,11 @@
         display: none;
     }
     .llamar {
-        font-size: 16px
+        font-size: 16px;
     }
     p {
         font-size: 16px;
-        color: #000
+        color: #000;
     }
     h4 {
         font-size: 16px;
@@ -62,7 +62,7 @@
     h2 {
         font-size: 16px;
         color: teal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     img {
         display: inline-block;
@@ -80,11 +80,11 @@
     .informacion h3 {
         display: flex;
         font-size: 18px;
-        padding: 3px 3px
+        padding: 3px 3px;
     }
     .pregunta {
         width: 90%;
-        display: none
+        display: none;
     }
     #pregunte {
         font-size: 18px;
@@ -131,20 +131,23 @@
     .footer {
         margin-top: 100px;
     }
+    .pregunte span {
+        font-size: 18px;
+    }
 }
 
 @media (min-width:1100px) and (max-width:1900px) {
     .pregunta {
         margin-left: -60px;
         width: 600px;
-        display: flex
+        display: flex;
     }
     img {
         display: inline-block;
         margin-top: 2px;
         width: 50px;
         height: 50px;
-        border-radius: .4cm
+        border-radius: .4cm;
     }
     .preguntas {
         margin-left: 400px;
@@ -246,6 +249,9 @@
         margin-left: 12px;
         margin-top: 20px;
     }
+    .nav {
+        background-color: #6cc091;
+    }
     .llamenos {
         height: 200px;
         margin-top: 20px;
@@ -266,6 +272,9 @@
 }
 
 @media(min-width:800px) and (max-width:1100px) {
+    .nav {
+        background-color: teal;
+    }
     .contact {
         width: 180px;
         height: 140px;
