@@ -289,6 +289,60 @@ a:active {
 /* services fotos trabajos f/n */
 
 
+/* mulch */
+
+#mulch1 {
+    background-image: url(/img/mulch1.jpg);
+}
+
+#mulch1:hover {
+    background-image: url(/img/mulch2.jpg);
+}
+
+#mulch3 {
+    background-image: url(/img/mulch4.jpg);
+}
+
+#mulch3:hover {
+    background-image: url(/img/mulch3.jpg);
+}
+
+#mulch5 {
+    background-image: url(/img/mulch5.jpg);
+}
+
+#mulch5:hover {
+    background-image: url(/img/mulch6.jpg);
+}
+
+#mulch7 {
+    background-image: url(/img/mulch7.jpg);
+}
+
+#mulch7:hover {
+    background-image: url(/img/mulch8.jpg);
+}
+
+#mulch9 {
+    background-image: url(/img/mulch9.jpg);
+}
+
+#mulch9:hover {
+    background-image: url(/img/mulch10.jpg);
+}
+
+#semilla1 {
+    background-image: url(/img/semilla2.jpg);
+}
+
+#semilla1:hover {
+    background-image: url(/img/semilla1.jpg);
+}
+
+
+/* mulch f/n */
+
+
 /* parte de contact 1 */
 
 #servicioss {
