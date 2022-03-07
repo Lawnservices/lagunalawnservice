@@ -49,7 +49,6 @@ ul {
 
 .nav-link:hover {
     padding-right: 20px;
-    background-color: teal;
     transition: all .4s
 }
 
