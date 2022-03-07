@@ -49,22 +49,23 @@ ul {
 
 .nav-link:hover {
     padding-right: 20px;
+    background-color: teal;
     transition: all .4s
 }
 
 .nav-link:active {
-    background-color: #6cc09070;
+    background-color: red;
 }
 
 a {
-    color: #29323c;
+    color: #000;
     text-decoration: none;
     list-style: none;
     font-size: 18px
 }
 
 a:active {
-    color: teal;
+    color: red
 }
 
 
@@ -222,12 +223,6 @@ a:active {
     font-weight: 500;
 }
 
-.pregunte span {
-    color: green;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
 
 /* segunda img f/n */
 
@@ -238,6 +233,7 @@ a:active {
     opacity: 0.8;
     width: 100%;
     height: auto;
+    background-color: #6cc091;
 }
 
 #foto_foto:hover {
@@ -289,7 +285,44 @@ a:active {
 /* services fotos trabajos f/n */
 
 
-/* mulch */
+/* parte de contact 1 */
+
+#servicioss {
+    margin-top: 220px;
+    width: 80%;
+    margin-left: 10%;
+    clear: both;
+}
+
+.contact {
+    margin-top: 100px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 0.3cm;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0 #0000002c;
+    transition: .3s ease box-shadow;
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+.contact h2 {
+    margin-top: 10px;
+    content: '';
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* parte de contact 1 f/n*/
 
 #mulch1 {
     background-image: url(/img/mulch1.jpg);
@@ -338,49 +371,6 @@ a:active {
 #semilla1:hover {
     background-image: url(/img/semilla1.jpg);
 }
-
-
-/* mulch f/n */
-
-
-/* parte de contact 1 */
-
-#servicioss {
-    margin-top: 220px;
-    width: 80%;
-    margin-left: 10%;
-    clear: both;
-}
-
-.contact {
-    margin-top: 100px;
-    width: 400px;
-    height: 200px;
-    background-color: white;
-    float: left;
-    margin-left: 60px;
-    text-align: center;
-    border-radius: 0.3cm;
-    padding: 2px;
-    cursor: pointer;
-    box-shadow: 0px 0px 30px 0 #0000002c;
-    transition: .3s ease box-shadow;
-}
-
-.contact:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
-}
-
-.contact h2 {
-    margin-top: 10px;
-    content: '';
-    font-size: 2rem;
-    font-weight: 500;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-/* parte de contact 1 f/n*/
 
 
 /* parte de contact 2 */
