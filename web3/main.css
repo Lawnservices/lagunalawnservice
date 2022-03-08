@@ -114,15 +114,168 @@ H1 {
     background-image: url(/web3/img/pink1.jpg);
 }
 
+#flower1 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
 #flower1:hover {
     background-image: url(/web3/img/pink18.jpg);
+}
+
+#flower2 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
 }
 
 #flower2:hover {
     background-image: url(/web3/img/pink19.jpg);
 }
 
+#flower3 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
 #flower3:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#mowing4 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#mowing4:hover {
+    background-image: url(/web3/img/mowing1.jpg);
+}
+
+#mowing5 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#mowing5:hover {
+    background-image: url(/web3/img/mowing2.jpg);
+}
+
+#mowing6 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#mowing6:hover {
+    background-image: url(/web3/img/mowing3.jpg);
+}
+
+#mowing7 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#mowing7:hover {
+    background-image: url(/web3/img/mowing4.jpg);
+}
+
+#flower8 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower8:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#flower9 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower9:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#flower10 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower10:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#flower11 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower11:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#flower12 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower12:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#flower13 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower13:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#flower14 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower14:hover {
+    background-image: url(/web3/img/pink20.jpg);
+}
+
+#flower15 {
+    transition: all .3s ease;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#flower15:hover {
     background-image: url(/web3/img/pink20.jpg);
 }
 
