@@ -1,9 +1,6 @@
  @media(min-width:300px) and (max-width:500px) {
      #header {
-         background-image: linear-gradient(60deg, seagreen 20%, #0000 80%);
-     }
-     .contatanos {
-         margin-left: 40px;
+         background-color: seagreen;
      }
      h2 {
          font-size: 18px;
@@ -57,7 +54,9 @@
          width: 100%;
      }
      #llamadas {
-         margin-left: 14%;
+         margin-left: -600px;
+         width: 300px;
+         height: auto;
      }
  }
  
@@ -117,10 +116,6 @@
      span {
          text-align: center;
          margin-left: 200px;
-     }
-     #info,
-     span {
-         margin-left: -200px;
      }
      h2 {
          font-size: 18px;
