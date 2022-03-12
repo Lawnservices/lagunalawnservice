@@ -371,6 +371,62 @@ a:active {
     background-image: url(/img/semilla1.jpg);
 }
 
+#mulch11 {
+    background-image: url(/web3/img/mulch13.jpg);
+}
+
+#mulch13 {
+    background-image: url(/web3/img/mulch14.jpg);
+}
+
+#mulch15 {
+    background-image: url(/web3/img/mulch15.jpg);
+}
+
+#mulch17 {
+    background-image: url(/web3/img/mulch17.jpg);
+}
+
+#mulch19 {
+    background-image: url(/web3/img/mulch20.jpg);
+}
+
+#mulch11:hover {
+    background-image: url(/web3/img/mulch12.jpg);
+}
+
+#mulch13:hover {
+    background-image: url(/web3/img/mulch11.jpg);
+}
+
+#mulch15:hover {
+    background-image: url(/web3/img/mulch16.jpg);
+}
+
+#mulch17:hover {
+    background-image: url(/web3/img/mulch18.jpg);
+}
+
+#mulch19:hover {
+    background-image: url(/web3/img/mulch19.jpg);
+}
+
+#leaf1 {
+    background-image: url(/web3/img/leaf2.jpg);
+}
+
+#leaf3 {
+    background-image: url(/web3/img/leaf4.jpg);
+}
+
+#leaf1:hover {
+    background-image: url(/web3//img/leaf1.jpg);
+}
+
+#leaf3:hover {
+    background-image: url(/web3/img/leaf3.jpg);
+}
+
 
 /* parte de contact 2 */
 
