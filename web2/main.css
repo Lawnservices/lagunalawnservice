@@ -427,6 +427,38 @@ a:active {
     background-image: url(/web3/img/leaf3.jpg);
 }
 
+#leaf5 {
+    background-image: url(/web3/img/leaf5.jpg);
+}
+
+#leaf5:hover {
+    background-image: url(/web3/img/leaf6.jpg);
+}
+
+#leaf7 {
+    background-image: url(/web3/img/leaf7.jpg);
+}
+
+#leaf7:hover {
+    background-image: url(/web3/img/leaf8.jpg);
+}
+
+#mulch21 {
+    background-image: url(/web3/img/mulch21.jpg);
+}
+
+#mulch21:hover {
+    background-image: url(/web3/img/mulch22.jpg);
+}
+
+#relleno1 {
+    background-image: url(/web3/img/relleno1.jpg);
+}
+
+#relleno1:hover {
+    background-image: url(/web3/img/relleno2.jpg);
+}
+
 
 /* parte de contact 2 */
 
