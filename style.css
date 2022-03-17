@@ -235,6 +235,11 @@ p {
     top: 0;
 }
 
+p::first-letter {
+    color: #6cc091;
+    font-weight: bold;
+}
+
 
 /* cavesa */
 
