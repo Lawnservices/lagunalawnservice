@@ -165,7 +165,12 @@ p {
 }
 
 #header .nav-list ul li:hover a {
+    transition: all 2s;
     color: #6cc091;
+}
+
+#header .nav-list ul li a {
+    transition: all 2s;
 }
 
 #header .hamburger {
@@ -230,6 +235,11 @@ p {
     top: 0;
 }
 
+p::first-letter {
+    color: #6cc091;
+    font-weight: bold;
+}
+
 
 /* cavesa */
 
@@ -242,20 +252,6 @@ p {
     background-position: top center;
     position: relative;
 }
-
-
-/* #hero .cta {
-    display: inline-block;
-    padding: 10px 30px;
-    color: crimson;
-    background-color: transparent;
-    border: 2px solid crimson;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    transition: .3s ease;
-    transition-property: background-color, color;
-} */
 
 #hero::after {
     content: '';
@@ -620,12 +616,12 @@ p {
 }
 
 #footer .social-item img {
-    filter: grayscale(1);
+    filter: grayscale(0);
     transition: .3s ease filter;
 }
 
 #footer .social-item:hover img {
-    filter: grayscale(0);
+    filter: grayscale(1);
 }
 
 #footer p {
