@@ -9,14 +9,13 @@ a {
     text-decoration: none;
     font-size: 2rem;
     font-family: sans-serif;
-    transition: 3s;
+    transition: 2s;
 }
 
 a:hover {
     color: teal;
-    transition-duration: 3s;
+    transition-duration: 2s;
     font-size: 2rem;
-    font-weight: bold;
     animation: ease-in;
 }
 
