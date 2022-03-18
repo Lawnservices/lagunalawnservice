@@ -1,470 +1,296 @@
-body,
-ul {
-    margin: 0;
-    padding: 0px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
-    font-family: sans-serif;
-    transition: 2s;
-}
-
-a:hover {
-    color: teal;
-    transition-duration: 2s;
-    font-size: 2rem;
-    animation: ease-in;
-}
-
-#logo {
-    font-size: 2rem;
-    font-weight: bold;
-    cursor: none;
-    font-size: 2rem;
-    font-weight: bold;
-    transition: 3s;
-}
-
-#logo:hover {
-    transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    font-family: sans-serif;
-    font-weight: 100;
-}
-
-@media(max-width:800px) {
-    #logo {
-        display: none;
-    }
-}
-
-#header {
-    box-sizing: border-box;
-    height: 160px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    z-index: 1;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-#menu {
-    display: flex;
-    list-style: none;
-    gap: .5rem;
-}
-
-#menu a {
-    display: block;
-    padding: .5rem;
-}
-
-#btn-mobile {
-    display: none;
-}
-
-#llama {
-    box-shadow: #29323c 0PX 0PX 20PX 0px;
-}
-
-#llama:hover {
-    box-shadow: #29323c 0px 0px 5px 0px;
-    transition: all 1s;
-    transform: none;
-}
-
-.contact {
-    margin-top: 100px;
-    width: 400px;
-    height: 200px;
-    background-color: white;
-    float: left;
-    margin-left: 60px;
-    text-align: center;
-    border-radius: 0.3cm;
-    padding: 2px;
-    cursor: pointer;
-}
-
-
-/* foto */
-
-.foto {
-    width: 100%;
-    height: 400px;
-    background-image: url("/img/casa-28.jpg");
-    background-attachment: fixed;
-    background-size: 50%;
-    padding-top: 10%;
-    background-size: cover;
-}
-
-h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: seagreen;
-    font-weight: bold;
-    z-index: -1;
-    animation: laguna 3s infinite linear;
-}
-
-@keyframes laguna {
-    from {
-        color: seagreen;
-        transform: scale(.6);
-    }
-    to {
-        color: skyblue;
-        transform: scale(1);
-    }
-}
-
-
-/* foto f/n */
-
-
-/* caja */
-
-.caja {
-    width: 60%;
-    height: 200px;
-    background-color: white;
-    margin-left: 20%;
-    border: 0.4cm;
-    text-align: center;
-}
-
-
-/* caja f/n */
-
-.llamadas {
-    width: 400px;
-    height: 340px;
-    float: left;
-    margin-left: 60px;
-    background-color: white;
-    padding: 2px;
-    color: black;
-    text-align: center;
-    border-radius: 0.3cm;
-    margin-top: 100px;
-    transition: 2s ease;
-    cursor: pointer;
-}
-
-
-/* todas fotos cajon */
-
-.llamadas:hover {
-    color: black;
-    transform-origin: top;
-    -webkit-transform: scale(1.2, 1.2);
-    -moz-transform: scale(1.2, 1.2);
-    -o-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
-    transition: 2s ease;
-    transition-delay: 2s;
-}
-
-#flower {
-    transition: 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower:hover {
-    background-image: url(/web3/img/pink19.jpg);
-}
-
-#flower1 {
-    transition: all 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower1:hover {
-    background-image: url(/web3/img/pink18.jpg);
-}
-
-#flower2 {
-    transition: all 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower2:hover {
-    background-image: url(/web3/img/pink19.jpg);
-}
-
-#flower3 {
-    transition: all 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower3:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#mowing4 {
-    transition: all 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#mowing4:hover {
-    background-image: url(/web3/img/mowing1.jpg);
-}
-
-#mowing5 {
-    transition: all 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#mowing5:hover {
-    background-image: url(/web3/img/mowing2.jpg);
-}
-
-#mowing6 {
-    transition: all 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#mowing6:hover {
-    background-image: url(/web3/img/mowing3.jpg);
-}
-
-#mowing7 {
-    transition: all 2s ease;
-    background-image: url(/web2/Casas-27.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#mowing7:hover {
-    background-image: url(/web3/img/mowing4.jpg);
-}
-
-#flower8 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower8:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#flower9 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower9:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#flower10 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower10:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#flower11 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower11:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#flower12 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower12:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#flower13 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower13:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#flower14 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower14:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-#flower15 {
-    transition: all 2s ease;
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-    background-position: 35%;
-}
-
-#flower15:hover {
-    background-image: url(/web3/img/pink20.jpg);
-}
-
-.llamadas:hover {
-    background-image: url(/img/casa-28.jpg);
-    background-size: cover;
-}
-
-
-/* todas fotos cajon f/n */
-
-
-/* hover */
-
-#flower,
-#flower1,
-#flower2,
-#flower3,
-#mowing4,
-#mowing5,
-#mowing6,
-#mowing7 {
-    color: transparent;
-}
-
-#flower:hover,
-#flower1:hover,
-#flower2:hover,
-#flower3:hover,
-#mowing4:hover,
-#mowing5:hover,
-#mowing6:hover,
-#mowing7:hover {
-    color: black;
-    font-weight: bold;
-    font-size: 1.4rem;
-    transition: 2s;
-}
-
-
-/* hover f/n */
-
-
-/* contact chasApp */
-
-h3 {
-    margin-top: 1760px;
-    font-size: 3rem;
-    text-align: center;
-}
-
-samp {
-    font-size: 3rem;
-    color: #6cc091;
-}
-
-
-/* contact chasApp */
-
-#informe span {
-    color: skyblue;
-    font-weight: bold;
-}
-
-#informe span,
-h2 {
-    padding: 1rem;
-}
-
-.llamadas:hover {
-    box-shadow: 0px 0px 6px 0px #0000002c;
-}
-
-.contatenos {
-    background-color: #130e0ea8;
-    text-align: center;
-    margin-top: 400px;
-    width: 100%;
-    height: 240px;
-    margin-bottom: 0;
-    clear: both;
-}
-
-#contate,
-samp {
-    margin-top: 2400px;
-    clear: both;
-}
-
-h2 {
-    color: teal;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-span {
-    color: green;
-}
-
-h2,
-span {
-    margin-top: 20px;
-}
-
-img:hover {
-    opacity: .4;
-}
-
-@media(max-width:600px) {
-    #btn-mobile {
-        display: block;
-    }
-    #menu {
-        display: none;
-    }
-    #nav.active #menu {
-        display: flex;
-    }
-}
+ body,
+ ul {
+     margin: 0;
+     padding: 0px;
+ }
+ 
+ a {
+     color: white;
+     text-decoration: none;
+     font-size: 2rem;
+     font-family: sans-serif;
+     transition: all 2s ease-in-out;
+ }
+ 
+ a:hover {
+     color: teal;
+     animation-direction: alternate-reverse;
+     transition: all 2s ease-in-out;
+ }
+ 
+ H1 {
+     text-align: center;
+     font-size: 3rem;
+     font-weight: bold;
+ }
+ 
+ #logo {
+     font-size: 2rem;
+     font-weight: bold;
+     cursor: none;
+     border-bottom: none;
+ }
+ 
+ @media(max-width:800px) {
+     #logo {
+         display: none;
+     }
+ }
+ 
+ #header {
+     box-sizing: border-box;
+     height: 100px;
+     padding: 1rem;
+     display: flex;
+     justify-content: space-between;
+     background-image: linear-gradient(60deg, #454545 0%, #485563 100%);
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+ }
+ 
+ #menu {
+     display: flex;
+     list-style: none;
+     gap: .5rem;
+ }
+ 
+ #menu a {
+     display: block;
+     padding: .5rem;
+ }
+ 
+ #btn-mobile {
+     display: none;
+ }
+ 
+ .contact {
+     margin-top: 100px;
+     width: 400px;
+     height: 200px;
+     background-color: white;
+     float: left;
+     margin-left: 60px;
+     text-align: center;
+     border-radius: 0.3cm;
+     padding: 2px;
+     cursor: pointer;
+     box-shadow: 0px 0px 30px 0 #0000002c;
+     transition: .3s ease box-shadow;
+ }
+ 
+ .contact:hover {
+     box-shadow: 0px 0px 5px 0 #0000002c;
+ }
+ 
+ .caja {
+     width: 60%;
+     height: 200px;
+     margin-left: 20%;
+ }
+ 
+ .llamadas {
+     width: 500px;
+     height: 400px;
+     float: left;
+     margin-left: 100px;
+     background-color: white;
+     padding: 2px;
+     color: black;
+     text-align: center;
+     border-radius: 0.3cm;
+     margin-top: 100px;
+     box-shadow: 0px 0px 30px 0px #0000002c;
+     transition: .3s ease;
+     cursor: pointer;
+     text-align: end;
+     font-size: 2rem;
+     color: white;
+ }
+ /* telefono  */
+ 
+ .telefono {
+     width: 200px;
+     height: 200px;
+     float: left;
+     margin-left: 200px;
+     background-color: white;
+     padding: 2px;
+     color: black;
+     text-align: center;
+     border-radius: 0.3cm;
+     margin-top: 100px;
+     box-shadow: 0px 0px 30px 0px #0000002c;
+     transition: .3s ease;
+     cursor: pointer;
+ }
+ 
+ .telefono:hover {
+     box-shadow: 0px 0px 4px 0px #0000002c;
+ }
+ 
+ h4 {
+     color: teal;
+ }
+ /* telefono f/f */
+ 
+ #flower {
+     transition: all 2s ease;
+     background-image: url(/img/casa-28.jpg);
+     background-size: cover;
+     background-position: 35%;
+ }
+ 
+ #mulch1 {
+     background-image: url(/web3/img/mulch21.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch1:hover {
+     background-image: url(/web3/img/mulch22.jpg);
+ }
+ 
+ #mulch2 {
+     background-image: url(/web3/img/mulch15.jpg);
+     background-size: cover;
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch2:hover {
+     background-image: url(/web3/img/mulch16.jpg);
+     background-size: cover;
+ }
+ 
+ #mulch3 {
+     background-image: url(/web3/img/mulch13.jpg);
+     background-size: cover;
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch3:hover {
+     background-image: url(/web3/img/mulch12.jpg);
+ }
+ 
+ #mulch4 {
+     background-image: url(/web3/img/mulch20.jpg);
+     background-size: cover;
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch4:hover {
+     background-image: url(/web3/img/mulch19.jpg);
+ }
+ 
+ #mulch5 {
+     background-image: url(/web3/img/mulch7.jpg);
+     background-size: cover;
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch5:hover {
+     background-image: url(/web3/img/mulch8.jpg);
+ }
+ 
+ #mulch6 {
+     background-image: url(/web3/img/relleno1.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch6:hover {
+     background-image: url(/web3/img/relleno2.jpg);
+ }
+ 
+ .llamadas:hover {
+     background-image: url(/web3/img/casa-28.jpg);
+     background-size: cover;
+     transition-duration: 2s;
+     color: black;
+     text-align: center;
+     font-size: 3rem;
+     font-weight: bold;
+     transition: all 2s ease-in-out;
+ }
+ 
+ .llamadas {
+     transition: all 2s ease-in-out;
+ }
+ 
+ .contatanoss {
+     align-items: center;
+     width: 80%;
+     margin-left: 12%;
+     margin-bottom: 100px;
+     margin-top: 1600px;
+     clear: both;
+     background-color: transparent;
+ }
+ 
+ #contatanoss .llamadas {
+     background-image: none;
+ }
+ 
+ #informe h2 {
+     color: white;
+     padding: 1rem;
+ }
+ 
+ #informe span {
+     color: seagreen;
+ }
+ 
+ .llamadas:hover {
+     box-shadow: 0px 0px 6px 0px #0000002c;
+ }
+ 
+ .contatenos {
+     background-color: #130e0ea8;
+     text-align: center;
+     margin-top: 400px;
+     width: 100%;
+     height: 240px;
+     margin-bottom: 0;
+     clear: both;
+ }
+ 
+ h2 {
+     color: black;
+     font-size: 2rem;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ span {
+     color: green;
+ }
+ 
+ h2,
+ span {
+     margin-top: 20px;
+ }
+ 
+ .foto {
+     width: 100%;
+     height: 400px;
+     background-image: url("/img/casa-28.jpg");
+     background-attachment: fixed;
+     background-size: 50%;
+     padding-top: 10%;
+     background-size: cover;
+ }
+ 
+ .contatenos a,
+ img {
+     background-color: transparent;
+ }
+ 
+ @media(max-width:600px) {
+     #btn-mobile {
+         display: block;
+     }
+     #menu {
+         display: none;
+     }
+     #nav.active #menu {
+         display: flex;
+     }
+ }

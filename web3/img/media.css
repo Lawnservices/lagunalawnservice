@@ -1,0 +1,68 @@
+@media(min-width:300px) and (max-width:1000px) {
+    #header {
+        background-image: linear-gradient(60deg, seagreen 20%, #0000 80%);
+    }
+    .contatanos {
+        margin-left: 10px;
+    }
+    #contatanoss {
+        margin-left: 8px;
+        width: 100%;
+    }
+    #contatanoss h1,
+    span {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .foto {
+        width: 100%;
+    }
+    .llamadas {
+        margin-left: 0;
+        width: 100%;
+        height: 300px;
+    }
+    .telefono {
+        margin-left: 100px;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1800px) {
+    #header {
+        background-image: linear-gradient(60deg, #454545 50%, #0000 50%);
+    }
+    a {
+        color: teal;
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: sans-serif;
+        transition: all 2s;
+    }
+    .contatanos {
+        margin-left: 10px;
+    }
+    #contatanoss {
+        margin-left: 8px;
+        width: 100%;
+    }
+    #contatanoss h1,
+    span {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .foto {
+        width: 100%;
+    }
+    .llamadas {
+        margin-left: 10px;
+        width: 30%;
+        height: 300px;
+    }
+    .telefono {
+        margin-left: 100px;
+    }
+}

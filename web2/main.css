@@ -322,6 +322,7 @@ a {
 
 #mulch1 {
     background-image: url(/img/mulch1.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch1:hover {
@@ -330,6 +331,7 @@ a {
 
 #mulch3 {
     background-image: url(/img/mulch4.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch3:hover {
@@ -338,6 +340,7 @@ a {
 
 #mulch5 {
     background-image: url(/img/mulch5.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch5:hover {
@@ -346,6 +349,7 @@ a {
 
 #mulch7 {
     background-image: url(/img/mulch7.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch7:hover {
@@ -354,6 +358,7 @@ a {
 
 #mulch9 {
     background-image: url(/img/mulch9.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch9:hover {
@@ -362,6 +367,7 @@ a {
 
 #semilla1 {
     background-image: url(/img/semilla2.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #semilla1:hover {
@@ -370,22 +376,27 @@ a {
 
 #mulch11 {
     background-image: url(/web3/img/mulch13.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch13 {
     background-image: url(/web3/img/mulch14.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch15 {
     background-image: url(/web3/img/mulch15.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch17 {
     background-image: url(/web3/img/mulch17.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch19 {
     background-image: url(/web3/img/mulch20.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch11:hover {
@@ -410,10 +421,12 @@ a {
 
 #leaf1 {
     background-image: url(/web3/img/leaf2.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #leaf3 {
     background-image: url(/web3/img/leaf4.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #leaf1:hover {
@@ -426,6 +439,7 @@ a {
 
 #leaf5 {
     background-image: url(/web3/img/leaf5.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #leaf5:hover {
@@ -434,6 +448,7 @@ a {
 
 #leaf7 {
     background-image: url(/web3/img/leaf7.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #leaf7:hover {
@@ -442,6 +457,7 @@ a {
 
 #mulch21 {
     background-image: url(/web3/img/mulch21.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #mulch21:hover {
@@ -450,6 +466,7 @@ a {
 
 #relleno1 {
     background-image: url(/web3/img/relleno1.jpg);
+    transition: all 2s ease-in-out;
 }
 
 #relleno1:hover {
