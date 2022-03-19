@@ -270,11 +270,13 @@ a {
 #negro {
     color: #000;
     font-family: sans-serif;
+    transition: all 2s ease-in-out;
 }
 
 #blanco {
     color: #fff;
     font-size: large;
+    transition: all 2s ease-in-out;
 }
 
 
