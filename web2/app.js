@@ -11,17 +11,17 @@
  (function() {
      setInterval(function() {
          var canbio = document.getElementById("verde_v"),
-             colores = ["green", "red"];
+             colores = ["blue", "teal"];
 
          canbio.style.color = colores[Math.floor(Math.random() * colores.length)];
-     }, 1000);
+     }, 2000);
 
  }())
 
  (function() {
      setInterval(function() {
          var segunda = document.getElementById("pregunte"),
-             primera = ["teal", "#cc6097"];
+             primera = ["teal", "green"];
 
          segunda.style.color = primera[Math.floor(Math.random() * primera.length)];
      }, 2000);

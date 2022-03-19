@@ -255,8 +255,7 @@ a {
     transition: all 2s;
 }
 
-.preguntas:hover #negro,
-#blanco {
+.preguntas:hover #negro {
     font-size: 2.4rem;
     color: teal;
 }
