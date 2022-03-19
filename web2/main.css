@@ -258,7 +258,7 @@ a {
 .preguntas:hover #negro,
 #blanco {
     font-size: 2.4rem;
-    color: #6cc091;
+    color: teal;
 }
 
 .preguntas:hover #blanco {
@@ -269,13 +269,14 @@ a {
 }
 
 #negro {
+    margin-top: 20px;
     color: #000;
     font-family: sans-serif;
     transition: all 2s ease-in-out;
 }
 
 #blanco {
-    color: #fff;
+    color: transparent;
     font-size: large;
     transition: all 2s ease-in-out;
 }
