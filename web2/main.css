@@ -247,6 +247,7 @@ a {
     float: left;
     margin-left: 260px;
     border-radius: 0.2cm;
+    transition: all 2s ease-in-out;
 }
 
 .preguntas:hover {
