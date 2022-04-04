@@ -476,6 +476,54 @@ a {
     background-image: url(/web3/img/relleno2.jpg);
 }
 
+#corte1 {
+    background-image: url(/web3/img/corte111.jpg);
+}
+
+#corte1:hover {
+    background-image: url(/web3/img/corte11.jpg);
+}
+
+#cortes1 {
+    background-image: url(/web3/img/cortes1.jpg);
+}
+
+#cortes1:hover {
+    background-image: url(/web3/img/cortes2.jpg);
+}
+
+#cortes3 {
+    background-image: url(/web3/img/cortes3.jpg);
+}
+
+#cortes3:hover {
+    background-image: url(/web3/img/cortes4.jpg);
+}
+
+#corte3 {
+    background-image: url(/web3/img/corte3.jpg);
+}
+
+#corte3:hover {
+    background-image: url(/web3/img/corte4.jpg);
+}
+
+#bolitas1 {
+    background-image: url(/web3/img/bolitas1.jpg);
+}
+
+#bolitas1:hover {
+    background-image: url(/web3/img/bolitas2.jpg);
+}
+
+#relleno3 {
+    background-image: url(/web3/img/relleno3.jpg);
+}
+
+#relleno3:hover {
+    background-image: url(/web3/img/relleno4.jpg);
+}
+
 
 /* parte de contact 2 */
 
