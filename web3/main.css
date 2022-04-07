@@ -200,15 +200,47 @@
      background-image: url(/web3/img/relleno2.jpg);
  }
  
+ #corte {
+     background-image: url(/web3/img/cortes1.jpg);
+ }
+ 
+ #corte:hover {
+     background-image: url(/web3/img/cortes2.jpg);
+ }
+ 
+ #corte1 {
+     background-image: url(/web3/img/cortes3.jpg);
+ }
+ 
+ #corte1:hover {
+     background-image: url(/web3/img/cortes4.jpg);
+ }
+ 
+ #corte2 {
+     background-image: url(/web3/img/corte3.jpg);
+ }
+ 
+ #corte2:hover {
+     background-image: url(/web3/img/corte4.jpg);
+ }
+ 
+ .llamadas p {
+     color: transparent;
+ }
+ 
+ .llamadas {
+     color: transparent;
+ }
+ 
  .llamadas:hover {
      background-image: url(/web3/img/casa-28.jpg);
      background-size: cover;
      transition-duration: 2s;
-     color: black;
      text-align: center;
-     font-size: 3rem;
-     font-weight: bold;
+     font-size: 2rem;
+     font-weight: 400;
      transition: all 2s ease-in-out;
+     color: aliceblue;
  }
  
  .llamadas {
@@ -257,6 +289,10 @@
      font-size: 2rem;
      font-weight: bold;
      text-align: center;
+ }
+ 
+ .verde {
+     color: green;
  }
  
  span {
