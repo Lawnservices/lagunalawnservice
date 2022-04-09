@@ -524,6 +524,54 @@ a {
     background-image: url(/web3/img/relleno4.jpg);
 }
 
+#semilla3 {
+    background-image: url(/img/semilla4.jpg);
+}
+
+#semilla3:hover {
+    background-image: url(/img/semilla3.jpg);
+}
+
+#semilla5 {
+    background-image: url(/img/semilla6.jpg);
+}
+
+#semilla5:hover {
+    background-image: url(/img/semilla5.jpg);
+}
+
+#rojo1 {
+    background-image: url(/img/rojo2.jpg);
+}
+
+#rojo1:hover {
+    background-image: url(/img/rojo1.jpg);
+}
+
+#rojo3 {
+    background-image: url(/img/rojo4.jpg);
+}
+
+#rojo3:hover {
+    background-image: url(/img/rojo3.jpg);
+}
+
+#rojo5 {
+    background-image: url(/img/rojo6.jpg);
+}
+
+#rojo5:hover {
+    background-image: url(/img/rojo5.jpg);
+}
+
+#rojo7 {
+    background-image: url(/img/rojo8.jpg);
+}
+
+#rojo7:hover {
+    background-image: url(/img/rojo7.jpg);
+}
+
 
 /* parte de contact 2 */
 
