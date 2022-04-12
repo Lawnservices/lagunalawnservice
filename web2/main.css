@@ -111,23 +111,13 @@ a {
 }
 
 .medio_f h2 {
-    color: green;
-    margin-top: 30px;
+    font-size: 2rem;
+    color: sienna;
+    margin-top: 0px;
     padding: 20px 20px;
     text-align: center;
     font-family: sans-serif;
     animation: nueva 4s infinite alternate;
-}
-
-@keyframes nueva {
-    from {
-        color: green;
-        font-size: 20px;
-    }
-    to {
-        color: black;
-        font-size: 40px
-    }
 }
 
 
