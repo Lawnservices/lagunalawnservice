@@ -569,6 +569,14 @@ a {
     background-image: url(/img/cafe1.jpg);
 }
 
+#cafe3 {
+    background-image: url(/img/cafe3.jpg);
+}
+
+#cafe3:hover {
+    background-image: url(/img/cafe4.jpg);
+}
+
 
 /* parte de contact 2 */
 
