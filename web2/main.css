@@ -577,6 +577,22 @@ a {
     background-image: url(/img/cafe4.jpg);
 }
 
+#cafe5 {
+    background-image: url(/img/cafe6.jpg);
+}
+
+#cafe5:hover {
+    background-image: url(/img/cafe5.jpg);
+}
+
+#cafe7 {
+    background-image: url(/img/cafe8.jpg);
+}
+
+#cafe7:hover {
+    background-image: url(/img/cafe7.jpg);
+}
+
 
 /* parte de contact 2 */
 
