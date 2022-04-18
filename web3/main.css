@@ -18,7 +18,7 @@
      transition: all 2s ease-in-out;
  }
  
- H1 {
+ h1 {
      text-align: center;
      font-size: 3rem;
      font-weight: bold;
@@ -42,11 +42,14 @@
      height: 100px;
      padding: 1rem;
      display: flex;
-     justify-content: space-between;
      background-image: linear-gradient(60deg, #454545 0%, #485563 100%);
      position: -webkit-sticky;
      position: sticky;
      top: 0;
+ }
+ 
+ #menu .despliege #frente {
+     margin-left: 20rem;
  }
  
  #menu {
@@ -58,6 +61,7 @@
  #menu a {
      display: block;
      padding: .5rem;
+     margin-left: 40px;
  }
  
  #btn-mobile {
@@ -289,6 +293,29 @@
      font-size: 2rem;
      font-weight: bold;
      text-align: center;
+ }
+ 
+ .despliege ul a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .despliege ul li a {
+     text-decoration: none;
+ }
+ 
+ .despliege ul {
+     display: none;
+     background-color: slategray;
+     padding: 0.25em 0.5em;
+     transition: all 0.3s ease-in-out;
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ .despliege:hover ul {
+     display: block;
+     transition: all 0.3s ease-in-out;
  }
  
  .verde {
