@@ -228,6 +228,17 @@
      color: transparent;
  }
  
+ #green {
+     color: green;
+ }
+ 
+ #green:hover {
+     background-color: salmon;
+     color: teal;
+     border: 1px solid white;
+     transform: rotate(360deg);
+ }
+ 
  .llamadas {
      color: transparent;
  }
