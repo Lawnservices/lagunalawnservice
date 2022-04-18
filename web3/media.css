@@ -1,7 +1,4 @@
 @media(min-width:300px) and (max-width:1000px) {
-    #header {
-        background-image: linear-gradient(60deg, seagreen 20%, #0000 80%);
-    }
     .contatanos {
         margin-left: 10px;
     }
@@ -30,9 +27,6 @@
 }
 
 @media(min-width:1000px) and (max-width:1800px) {
-    #header {
-        background-image: linear-gradient(60deg, #454545 50%, #0000 50%);
-    }
     a {
         color: teal;
         text-decoration: none;
