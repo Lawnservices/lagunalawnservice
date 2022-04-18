@@ -64,10 +64,6 @@
      margin-left: 40px;
  }
  
- #btn-mobile {
-     display: none;
- }
- 
  .contact {
      margin-top: 100px;
      width: 400px;
@@ -344,16 +340,4 @@
  .contatenos a,
  img {
      background-color: transparent;
- }
- 
- @media(max-width:600px) {
-     #btn-mobile {
-         display: block;
-     }
-     #menu {
-         display: none;
-     }
-     #nav.active #menu {
-         display: flex;
-     }
  }
