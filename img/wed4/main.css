@@ -1,0 +1,566 @@
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 2rem;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(60deg, #454545 0%, #485563 100%);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    margin-right: auto;
+    text-decoration: none;
+    color: snow;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #fffefe;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 2s ease-in-out;
+}
+
+.nav__links li a:hover {
+    transition: all 2s ease-in-out;
+    color: #0088a9;
+}
+
+.cta:hover {
+    background-color: rgb(70, 155, 63);
+}
+
+
+/* Mobile Nav */
+
+.menu {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: teal;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.overlay--active {
+    width: 30%;
+}
+
+.overlay__content {
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #0088a9;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+        display: none;
+    }
+    .menu {
+        display: initial;
+    }
+}
+
+.casa_28 {
+    margin-top: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url(casa-28.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 10%;
+    font-size: 40px;
+    color: #fff;
+    transition: all 4s;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1::first-letter {
+    color: green;
+}
+
+
+/* trabajos */
+
+span {
+    color: green;
+}
+
+.trabajos {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.trabajo {
+    width: 400px;
+    margin-left: 180px;
+    float: left;
+}
+
+h2 {
+    color: #000;
+    font-size: 3rem;
+}
+
+h3 {
+    width: fit-content;
+    color: teal;
+}
+
+.trabajos .uno,
+.dos,
+.tres {
+    margin-left: 180px;
+    border-radius: 0.4cm;
+}
+
+.uno {
+    width: 400px;
+    height: 400px;
+    background-image: url(imagen1.jpg);
+}
+
+.dos {
+    background-image: url(imagen2.jpg);
+    width: 400px;
+    height: 400px;
+}
+
+.tres {
+    width: 400px;
+    height: 400px;
+    background-image: url(imagen3.jpg);
+}
+
+
+/* trabajos f/n */
+
+.text {
+    color: #000;
+    transition: all 3s;
+    border-radius: .4cm
+}
+
+.text-success {
+    color: #000
+}
+
+.text-danger .navbar-togler {
+    color: #000;
+    background-color: #000
+}
+
+div {
+    margin-top: 35px;
+    background-color: transparent
+}
+
+.navbar p {
+    padding: 0 30px
+}
+
+.formacion88 {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    top: 50px;
+}
+
+#services {
+    margin-top: 20px;
+}
+
+.cajon {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    clear: both;
+}
+
+.orarios {
+    width: 800px;
+    height: 300px;
+    margin-top: 320px;
+    border: 2px solid teal;
+    clear: both;
+    display: block;
+}
+
+.orarios {
+    color: #000;
+    margin-left: 80px;
+}
+
+#grande {
+    color: #000;
+    font-size: large;
+    font-family: sans-serif;
+    color: black;
+}
+
+.orarios a {
+    display: block;
+    margin-top: 10PX;
+    margin-left: 30px;
+    font-family: sans-serif;
+    width: fit-content;
+}
+
+.orarios span {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    color: teal;
+}
+
+.orarios img {
+    float: right;
+    width: 400px;
+    height: 296px;
+}
+
+.orarios #mire {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+.formacion {
+    margin-top: 100px;
+    width: 22%;
+    height: 300px;
+    padding: 10px 30px;
+    text-align: justify;
+    margin-left: auto;
+    border-radius: .4cm;
+    border: 2px solid #1e90ff;
+}
+
+.avajo {
+    display: flex;
+    padding: 10px 60px;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    clear: both;
+    margin-top: 200px;
+}
+
+.avajo a {
+    text-decoration: none;
+    clear: both
+}
+
+#footer {
+    text-align: center;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+    min-height: 140px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    align-items: center;
+    margin-left: 830px;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(0);
+    transition: .3s ease filter;
+}
+
+#footer .social-item:hover img {
+    filter: grayscale(1);
+}
+
+#footer p {
+    color: white;
+    font-size: 1rem;
+}
+
+#services .service-bottom .icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#services .service-item h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#services .service-item p {
+    color: #fff;
+    text-align: left;
+}
+
+
+/* pruev */
+
+.bi {
+    color: teal
+}
+
+.nn_foto {
+    display: flex
+}
+
+.n_foto h2 {
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    animation: laguna 3s infinite alternate;
+}
+
+@keyframes laguna {
+    from {
+        color: #fff;
+        font-size: 2rem;
+    }
+    to {
+        color: black;
+        font-size: 3rem;
+    }
+}
+
+.n_foto {
+    background-image: url(fertilisanta.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .formacion88 {
+        width: 90%;
+        display: block
+    }
+    .formacion {
+        width: 100%;
+        margin-left: 6px;
+    }
+    header {
+        background-color: #fff
+    }
+    .tel {
+        margin-left: -20px
+    }
+    .cajon {
+        margin-top: 660px;
+        width: 100%;
+        height: 400px;
+        display: block;
+    }
+    .orarios {
+        display: block;
+        width: 100%;
+        height: 370px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .orarios img {
+        width: 200px;
+        height: auto;
+    }
+    .social-icon {
+        margin-left: 100px;
+    }
+    .trabajos {
+        width: 100%;
+        display: inline-block;
+        margin-left: -160px;
+        margin-bottom: 800px;
+    }
+    .trabajo {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:800px) and (max-width:1600px) {
+    .formacion88 {
+        width: 100%;
+        display: flex;
+        margin-left: 2px;
+    }
+    span {
+        font-size: 18px;
+    }
+    h2,
+    h3 {
+        font-size: 16px;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    .formacion {
+        width: 80%;
+        height: 400px;
+        margin-left: 6px;
+    }
+    .tel {
+        margin-left: -20px;
+    }
+    .cajon {
+        margin-top: 660px;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        margin-left: 60px;
+    }
+    .orarios {
+        width: 40%;
+        height: 370px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .orarios img {
+        width: 160px;
+        height: auto;
+    }
+    .social-icon {
+        margin-left: 240px;
+    }
+    .social-icon img {
+        width: 50px;
+        height: auto;
+    }
+    .trabajos {
+        width: 100%;
+        display: inline-flex;
+        margin-bottom: 100px;
+    }
+    .trabajo {
+        width: 340px;
+        margin-left: 20px;
+        float: left;
+    }
+    .tres img {
+        width: 400px;
+        height: 400px;
+    }
+    .uno img {
+        width: 400px;
+        height: 400px;
+    }
+    .dos img {
+        width: 400px;
+        height: 400px;
+    }
+}
