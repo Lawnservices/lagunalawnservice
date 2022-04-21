@@ -590,6 +590,30 @@ a {
     background-image: url(/img/cafe7.jpg);
 }
 
+#mantillo1 {
+    background-image: url(/img/mantillo1.jpg);
+}
+
+#mantillo1:hover {
+    background-image: url(/img/mantillo2.jpg);
+}
+
+#mantillo3 {
+    background-image: url(/img/mantillo3.jpg);
+}
+
+#mantillo3:hover {
+    background-image: url(/img/mantillo4.jpg);
+}
+
+#mantillo5 {
+    background-image: url(/img/mantillo5.jpg);
+}
+
+#mantillo5:hover {
+    background-image: url(/img/mantillo6.jpg);
+}
+
 
 /* parte de contact 2 */
 
