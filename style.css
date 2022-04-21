@@ -66,11 +66,20 @@ p {
     margin-top: 30px;
     transition: .4s ease;
     transition-property: background-color, color;
+    animation: laguna 4s infinite alternate;
 }
 
 .cta:hover {
     color: #fff;
-    background-color: #6cc091;
+}
+
+@keyframes laguna {
+    from {
+        background-color: #6cc091;
+    }
+    to {
+        background-color: teal;
+    }
 }
 
 .brand h1 {
@@ -140,7 +149,7 @@ p {
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     padding: 20px;
     display: block;
