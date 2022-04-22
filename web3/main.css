@@ -313,7 +313,7 @@
  
  .despliege ul {
      display: none;
-     background-color: slategray;
+     background-color: #60A5A5;
      padding: 0.25em 0.5em;
      transition: all 0.3s ease-in-out;
      text-decoration: none;
