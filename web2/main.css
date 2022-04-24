@@ -614,6 +614,14 @@ a {
     background-image: url(/img/mantillo6.jpg);
 }
 
+#hoja1 {
+    background-image: url(/img/hoja1.jpg);
+}
+
+#hoja1:hover {
+    background-image: url(/img/hoja2.jpg);
+}
+
 
 /* parte de contact 2 */
 
