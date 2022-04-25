@@ -269,6 +269,32 @@ a {
 
 /* services fotos trabajos f/n */
 
+.gracias {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    transition: all 3s ease-in-out;
+    color: transparent;
+}
+
+.gracias:hover {
+    background-color: #60a5a5;
+    transition: all 3s ease-in-out;
+    color: white;
+}
+
+.gracias p {
+    font-size: 3rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.gracias h2 {
+    font-size: 1.6rem;
+    z-index: 1;
+}
+
 
 /* parte de contact 1 */
 
