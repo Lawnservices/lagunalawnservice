@@ -622,6 +622,22 @@ a {
     background-image: url(/img/hoja2.jpg);
 }
 
+#mantillo7 {
+    background-image: url(/img/mantillo7.jpg);
+}
+
+#mantillo7:hover {
+    background-image: url(/img/mantillo8.jpg);
+}
+
+#mantillo9 {
+    background-image: url(/img/mantillo9.jpg);
+}
+
+#mantillo9:hover {
+    background-image: url(/img/mantillo10.jpg);
+}
+
 
 /* parte de contact 2 */
 
