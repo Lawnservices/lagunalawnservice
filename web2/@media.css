@@ -139,10 +139,6 @@
         height: auto;
         text-align: center;
         background-color: #60a5a5;
-        position: absolute;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0px;
     }
     .gracias p {
         font-size: 16px;
