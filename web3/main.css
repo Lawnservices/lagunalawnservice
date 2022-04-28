@@ -356,3 +356,8 @@
  img {
      background-color: transparent;
  }
+ 
+ .contatenos a,
+ img:hover {
+     opacity: 60%;
+ }
