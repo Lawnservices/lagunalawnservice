@@ -497,11 +497,11 @@ a {
 }
 
 #corte1 {
-    background-image: url(/web3/img/corte111.jpg);
+    background-image: url(/img/verde1.jpg);
 }
 
 #corte1:hover {
-    background-image: url(/web3/img/corte11.jpg);
+    background-image: url(/img/verde2.jpg);
 }
 
 #cortes1 {
@@ -513,11 +513,11 @@ a {
 }
 
 #cortes3 {
-    background-image: url(/web3/img/cortes3.jpg);
+    background-image: url(/img/verde3.jpg);
 }
 
 #cortes3:hover {
-    background-image: url(/web3/img/cortes4.jpg);
+    background-image: url(/img/verde4.jpg);
 }
 
 #corte3 {
