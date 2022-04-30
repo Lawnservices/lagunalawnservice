@@ -335,6 +335,14 @@ a {
 
 /* parte de contact 1 f/n*/
 
+#arbol1 {
+    background-image: url(/img/arbol1.jpg);
+}
+
+#arbol1:hover {
+    background-image: url(/img/arbol2.jpg);
+}
+
 #mulch1 {
     background-image: url(/img/mulch1.jpg);
     transition: all 2s ease-in-out;
