@@ -397,6 +397,22 @@ a {
     background-image: url(/img/semilla1.jpg);
 }
 
+#semilla3 {
+    background-image: url(/img/semilla4.jpg);
+}
+
+#semilla3:hover {
+    background-image: url(/img/semilla3.jpg);
+}
+
+#semilla5 {
+    background-image: url(/img/semillas12.jpg);
+}
+
+#semilla5:hover {
+    background-image: url(/img/semilla5.jpg);
+}
+
 #mulch11 {
     background-image: url(/web3/img/mulch13.jpg);
     transition: all 2s ease-in-out;
@@ -542,22 +558,6 @@ a {
 
 #relleno3:hover {
     background-image: url(/web3/img/relleno4.jpg);
-}
-
-#semilla3 {
-    background-image: url(/img/semilla4.jpg);
-}
-
-#semilla3:hover {
-    background-image: url(/img/semilla3.jpg);
-}
-
-#semilla5 {
-    background-image: url(/img/semilla6.jpg);
-}
-
-#semilla5:hover {
-    background-image: url(/img/semilla5.jpg);
 }
 
 #rojo1 {
