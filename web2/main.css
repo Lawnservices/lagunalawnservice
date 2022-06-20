@@ -495,12 +495,12 @@ a {
 }
 
 #mulch21 {
-    background-image: url(/web3/img/mulch21.jpg);
+    background-image: url(/img/casaverde.jpg);
     transition: all 2s ease-in-out;
 }
 
 #mulch21:hover {
-    background-image: url(/web3/img/mulch22.jpg);
+    background-image: url(/web3/img/mulch21.jpg);
 }
 
 #relleno1 {
