@@ -417,6 +417,11 @@ h1 {
     color: #60a5a5;
 }
 
+.verde12 {
+    color: green;
+    font-size: 20px;
+}
+
 #projects .all-projects {
     display: flex;
     align-items: center;
