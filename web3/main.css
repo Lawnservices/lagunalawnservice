@@ -356,12 +356,11 @@
      background-size: cover;
  }
  
- .contatenos a,
- img {
-     background-color: transparent;
+ .contatenos a img {
+     filter: grayscale(0);
+     transition: .3s ease filter;
  }
  
- .contatenos a,
- img:hover {
-     opacity: 60%;
+ .contatenos a img:hover {
+     filter: grayscale(1);
  }
