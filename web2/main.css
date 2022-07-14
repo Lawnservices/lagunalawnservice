@@ -174,12 +174,12 @@ a {
         background-color: #6cc091;
     }
     to {
-        background-color: #6a5acd;
+        background-color: #b0ceed;
     }
 }
 
 .caja1 h4 {
-    color: #000
+    color: #000;
 }
 
 .caja1 p {
@@ -195,7 +195,7 @@ a {
 
 .pregunte {
     margin-top: 100px;
-    background-image: url(./Casas-27.jpg);
+    background-image: url(../img/mantillo5.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 20px;
@@ -239,6 +239,7 @@ a {
 .orario {
     color: #60a5a5;
     font-size: 20px;
+    margin-top: 2rem;
 }
 
 .preguntas:hover {
@@ -335,6 +336,17 @@ a {
     font-size: 2rem;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fecn {
+    margin-top: 10px;
+    color: #6cc091;
+    text-align: center;
+}
+
+.obb {
+    color: black;
+    text-transform: capitalize;
 }
 
 

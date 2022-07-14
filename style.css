@@ -413,8 +413,16 @@ p::first-letter {
     margin-bottom: 50px;
 }
 
+.fcn {
+    color: green;
+}
+
 h1 {
     color: #60a5a5;
+}
+
+.fecn {
+    color: #6cc091;
 }
 
 .verde12 {
