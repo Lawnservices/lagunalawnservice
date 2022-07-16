@@ -76,5 +76,20 @@
     }
     .telefono {
         margin-left: 100px;
+        margin-left: 30px;
+    }
+    .foto {
+        margin-top: 140px;
+        width: 60%;
+        margin-left: 20%;
+        height: 400px;
+        background-image: url("/img/casa-28.jpg");
+        background-attachment: fixed;
+        background-size: 50%;
+        padding-top: 10%;
+        background-size: cover;
+    }
+    .zxcvb {
+        margin-left: 26%;
     }
 }
