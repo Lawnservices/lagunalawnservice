@@ -8,6 +8,13 @@
      overflow-x: hidden;
  }
  
+ #mls {
+     width: 60px;
+     height: 60px;
+     margin-left: 100px;
+     border-radius: 0.2cm;
+ }
+ 
  a {
      z-index: 1;
      color: black;

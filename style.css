@@ -8,6 +8,14 @@ body {
     background-color: #c9e8dc;
 }
 
+#mls {
+    width: 60px;
+    height: 60px;
+    margin-left: 0px;
+    border-radius: 0.2cm;
+    margin-top: 1px;
+}
+
 html {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
