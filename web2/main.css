@@ -5,6 +5,10 @@
     font-family: sans-serif, verdana, tahoma, arial
 }
 
+body {
+    background-color: #c9e8dc;
+}
+
 
 /* header */
 
@@ -15,7 +19,7 @@
 header {
     z-index: 1;
     height: 100px;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-color: #6cc091;
     width: 100%;
     list-style: none;
     opacity: 80%;
@@ -701,6 +705,7 @@ a {
 /* parte de contact 2 */
 
 .segunda {
+    background-color: #fff;
     height: 140px;
     width: 600px;
     padding: 60px 60px;
