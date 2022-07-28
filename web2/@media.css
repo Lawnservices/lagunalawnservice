@@ -2,6 +2,9 @@
     .content {
         width: 100%;
     }
+    body {
+        overflow-x: hidden;
+    }
     header {
         width: 100%;
         background-color: #6cc091;

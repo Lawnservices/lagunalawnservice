@@ -6,6 +6,7 @@
 
 body {
     background-color: #c9e8dc;
+    overflow-x: hidden;
 }
 
 #mls {
