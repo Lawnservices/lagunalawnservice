@@ -314,7 +314,7 @@
      text-align: center;
      margin-top: 400px;
      width: 100%;
-     height: 240px;
+     height: 340px;
      margin-bottom: 0;
      clear: both;
  }
@@ -409,6 +409,10 @@
  
  .gry {
      color: seagreen;
+ }
+ 
+ .contatenos {
+     height: fit-content;
  }
  
  .contatenos a img {
