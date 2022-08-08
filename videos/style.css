@@ -3,7 +3,6 @@ body {
 }
 
 #header {
-    z-index: 1;
     background-color: seagreen;
     box-sizing: border-box;
     height: 100px;
@@ -15,10 +14,17 @@ body {
 }
 
 #nav a {
+    color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     float: left;
     margin-left: 20px;
+    padding-top: 10px;
+}
+
+#videos {
+    width: 100%;
+    height: fit-content;
 }
 
 iframe {
