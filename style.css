@@ -71,28 +71,20 @@ p {
     display: inline-block;
     padding: 10px 30px;
     color: white;
-    background-color: transparent;
-    border: 2px solid #6cc091;
+    background-color: #60a5a5;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
-    transition: .4s ease;
+    border-radius: 0.2cm;
+    transition: 2s ease;
     transition-property: background-color, color;
-    animation: laguna 4s infinite alternate;
 }
 
 .cta:hover {
+    transition: 2s ease;
     color: #fff;
-}
-
-@keyframes laguna {
-    from {
-        background-color: #6cc091;
-    }
-    to {
-        background-color: teal;
-    }
+    background-color: transparent;
 }
 
 .brand h1 {
