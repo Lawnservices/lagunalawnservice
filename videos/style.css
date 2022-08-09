@@ -49,6 +49,9 @@ iframe {
 }
 
 @media (min-width:300px) and (max-width:1100px) {
+    body {
+        z-index: hidden;
+    }
     #videos {
         margin-left: 0;
     }
