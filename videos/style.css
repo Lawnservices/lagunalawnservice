@@ -48,6 +48,11 @@ iframe {
     margin-top: 100px;
 }
 
+.pidp {
+    text-align: center;
+    margin-top: 100px;
+}
+
 @media (min-width:300px) and (max-width:1100px) {
     body {
         z-index: hidden;
