@@ -207,7 +207,7 @@ p {
     position: absolute;
     content: '';
     height: 100%;
-    width: 60%;
+    width: 100%;
     border-radius: 50%;
     border: 3px solid white;
     animation: hamburger_puls 3s ease infinite;
