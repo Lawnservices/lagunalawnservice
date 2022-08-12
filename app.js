@@ -1,6 +1,6 @@
-const hamburger = document.querySelector('.header .nav-bar nav-list .hamburger');
-const mobile_menu = document.querySelector('.header .nav-bar nav-list ul');
-const mobile_item = document.querySelector('.header .nav-bar nav-list ul  li a');
+const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const mobile_item = document.querySelector('.header .nav-bar .nav-list ul  li a');
 const header = document.querySelector('.header.container');
 
 
