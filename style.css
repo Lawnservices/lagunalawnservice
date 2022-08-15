@@ -115,7 +115,7 @@ p {
 #header .header {
     min-height: 8vh;
     background-color: rgb(31, 30, 30, 0.24);
-    transform: .3s ease background-color;
+    transform: 1s ease background-color;
 }
 
 #header .nav-bar {
