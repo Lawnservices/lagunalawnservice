@@ -6,6 +6,13 @@
         margin-left: 8px;
         width: 100%;
     }
+    #map {
+        margin-left: 2%;
+        margin-top: 1000px;
+        width: 96%;
+        height: 300px;
+        margin-bottom: 700PX;
+    }
     #contatanoss h1,
     span {
         font-size: 18px;
@@ -27,14 +34,14 @@
     .caja {
         margin-top: 100px;
         background-color: rgb(245, 245, 245);
-        width: 60%;
+        width: 90%;
         height: 200px;
-        margin-left: 20%;
+        margin-left: 5%;
     }
     .foto {
-        margin-top: 140px;
-        width: 60%;
-        margin-left: 20%;
+        margin-top: 180px;
+        width: 90%;
+        margin-left: 5%;
         height: 400px;
         background-image: url("/img/casa-28.jpg");
         background-attachment: fixed;

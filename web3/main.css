@@ -1,430 +1,448 @@
- body,
- ul {
-     margin: 0;
-     padding: 0px;
- }
- 
- body {
-     overflow-x: hidden;
-     background-color: rgb(207, 241, 223);
- }
- 
- html {
-     scroll-behavior: smooth;
- }
- 
- #mls {
-     width: 60px;
-     height: 60px;
-     margin-left: 100px;
-     border-radius: 0.2cm;
- }
- 
- a {
-     z-index: 1;
-     color: black;
-     text-decoration: none;
-     font-size: 2rem;
-     font-family: sans-serif;
-     transition: all 2s ease-in-out;
- }
- 
- a:hover {
-     z-index: 1;
-     color: #485563;
-     animation-direction: alternate-reverse;
-     transition: all 2s ease-in-out;
- }
- 
- h1 {
-     text-align: center;
-     font-size: 3rem;
-     font-weight: bold;
- }
- 
- #logo {
-     font-size: 2rem;
-     font-weight: bold;
-     cursor: none;
-     border-bottom: none;
- }
- 
- @media(max-width:800px) {
-     #logo {
-         display: none;
-     }
- }
- 
- #header {
-     z-index: 1;
-     background-color: aliceblue;
-     box-sizing: border-box;
-     height: 100px;
-     padding: 1rem;
-     display: flex;
-     position: -webkit-sticky;
-     position: sticky;
-     top: 0;
- }
- 
- .fee {
-     color: green;
- }
- 
- #menu .despliege #frente {
-     margin-left: 20rem;
- }
- 
- #menu {
-     display: flex;
-     list-style: none;
-     gap: .5rem;
- }
- 
- #menu a {
-     display: block;
-     padding: .5rem;
-     margin-left: 40px;
- }
- 
- .contact {
-     margin-top: 100px;
-     width: 400px;
-     height: 200px;
-     background-color: white;
-     float: left;
-     margin-left: 60px;
-     text-align: center;
-     border-radius: 0.3cm;
-     padding: 2px;
-     cursor: pointer;
-     box-shadow: 0px 0px 30px 0 #0000002c;
-     transition: .3s ease box-shadow;
- }
- 
- .contact:hover {
-     box-shadow: 0px 0px 5px 0 #0000002c;
- }
- 
- .caja {
-     margin-top: 100px;
-     background-color: rgb(245, 245, 245);
-     width: 60%;
-     height: 200px;
-     margin-left: 20%;
- }
- 
- .llamadas {
-     width: 500px;
-     height: 400px;
-     float: left;
-     margin-left: 100px;
-     background-color: white;
-     padding: 2px;
-     color: black;
-     text-align: center;
-     border-radius: 0.3cm;
-     margin-top: 100px;
-     box-shadow: 0px 0px 30px 0px #0000002c;
-     transition: .3s ease;
-     cursor: pointer;
-     text-align: end;
-     font-size: 2rem;
-     color: white;
- }
- /* telefono  */
- 
- .telefono {
-     width: 200px;
-     height: 200px;
-     float: left;
-     margin-left: 200px;
-     background-color: white;
-     padding: 2px;
-     color: black;
-     text-align: center;
-     border-radius: 0.3cm;
-     margin-top: 100px;
-     box-shadow: 0px 0px 30px 0px #0000002c;
-     transition: .3s ease;
-     cursor: pointer;
- }
- 
- .telefono:hover {
-     box-shadow: 0px 0px 4px 0px #0000002c;
- }
- 
- h4 {
-     color: teal;
- }
- /* telefono f/f */
- 
- .mandarina {
-     color: #60A5A5;
- }
- 
- #flower {
-     transition: all 2s ease-in-out;
-     background-image: url(/img/casa-28.jpg);
-     background-size: cover;
-     background-position: 35%;
- }
- 
- #mulch1 {
-     background-image: url(/img/casaverde.jpg);
-     transition: all 2s ease-in-out;
- }
- 
- #mulch1:hover {
-     background-image: url(/web3/img/mulch21.jpg);
- }
- 
- #mulch2 {
-     background-image: url(/web3/img/mulch15.jpg);
-     background-size: cover;
-     transition: all 2s ease-in-out;
- }
- 
- #mulch2:hover {
-     background-image: url(/web3/img/mulch16.jpg);
-     background-size: cover;
- }
- 
- #mulch3 {
-     background-image: url(/web3/img/mulch13.jpg);
-     background-size: cover;
-     transition: all 2s ease-in-out;
- }
- 
- #mulch3:hover {
-     background-image: url(/web3/img/mulch12.jpg);
- }
- 
- #mulch4 {
-     background-image: url(/web3/img/mulch20.jpg);
-     background-size: cover;
-     transition: all 2s ease-in-out;
- }
- 
- #mulch4:hover {
-     background-image: url(/web3/img/mulch19.jpg);
- }
- 
- #mulch5 {
-     background-image: url(/web3/img/mulch7.jpg);
-     background-size: cover;
-     transition: all 2s ease-in-out;
- }
- 
- #mulch5:hover {
-     background-image: url(/web3/img/mulch8.jpg);
- }
- 
- #mulch6 {
-     background-image: url(/web3/img/relleno1.jpg);
-     transition: all 2s ease-in-out;
- }
- 
- #mulch6:hover {
-     background-image: url(/web3/img/relleno2.jpg);
- }
- 
- #corte {
-     background-image: url(/web3/img/cortes1.jpg);
- }
- 
- #corte:hover {
-     background-image: url(/web3/img/cortes2.jpg);
- }
- 
- #corte1 {
-     background-image: url(/web3/img/cortes3.jpg);
- }
- 
- #corte1:hover {
-     background-image: url(/web3/img/cortes4.jpg);
- }
- 
- #corte2 {
-     background-image: url(/web3/img/corte3.jpg);
- }
- 
- #corte2:hover {
-     background-image: url(/web3/img/corte4.jpg);
- }
- 
- .llamadas p {
-     color: transparent;
- }
- 
- #green {
-     color: green;
- }
- 
- #green:hover {
-     background-color: salmon;
-     color: teal;
-     border: 1px solid white;
-     transform: rotate(360deg);
- }
- 
- .llamadas {
-     color: transparent;
- }
- 
- .llamadas:hover {
-     background-image: url(/web3/img/casa-28.jpg);
-     background-size: cover;
-     transition-duration: 2s;
-     text-align: center;
-     font-size: 2rem;
-     font-weight: 400;
-     transition: all 2s ease-in-out;
-     color: aliceblue;
- }
- 
- .llamadas {
-     transition: all 2s ease-in-out;
- }
- 
- .contatanoss {
-     align-items: center;
-     width: 80%;
-     margin-left: 12%;
-     margin-bottom: 100px;
-     margin-top: 1600px;
-     clear: both;
-     background-color: transparent;
- }
- 
- #contatanoss .llamadas {
-     background-image: none;
- }
- 
- #informe h2 {
-     color: white;
-     padding: 1rem;
- }
- 
- #informe span {
-     color: seagreen;
- }
- 
- .llamadas:hover {
-     box-shadow: 0px 0px 6px 0px #0000002c;
- }
- 
- .contatenos {
-     background-color: #130e0ea8;
-     text-align: center;
-     margin-top: 400px;
-     width: 100%;
-     height: 340px;
-     margin-bottom: 0;
-     clear: both;
- }
- 
- h2 {
-     color: black;
-     font-size: 2rem;
-     font-weight: bold;
-     text-align: center;
- }
- 
- .despliege ul a {
-     color: black;
-     text-decoration: none;
- }
- 
- .despliege ul li a {
-     text-decoration: none;
- }
- 
- .despliege ul li a:hover {
-     background-color: #3274bb;
- }
- 
- .despliege ul {
-     display: none;
-     background-color: transparent;
-     padding: 0.25em 0.5em;
-     transition: all 0.3s ease-in-out;
-     text-decoration: none;
-     list-style: none;
- }
- 
- .despliege:hover ul {
-     display: block;
-     transition: all 0.3s ease-in-out;
- }
- 
- .verde {
-     color: green;
- }
- 
- span {
-     color: green;
- }
- 
- h2,
- span {
-     margin-top: 20px;
- }
- 
- .ndt {
-     width: 100%;
-     height: 100px;
-     margin-top: 100px;
-     text-align: center;
-     text-size-adjust: 24px;
- }
- 
- .ndt h1 {
-     color: #60A5A5;
-     text-transform: capitalize;
- }
- 
- .ndt .dtn {
-     color: seagreen;
- }
- 
- .mnb {
-     margin-top: 100px;
-     width: 100%;
-     height: 40px;
-     margin-bottom: 10px;
- }
- 
- .mlp {
-     color: turquoise;
-     font-size: 14px;
- }
- 
- .foto {
-     margin-top: 140px;
-     width: 60%;
-     margin-left: 20%;
-     height: 400px;
-     background-image: url("/img/casa-28.jpg");
-     background-attachment: fixed;
-     background-size: 50%;
-     padding-top: 10%;
-     background-size: cover;
- }
- 
- .gry {
-     color: seagreen;
- }
- 
- .contatenos {
-     height: fit-content;
- }
- 
- .contatenos a img {
-     filter: grayscale(0);
-     transition: .3s ease filter;
- }
- 
- .contatenos a img:hover {
-     filter: grayscale(1);
- }
+body,
+ul {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(207, 241, 223);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mls {
+    width: 60px;
+    height: 60px;
+    margin-left: 100px;
+    border-radius: 0.2cm;
+}
+
+.QMbmRee {
+    margin-top: 600px;
+    background-repeat: no-repeat;
+    width: 1600;
+    height: 900px;
+    cursor: pointer;
+}
+
+#map {
+    margin-left: 10%;
+    width: 80%;
+    height: 900px;
+}
+
+a {
+    z-index: 1;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    transition: all 2s ease-in-out;
+}
+
+a:hover {
+    z-index: 1;
+    color: #485563;
+    animation-direction: alternate-reverse;
+    transition: all 2s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: none;
+    border-bottom: none;
+}
+
+@media(max-width:800px) {
+    #logo {
+        display: none;
+    }
+}
+
+#header {
+    z-index: 1;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.fee {
+    color: green;
+}
+
+#menu .despliege #frente {
+    margin-left: 20rem;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+    margin-left: 40px;
+}
+
+.contact {
+    margin-top: 100px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 0.3cm;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0 #0000002c;
+    transition: .3s ease box-shadow;
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+.caja {
+    margin-top: 100px;
+    background-color: rgb(245, 245, 245);
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+}
+
+.llamadas {
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-left: 100px;
+    background-color: white;
+    padding: 2px;
+    color: black;
+    text-align: center;
+    border-radius: 0.3cm;
+    margin-top: 100px;
+    box-shadow: 0px 0px 30px 0px #0000002c;
+    transition: .3s ease;
+    cursor: pointer;
+    text-align: end;
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* telefono  */
+
+.telefono {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 200px;
+    background-color: white;
+    padding: 2px;
+    color: black;
+    text-align: center;
+    border-radius: 0.3cm;
+    margin-top: 100px;
+    box-shadow: 0px 0px 30px 0px #0000002c;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.telefono:hover {
+    box-shadow: 0px 0px 4px 0px #0000002c;
+}
+
+h4 {
+    color: teal;
+}
+
+
+/* telefono f/f */
+
+.mandarina {
+    color: #60A5A5;
+}
+
+#flower {
+    transition: all 2s ease-in-out;
+    background-image: url(/img/casa-28.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#mulch1 {
+    background-image: url(/img/casaverde.jpg);
+    transition: all 2s ease-in-out;
+}
+
+#mulch1:hover {
+    background-image: url(/web3/img/mulch21.jpg);
+}
+
+#mulch2 {
+    background-image: url(/web3/img/mulch15.jpg);
+    background-size: cover;
+    transition: all 2s ease-in-out;
+}
+
+#mulch2:hover {
+    background-image: url(/web3/img/mulch16.jpg);
+    background-size: cover;
+}
+
+#mulch3 {
+    background-image: url(/web3/img/mulch13.jpg);
+    background-size: cover;
+    transition: all 2s ease-in-out;
+}
+
+#mulch3:hover {
+    background-image: url(/web3/img/mulch12.jpg);
+}
+
+#mulch4 {
+    background-image: url(/web3/img/mulch20.jpg);
+    background-size: cover;
+    transition: all 2s ease-in-out;
+}
+
+#mulch4:hover {
+    background-image: url(/web3/img/mulch19.jpg);
+}
+
+#mulch5 {
+    background-image: url(/web3/img/mulch7.jpg);
+    background-size: cover;
+    transition: all 2s ease-in-out;
+}
+
+#mulch5:hover {
+    background-image: url(/web3/img/mulch8.jpg);
+}
+
+#mulch6 {
+    background-image: url(/web3/img/relleno1.jpg);
+    transition: all 2s ease-in-out;
+}
+
+#mulch6:hover {
+    background-image: url(/web3/img/relleno2.jpg);
+}
+
+#corte {
+    background-image: url(/web3/img/cortes1.jpg);
+}
+
+#corte:hover {
+    background-image: url(/web3/img/cortes2.jpg);
+}
+
+#corte1 {
+    background-image: url(/web3/img/cortes3.jpg);
+}
+
+#corte1:hover {
+    background-image: url(/web3/img/cortes4.jpg);
+}
+
+#corte2 {
+    background-image: url(/web3/img/corte3.jpg);
+}
+
+#corte2:hover {
+    background-image: url(/web3/img/corte4.jpg);
+}
+
+.llamadas p {
+    color: transparent;
+}
+
+#green {
+    color: green;
+}
+
+#green:hover {
+    background-color: salmon;
+    color: teal;
+    border: 1px solid white;
+    transform: rotate(360deg);
+}
+
+.llamadas {
+    color: transparent;
+}
+
+.llamadas:hover {
+    background-image: url(/web3/img/casa-28.jpg);
+    background-size: cover;
+    transition-duration: 2s;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: all 2s ease-in-out;
+    color: aliceblue;
+}
+
+.llamadas {
+    transition: all 2s ease-in-out;
+}
+
+.contatanoss {
+    align-items: center;
+    width: 80%;
+    margin-left: 12%;
+    margin-bottom: 100px;
+    margin-top: 1600px;
+    clear: both;
+    background-color: transparent;
+}
+
+#contatanoss .llamadas {
+    background-image: none;
+}
+
+#informe h2 {
+    color: white;
+    padding: 1rem;
+}
+
+#informe span {
+    color: seagreen;
+}
+
+.llamadas:hover {
+    box-shadow: 0px 0px 6px 0px #0000002c;
+}
+
+.contatenos {
+    background-color: #130e0ea8;
+    text-align: center;
+    margin-top: 400px;
+    width: 100%;
+    height: 340px;
+    margin-bottom: 0;
+    clear: both;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.despliege ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.despliege ul li a {
+    text-decoration: none;
+}
+
+.despliege ul li a:hover {
+    background-color: #3274bb;
+}
+
+.despliege ul {
+    display: none;
+    background-color: transparent;
+    padding: 0.25em 0.5em;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    list-style: none;
+}
+
+.despliege:hover ul {
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.verde {
+    color: green;
+}
+
+span {
+    color: green;
+}
+
+h2,
+span {
+    margin-top: 20px;
+}
+
+.ndt {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    text-align: center;
+    text-size-adjust: 24px;
+}
+
+.ndt h1 {
+    color: #60A5A5;
+    text-transform: capitalize;
+}
+
+.ndt .dtn {
+    color: seagreen;
+}
+
+.mnb {
+    margin-top: 100px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.mlp {
+    color: turquoise;
+    font-size: 14px;
+}
+
+.foto {
+    margin-top: 140px;
+    width: 60%;
+    margin-left: 20%;
+    height: 400px;
+    background-image: url("/img/casa-28.jpg");
+    background-attachment: fixed;
+    background-size: 50%;
+    padding-top: 10%;
+    background-size: cover;
+}
+
+.gry {
+    color: seagreen;
+}
+
+.contatenos {
+    height: fit-content;
+}
+
+.contatenos a img {
+    filter: grayscale(0);
+    transition: .3s ease filter;
+}
+
+.contatenos a img:hover {
+    filter: grayscale(1);
+}
