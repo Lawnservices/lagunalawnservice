@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-    background-color: seagreen;
+    background-color: #34495e;
     width: 100%;
     height: 80px;
     display: flex;
@@ -37,10 +37,12 @@ body {
 
 #nav a {
     color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
     text-decoration: none;
     font-size: 20px;
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
     padding-top: 20px;
 }
 
