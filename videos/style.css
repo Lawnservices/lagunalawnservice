@@ -1,93 +1,89 @@
-body {
-    background-color: azure;
-}
-
-#header {
-    background-color: #34495e;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-}
-
-.QMbmRee {
-    margin-top: 200px;
-    background-repeat: no-repeat;
-    width: 1600;
-    height: 900px;
-}
-
-#map {
-    margin-left: 10%;
-    width: 80%;
-    height: 900px;
-}
-
-#ft {
-    margin-left: 40px;
-    padding-top: 10px;
-    border-radius: 0.2em;
-}
-
-#nav a {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bolder;
-    text-decoration: none;
-    font-size: 20px;
-    float: left;
-    margin-left: 40px;
-    padding-top: 20px;
-}
-
-#nbr {
-    margin-top: 140px;
-    text-align: center;
-    color: rgb(130, 187, 159);
-    font-size: 2rem;
-}
-
-#videos {
-    margin-top: 30px;
-    width: 100%;
-    height: fit-content;
-}
-
-span {
-    color: steelblue;
-}
-
-iframe {
-    margin-left: 60px;
-    margin-top: 100px;
-}
-
-.pidp {
-    text-align: center;
-    margin-top: 100px;
-}
-
-@media (min-width:300px) and (max-width:1100px) {
-    body {
-        z-index: hidden;
-    }
-    #videos {
-        margin-left: 0;
-    }
-    iframe {
-        margin-left: 4px;
-        margin-top: 30px;
-    }
-    h1,
-    h3,
-    span,
-    a {
-        font-size: 20px;
-    }
-}
+ header {
+     background-color: #34495e;
+     width: 100%;
+     height: 80px;
+     display: flex;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+     position: fixed;
+     left: 0;
+     top: 0;
+ }
+ 
+ .QMbmRee {
+     margin-top: 200px;
+     background-repeat: no-repeat;
+     width: 1600;
+     height: 900px;
+ }
+ 
+ #map {
+     margin-left: 10%;
+     width: 80%;
+     height: 900px;
+ }
+ 
+ #ft {
+     margin-left: 40px;
+     padding-top: 10px;
+     border-radius: 0.2em;
+ }
+ 
+ #nav a {
+     color: white;
+     text-transform: uppercase;
+     font-weight: bolder;
+     text-decoration: none;
+     font-size: 20px;
+     float: left;
+     margin-left: 40px;
+     padding-top: 20px;
+ }
+ 
+ #nbr {
+     margin-top: 140px;
+     text-align: center;
+     color: rgb(130, 187, 159);
+     font-size: 2rem;
+ }
+ 
+ #videos {
+     margin-top: 30px;
+     width: 100%;
+     height: fit-content;
+ }
+ 
+ span {
+     color: steelblue;
+ }
+ 
+ iframe {
+     border-radius: 0.2cm;
+     margin-left: 60px;
+     margin-top: 100px;
+ }
+ 
+ .pidp {
+     text-align: center;
+     margin-top: 100px;
+ }
+ 
+ @media (min-width:300px) and (max-width:1100px) {
+     body {
+         z-index: hidden;
+     }
+     #videos {
+         margin-left: 0;
+     }
+     iframe {
+         margin-left: 4px;
+         margin-top: 30px;
+     }
+     h1,
+     h3,
+     span,
+     a {
+         font-size: 20px;
+     }
+ }

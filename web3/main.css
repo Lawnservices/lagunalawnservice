@@ -122,10 +122,14 @@ h1 {
 
 .caja {
     margin-top: 100px;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
     width: 60%;
     height: 200px;
     margin-left: 20%;
+}
+
+#laguna {
+    color: black;
 }
 
 .llamadas {
