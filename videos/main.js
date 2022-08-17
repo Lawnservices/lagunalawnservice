@@ -1,8 +1,8 @@
-const lagunes = document.getElementById('header');
+const lagunes = document.getElementById('colores');
 
 document.addEventListener('scroll', () => {
     var scroll_position = window.scrollY;
     if (scroll_position > 200) {
-        header.style.backgroundColor = 'aliceblue';
+        colores.style.backgroundColor = 'aliceblue';
     }
 });
