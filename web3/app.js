@@ -7,11 +7,11 @@
 
  document.addEventListener('scroll', () => {
      var scroll_position = window.scrollY;
-     if (scroll_position > 300) {
+     if (scroll_position > 600) {
          header.style.backgroundColor = '#60A5A5';
 
      } else {
-         header.style.backgroundColor = 'aliceblue';
+         header.style.backgroundColor = '#0088a9';
      }
  });
 
