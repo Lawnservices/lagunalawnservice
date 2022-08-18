@@ -90,11 +90,11 @@
      }
  }
  
- @media (min-width:1013px) and (max-width:1440px) {
+ @media (min-width:1440px) and (max-width:1566px) {
      iframe {
          margin-left: 4px;
-         margin-top: 30px;
+         margin-top: 10px;
          width: 600px;
-         height: 400px;
+         height: 360px;
      }
  }
