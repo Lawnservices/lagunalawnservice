@@ -44,6 +44,10 @@ img {
     margin-bottom: cover;
 }
 
+#blanco {
+    color: #6cc091;
+}
+
 p {
     color: black;
     font-size: 1.4rem;
