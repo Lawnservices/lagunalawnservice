@@ -11,6 +11,10 @@
      top: 0;
  }
  
+ html {
+     scroll-behavior: smooth;
+ }
+ 
  .QMbmRee {
      margin-top: 200px;
      background-repeat: no-repeat;
