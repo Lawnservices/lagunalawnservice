@@ -16,16 +16,16 @@
  }
  
  .QMbmRee {
-     margin-top: 200px;
+     margin-top: 260px;
      background-repeat: no-repeat;
-     width: 1600;
-     height: 900px;
+     width: 1000;
+     height: 600px;
  }
  
  #map {
-     margin-left: 10%;
-     width: 80%;
-     height: 900px;
+     margin-left: 20%;
+     width: 60%;
+     height: 600px;
  }
  
  #ft {
@@ -70,7 +70,7 @@
  
  .pidp {
      text-align: center;
-     margin-top: 100px;
+     margin-top: 10px;
  }
  
  #home {

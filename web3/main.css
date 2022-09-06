@@ -23,15 +23,15 @@ html {
 .QMbmRee {
     margin-top: 600px;
     background-repeat: no-repeat;
-    width: 1600;
-    height: 900px;
+    width: 1000;
+    height: 600px;
     cursor: pointer;
 }
 
 #map {
-    margin-left: 10%;
-    width: 80%;
-    height: 900px;
+    margin-left: 20%;
+    width: 60%;
+    height: 600px;
 }
 
 a {
@@ -50,9 +50,9 @@ a:hover {
     transition: all 2s ease-in-out;
 }
 
-h1 {
+h3 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -197,19 +197,10 @@ h4 {
     transition: all 2s ease-in-out;
 }
 
-#mulch1:hover {
-    background-image: url(/web3/img/mulch21.jpg);
-}
-
 #mulch2 {
     background-image: url(/web3/img/mulch15.jpg);
     background-size: cover;
     transition: all 2s ease-in-out;
-}
-
-#mulch2:hover {
-    background-image: url(/web3/img/mulch16.jpg);
-    background-size: cover;
 }
 
 #mulch3 {
@@ -218,18 +209,10 @@ h4 {
     transition: all 2s ease-in-out;
 }
 
-#mulch3:hover {
-    background-image: url(/web3/img/mulch12.jpg);
-}
-
 #mulch4 {
     background-image: url(/web3/img/mulch20.jpg);
     background-size: cover;
     transition: all 2s ease-in-out;
-}
-
-#mulch4:hover {
-    background-image: url(/web3/img/mulch19.jpg);
 }
 
 #mulch5 {
@@ -238,41 +221,21 @@ h4 {
     transition: all 2s ease-in-out;
 }
 
-#mulch5:hover {
-    background-image: url(/web3/img/mulch8.jpg);
-}
-
 #mulch6 {
     background-image: url(/web3/img/relleno1.jpg);
     transition: all 2s ease-in-out;
-}
-
-#mulch6:hover {
-    background-image: url(/web3/img/relleno2.jpg);
 }
 
 #corte {
     background-image: url(/web3/img/cortes1.jpg);
 }
 
-#corte:hover {
-    background-image: url(/web3/img/cortes2.jpg);
-}
-
 #corte1 {
     background-image: url(/web3/img/cortes3.jpg);
 }
 
-#corte1:hover {
-    background-image: url(/web3/img/cortes4.jpg);
-}
-
 #corte2 {
     background-image: url(/web3/img/corte3.jpg);
-}
-
-#corte2:hover {
-    background-image: url(/web3/img/corte4.jpg);
 }
 
 .llamadas p {
@@ -346,9 +309,9 @@ h4 {
     clear: both;
 }
 
-h2 {
+h5 {
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
 }
