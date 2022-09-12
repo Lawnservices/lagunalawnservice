@@ -14,7 +14,7 @@
      height: 100px;
      padding: 2rem;
      display: flex;
-     justify-content: space-between;
+     justify-content: baseline;
      background-image: #154256;
      position: -webkit-sticky;
      position: sticky;
@@ -22,11 +22,10 @@
  }
  
  a {
-     margin-left: 20px;
-     padding: 10px;
      color: #fff;
      list-style: none;
      text-decoration: none;
+     margin-left: 26px;
  }
  
  h1 {
