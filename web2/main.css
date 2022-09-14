@@ -205,20 +205,6 @@ a {
 
 /* segunda img */
 
-.pregunte {
-    margin-top: 100px;
-    background-image: url(../img/mantillo5.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 20px;
-    height: 600px;
-    text-align: center;
-    color: teal;
-    font-size: 3rem;
-    font-weight: 500;
-    object-fit: cover;
-}
-
 
 /* segunda img f/n */
 
