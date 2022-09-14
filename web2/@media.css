@@ -137,18 +137,27 @@
     .pregunte span {
         font-size: 18px;
     }
+    .gracias img {
+        object-fit: cover;
+    }
+    .medio_f {
+        object-fit: cover;
+    }
     .gracias {
+        margin-top: 0;
         width: 100%;
         height: auto;
         text-align: center;
-        background-color: #60a5a5;
+        background-color: #154256;
     }
     .gracias p {
+        color: black;
         font-size: 16px;
         font-weight: 600;
     }
     .gracias h2 {
         font-size: 16px;
+        color: #fff;
     }
 }
 
