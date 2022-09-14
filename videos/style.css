@@ -11,10 +11,6 @@
      top: 0;
  }
  
- html {
-     scroll-behavior: smooth;
- }
- 
  #ft {
      margin-left: 40px;
      margin-top: 10px;
