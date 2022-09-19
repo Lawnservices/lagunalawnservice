@@ -1,5 +1,5 @@
  body {
-     background-color: rgb(108, 145, 182);
+     background-color: rgb(108, 145, 182, 0.3);
  }
  
  .ttss {
@@ -11,7 +11,7 @@
  }
  
  h1 {
-     color: white;
+     color: rgb(24, 71, 24);
      font-size: 3rem;
  }
  
@@ -26,7 +26,13 @@
  
  .cass {
      margin-top: 100px;
-     color: white;
+     color: rgb(24, 71, 24);
      font-size: 2rem;
      text-decoration: none;
+     font-family: cursive;
+ }
+ 
+ img {
+     border-radius: 0.2cm;
+     object-fit: cover;
  }

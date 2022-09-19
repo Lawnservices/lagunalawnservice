@@ -6,3 +6,6 @@
 
  document.getElementById('colores').addEventListener('click', laguna);
  document.getElementById('manera').addEventListener('click', laguna);
+ form.addEventListener('change', (e) => {
+     e.preventDefault()
+ })
