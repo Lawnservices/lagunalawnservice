@@ -36,3 +36,24 @@
      border-radius: 0.2cm;
      object-fit: cover;
  }
+ 
+ @media (min-width:360px) and (max-width:500px) {
+     img {
+         object-fit: cover;
+         width: 90%;
+         height: auto;
+     }
+     #cas {
+         text-align: center;
+         font-weight: 800;
+         margin-top: 100px;
+     }
+     .cass {
+         text-align: center;
+         color: #154;
+         font-family: 'Courier New', Courier, monospace;
+     }
+     body {
+         background-color: rgb( 215, 170, 140, 0.4);
+     }
+ }
