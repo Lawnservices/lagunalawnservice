@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #c9e8dc;
+    scroll-behavior: smooth;
+    background-color: rgb(148, 221, 197, 0.2);
     overflow-x: hidden;
 }
 
@@ -368,7 +369,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/img/casa-28.jpg);
+    background-image: url(/img/mantillo5.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -512,6 +513,10 @@ h1 {
 
 /* fotos o mi */
 
+.about-img img {
+    object-fit: cover;
+}
+
 #about .about {
     flex-direction: column-reverse;
     text-align: center;
@@ -551,7 +556,7 @@ h1 {
     height: 100%;
     width: 100%;
     position: relative;
-    border: 8px solid seagreen;
+    border: 6px solid seagreen;
 }
 
 #about .col-left .about-img::after {
@@ -561,7 +566,7 @@ h1 {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid teal;
+    border: 4px solid #154;
     z-index: -1;
 }
 
