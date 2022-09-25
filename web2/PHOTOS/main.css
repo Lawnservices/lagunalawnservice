@@ -63,7 +63,8 @@
          }
          
          .pie h2 {
-             color: #154256;
+             padding: 10px;
+             color: #fff;
              font-size: 1rem;
              font-weight: 800;
              font-family: 'Courier New', Courier, monospace;
