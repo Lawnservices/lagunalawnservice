@@ -18,6 +18,10 @@
      margin-top: 10px;
  }
  
+ .solida h1 {
+     text-align: center;
+ }
+ 
  .solida img {
      width: 90%;
      height: 600px;
