@@ -20,6 +20,7 @@
  
  .solida h2 {
      text-align: center;
+     max-inline-size: 66ch;
  }
  
  .solida img {
