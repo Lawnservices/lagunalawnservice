@@ -53,7 +53,7 @@
      font-family: 'Courier New', Courier, monospace;
      text-align: center;
      color: rgb(130, 187, 159);
-     font-size: 1rem;
+     font-size: calc(0.8rem + 1vw);
  }
  /*style videos*/
  
@@ -93,6 +93,10 @@
      height: 1px;
  }
  
+ html {
+     font-size: calc(0.20rem + 0.6vw);
+ }
+ 
  @media (min-width:300px) and (max-width:500px) {
      nav {
          display: none;
@@ -123,6 +127,9 @@
          padding: 20px;
          grid-gap: 10px;
      }
+     html {
+         font-size: calc(0.30rem + 1vw);
+     }
  }
  
  @media (min-width:300px) and (max-width:1100px) {
@@ -152,6 +159,9 @@
      }
      .videos {
          margin-top: 50px;
+     }
+     html {
+         font-size: calc(0.20rem + 0.6vw);
      }
  }
  
