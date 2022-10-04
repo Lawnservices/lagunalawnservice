@@ -1,802 +1,730 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: sans-serif, verdana, tahoma, arial
-}
-
-body {
-    background-color: #c9e8dc;
-    overflow-x: hidden;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-/* header */
-
-.content {
-    width: 100%
-}
-
-header {
-    z-index: 1;
-    height: 100px;
-    background-color: #60a5a5;
-    width: 100%;
-    list-style: none;
-    opacity: 80%;
-    min-height: 8vh;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-.nav {
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-}
-
-.nav a {
-    font-size: 2rem;
-    color: white;
-    margin-left: 40px;
-}
-
-ul {
-    display: flex;
-    padding: 16px 16px;
-}
-
-.nav-link {
-    display: flex;
-    transition: all .4s
-}
-
-.nav-link:hover {
-    padding-right: 20px;
-    transition: all .4s
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-    list-style: none;
-    font-size: 18px
-}
-
-
-/* header f/n */
-
-
-/* header 2 */
-
-#llamar a:hover {
-    box-shadow: 0 2px brown;
-    transition: all .6s;
-    color: brown
-}
-
-#llamar {
-    width: fit-content;
-    border-radius: .6cm;
-    margin-top: 30px;
-    margin-left: 180px;
-    width: 100%;
-    height: 60px;
-    transition: all .5s
-}
-
-#llamar {
-    margin: 10px 40px;
-}
-
-.llamar {
-    font-size: 30px;
-    color: teal;
-}
-
-
-/* header f/n */
-
-
-/* background img */
-
-.medio_f {
-    height: 800px;
-    background-image: url(./casa-28.jpg);
-    background-position: 50%;
-    background-size: cover;
-    background-attachment: fixed;
-    object-fit: cover;
-}
-
-.medio_f h2 {
-    font-size: 2rem;
-    color: sienna;
-    margin-top: 0px;
-    padding: 20px 20px;
-    text-align: center;
-    font-family: sans-serif;
-}
-
-
-/* bacground img f/n */
-
-
-/* h1 nombre */
-
-#nombre {
-    margin-top: 30px;
-    text-align: center;
-    color: #000;
-    font-size: 3rem;
-    font-weight: 500;
-    clear: both;
-}
-
-#nombre span {
-    color: teal;
-    font-size: 3rem;
-}
-
-
-/* h1 nombre f/n */
-
-
-/* informacion caja1 */
-
-#caja2 {
-    margin-top: 100px;
-    height: auto;
-}
-
-.caja1 {
-    width: 90%;
-    margin-left: 5%;
-    display: flex;
-    margin-top: 26px
-}
-
-.caja {
-    width: 26%;
-    height: 200px;
-    padding: 10px 20px;
-    text-align: center;
-    margin-left: 20px;
-    border-radius: .4cm;
-    border-bottom: 1px solid teal;
-    color: #000;
-    content: '';
-    animation: laguna 3s infinite alternate;
-}
-
-@keyframes laguna {
-    from {
-        background-color: #6cc091;
-    }
-    to {
-        background-color: #b0ceed;
-    }
-}
-
-.caja1 h4 {
-    color: #000;
-}
-
-.caja1 p {
-    padding: 20px 20px;
-    color: #000;
-}
-
-#mls {
-    width: 60px;
-    height: 60px;
-    margin-left: 100px;
-    border-radius: 0.2cm;
-}
-
-
-/* informacion caja1 f/n */
-
-
-/* segunda img */
-
-
-/* segunda img f/n */
-
-
-/* services fotos trabajos */
-
-.trabajos {
-    width: 100%;
-    height: auto;
-    background-color: #6cc091;
-}
-
-#foto_foto:hover {
-    background-image: url(./cafe2.jpg);
-}
-
-.preguntas {
-    margin-top: 140px;
-    background-image: url(./casa-28.jpg);
-    background-position: 35%;
-    background-size: cover;
-    width: 600px;
-    height: 300px;
-    text-align: center;
-    float: left;
-    margin-left: 260px;
-    border-radius: 0.2cm;
-    transition: all 2s ease-in-out;
-}
-
-.orario {
-    color: #60a5a5;
-    font-size: 20px;
-    margin-top: 2rem;
-}
-
-.preguntas:hover {
-    background-image: url(./istalacion.jpg);
-    transition: all 2s;
-}
-
-.preguntas:hover #negro {
-    font-size: 2.4rem;
-    color: teal;
-}
-
-.preguntas:hover #blanco {
-    font-size: 2rem;
-    color: #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800;
-}
-
-#negro {
-    margin-top: 20px;
-    color: #000;
-    font-family: sans-serif;
-    transition: all 2s ease-in-out;
-}
-
-#blanco {
-    color: transparent;
-    font-size: large;
-    transition: all 2s ease-in-out;
-}
-
-
-/* services fotos trabajos f/n */
-
-.gracias {
-    margin-top: 6px;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    position: absolute;
-    transition: all 3s ease-in-out;
-    color: transparent;
-}
-
-.gracias:hover {
-    background-color: transparent;
-    transition: all 3s ease-in-out;
-    color: white;
-}
-
-.gracias p {
-    font-size: 3rem;
-    font-weight: 600;
-    z-index: 1;
-}
-
-.gracias h2 {
-    font-size: 1.6rem;
-    z-index: 1;
-}
-
-
-/* parte de contact 1 */
-
-#servicioss {
-    margin-top: 220px;
-    width: 80%;
-    margin-left: 10%;
-    clear: both;
-}
-
-.contact {
-    margin-top: 100px;
-    width: 300px;
-    height: 200px;
-    background-color: white;
-    float: left;
-    margin-left: 180px;
-    text-align: center;
-    border-radius: 0.3cm;
-    padding: 2px;
-    cursor: pointer;
-    box-shadow: 0px 0px 30px 0 #0000002c;
-    transition: .3s ease box-shadow;
-}
-
-.contact:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
-}
-
-.contact h2 {
-    margin-top: 10px;
-    content: '';
-    font-size: 2rem;
-    font-weight: 500;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.fecn {
-    margin-top: 10px;
-    color: #6cc091;
-    text-align: center;
-}
-
-.obb {
-    color: black;
-    text-transform: capitalize;
-}
-
-
-/* parte de contact 1 f/n*/
-
-#arbol1 {
-    background-image: url(/img/arbol1.jpg);
-}
-
-#arbol1:hover {
-    background-image: url(/img/arbol2.jpg);
-}
-
-#mulch1 {
-    background-image: url(/img/mulch1.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch1:hover {
-    background-image: url(/img/mulch2.jpg);
-}
-
-#mulch3 {
-    background-image: url(/img/mulch4.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch3:hover {
-    background-image: url(/img/mulch3.jpg);
-}
-
-#mulch5 {
-    background-image: url(/img/mulch5.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch5:hover {
-    background-image: url(/img/mulch6.jpg);
-}
-
-#mulch7 {
-    background-image: url(/img/mulch7.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch7:hover {
-    background-image: url(/img/mulch8.jpg);
-}
-
-#mulch9 {
-    background-image: url(/img/mulch9.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch9:hover {
-    background-image: url(/img/mulch10.jpg);
-}
-
-#semilla1 {
-    background-image: url(/img/grass1.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#semilla1:hover {
-    background-image: url(/img/semilla1.jpg);
-}
-
-#semilla3 {
-    background-image: url(/img/semilla4.jpg);
-}
-
-#semilla3:hover {
-    background-image: url(/img/semilla3.jpg);
-}
-
-#semilla5 {
-    background-image: url(/img/semillas12.jpg);
-}
-
-#semilla5:hover {
-    background-image: url(/img/semilla5.jpg);
-}
-
-#mulch11 {
-    background-image: url(/web3/img/mulch13.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch13 {
-    background-image: url(/web3/img/mulch14.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch15 {
-    background-image: url(/web3/img/mulch15.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch17 {
-    background-image: url(/web3/img/mulch17.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch19 {
-    background-image: url(/web3/img/mulch20.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch11:hover {
-    background-image: url(/web3/img/mulch12.jpg);
-}
-
-#mulch13:hover {
-    background-image: url(/web3/img/mulch11.jpg);
-}
-
-#mulch15:hover {
-    background-image: url(/web3/img/mulch16.jpg);
-}
-
-#mulch17:hover {
-    background-image: url(/web3/img/mulch18.jpg);
-}
-
-#mulch19:hover {
-    background-image: url(/web3/img/mulch19.jpg);
-}
-
-#leaf1 {
-    background-image: url(/web3/img/leaf2.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#leaf3 {
-    background-image: url(/web3/img/leaf4.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#leaf1:hover {
-    background-image: url(/web3//img/leaf1.jpg);
-}
-
-#leaf3:hover {
-    background-image: url(/web3/img/leaf3.jpg);
-}
-
-#leaf5 {
-    background-image: url(/img/verde8.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#leaf5:hover {
-    background-image: url(/web3/img/leaf6.jpg);
-}
-
-#leaf7 {
-    background-image: url(/web3/img/leaf88.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#leaf7:hover {
-    background-image: url(/web3/img/leaf8.jpg);
-}
-
-#mulch21 {
-    background-image: url(/img/casaverde.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#mulch21:hover {
-    background-image: url(/web3/img/mulch21.jpg);
-}
-
-#relleno1 {
-    background-image: url(/web3/img/relleno1.jpg);
-    transition: all 2s ease-in-out;
-}
-
-#relleno1:hover {
-    background-image: url(/web3/img/relleno2.jpg);
-}
-
-#corte1 {
-    background-image: url(/img/verde1.jpg);
-}
-
-#corte1:hover {
-    background-image: url(/img/verde2.jpg);
-}
-
-#cortes1 {
-    background-image: url(/web3/img/cortes1.jpg);
-}
-
-#cortes1:hover {
-    background-image: url(/web3/img/cortes2.jpg);
-}
-
-#cortes3 {
-    background-image: url(/img/verde3.jpg);
-}
-
-#cortes3:hover {
-    background-image: url(/img/verde4.jpg);
-}
-
-#corte3 {
-    background-image: url(/web3/img/corte3.jpg);
-}
-
-#corte3:hover {
-    background-image: url(/web3/img/corte4.jpg);
-}
-
-#bolitas1 {
-    background-image: url(/web3/img/bolitas1.jpg);
-}
-
-#bolitas1:hover {
-    background-image: url(/web3/img/bolitas2.jpg);
-}
-
-#relleno3 {
-    background-image: url(/web3/img/relleno3.jpg);
-}
-
-#relleno3:hover {
-    background-image: url(/web3/img/relleno4.jpg);
-}
-
-#rojo1 {
-    background-image: url(/img/rojo2.jpg);
-}
-
-#rojo1:hover {
-    background-image: url(/img/rojo1.jpg);
-}
-
-#rojo3 {
-    background-image: url(/img/rojo4.jpg);
-}
-
-#rojo3:hover {
-    background-image: url(/img/rojo3.jpg);
-}
-
-#rojo5 {
-    background-image: url(/img/rojo6.jpg);
-}
-
-#rojo5:hover {
-    background-image: url(/img/rojo5.jpg);
-}
-
-#rojo7 {
-    background-image: url(/img/rojo8.jpg);
-}
-
-#rojo7:hover {
-    background-image: url(/img/rojo7.jpg);
-}
-
-#cafe1 {
-    background-image: url(/img/cafe2.jpg);
-}
-
-#cafe1:hover {
-    background-image: url(/img/cafe1.jpg);
-}
-
-#cafe3 {
-    background-image: url(/img/cafe3.jpg);
-}
-
-#cafe3:hover {
-    background-image: url(/img/cafe4.jpg);
-}
-
-#cafe5 {
-    background-image: url(/img/cafe6.jpg);
-}
-
-#cafe5:hover {
-    background-image: url(/img/cafe5.jpg);
-}
-
-#cafe7 {
-    background-image: url(/img/cafe8.jpg);
-}
-
-#cafe7:hover {
-    background-image: url(/img/cafe7.jpg);
-}
-
-#mantillo1 {
-    background-image: url(/img/mantillo1.jpg);
-}
-
-#mantillo1:hover {
-    background-image: url(/img/mantillo2.jpg);
-}
-
-#mantillo3 {
-    background-image: url(/img/mantillo3.jpg);
-}
-
-#mantillo3:hover {
-    background-image: url(/img/mantillo4.jpg);
-}
-
-#mantillo5 {
-    background-image: url(/img/mantillo5.jpg);
-}
-
-#mantillo5:hover {
-    background-image: url(/img/mantillo6.jpg);
-}
-
-#hoja1 {
-    background-image: url(/img/hoja1.jpg);
-}
-
-#hoja1:hover {
-    background-image: url(/img/hoja2.jpg);
-}
-
-#mantillo7 {
-    background-image: url(/img/mantillo7.jpg);
-}
-
-#mantillo7:hover {
-    background-image: url(/img/mantillo8.jpg);
-}
-
-#mantillo9 {
-    background-image: url(/img/mantillo9.jpg);
-}
-
-#mantillo9:hover {
-    background-image: url(/img/mantillo10.jpg);
-}
-
-#recorte1 {
-    background-image: url(/img/recorte2.jpg);
-}
-
-#recorte1:hover {
-    background-image: url(/img/recorte1.jpg);
-}
-
-
-/* parte de contact 2 */
-
-.segunda {
-    background-color: #fff;
-    height: 140px;
-    width: 600px;
-    padding: 60px 60px;
-    justify-content: justify;
-    margin-left: 30%;
-    box-shadow: 0px 0px 26px 0 #0000002c;
-    transition: .3s ease box-shadow;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
-    border-radius: 0.3cm;
-    clear: both;
-}
-
-.segunda:hover {
-    box-shadow: 0 0 5px 0 #0000002c;
-}
-
-#segunda12 {
-    margin-top: 600px;
-    clear: both;
-}
-
-
-/* parte de contact 2 */
-
-
-/* buttom para ariva */
-
-.ariva {
-    padding: 10px 10px;
-}
-
-.bi {
-    margin-top: 160px;
-    margin-bottom: 20px;
-    color: teal;
-    width: 60px;
-    height: 60px
-}
-
-.ariva a {
-    margin-top: 100px;
-    margin-left: 30px
-}
-
-
-/* buttom para ariva 1 */
-
-
-/* footer  */
-
-#footer span {
-    color: teal;
-    font-size: 2rem;
-}
-
-#footer {
-    clear: both;
-    margin-top: 140px;
-    text-align: center;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-}
-
-#footer .footer {
-    min-height: 200px;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-
-#footer h2 {
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.8rem;
-    letter-spacing: .1rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#footer .social-icon {
-    display: flex;
-    margin-bottom: 30px;
-}
-
-#footer .social-item {
-    width: 60px;
-    height: 60px;
-}
-
-.icon {
-    width: 70px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-
-/* footer f/n*/
+ body {
+     margin: 0;
+     overflow-x: hidden;
+ }
+ 
+ html {
+     scroll-behavior: smooth;
+ }
+ /* header */
+ 
+ .content {
+     width: 100%
+ }
+ 
+ header {
+     z-index: 1;
+     background-color: #60a5a5;
+     width: 100%;
+     list-style: none;
+     min-height: 8vh;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+ }
+ 
+ header a:hover {
+     background-color: #fff;
+     color: #000;
+     transition: all ease-in-out 1s;
+ }
+ 
+ .nav {
+     top: 0;
+     text-align: center;
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ .nav a {
+     display: block;
+     float: left;
+     padding: 17px;
+     font-size: 1.4rem;
+     color: #fff;
+     font-family: 'Courier New', Courier, monospace;
+     text-decoration: none;
+ }
+ 
+ ul {
+     display: flex;
+     padding: 16px 16px;
+ }
+ 
+ .nav-link {
+     display: flex;
+     transition: all .4s
+ }
+ 
+ .nav-link:hover {
+     padding-right: 20px;
+     transition: all .4s
+ }
+ 
+ #llamar {
+     width: fit-content;
+     border-radius: .6cm;
+     margin-top: 30px;
+     margin-left: 180px;
+     width: 100%;
+     height: 60px;
+     transition: all .5s
+ }
+ 
+ #llamar {
+     margin: 10px 40px;
+ }
+ 
+ .llamar {
+     font-size: 30px;
+     color: teal;
+ }
+ 
+ .medio_f {
+     height: 800px;
+     background-image: url(./casa-28.jpg);
+     background-position: 50%;
+     background-size: cover;
+     background-attachment: fixed;
+     object-fit: cover;
+     margin-top: 0;
+ }
+ 
+ .medio_f h2 {
+     font-size: 2rem;
+     color: sienna;
+     margin-top: 0px;
+     padding: 20px 20px;
+     text-align: center;
+     font-family: sans-serif;
+ }
+ 
+ #nombre {
+     margin-top: 30px;
+     text-align: center;
+     color: #000;
+     font-size: 3rem;
+     font-weight: 500;
+     clear: both;
+ }
+ 
+ #nombre span {
+     color: teal;
+     font-size: 3rem;
+ }
+ 
+ #caja2 {
+     margin-top: 100px;
+     height: auto;
+ }
+ 
+ .caja1 {
+     width: 90%;
+     margin-left: 5%;
+     display: flex;
+     margin-top: 26px
+ }
+ 
+ .caja {
+     width: 26%;
+     height: 200px;
+     padding: 10px 20px;
+     text-align: center;
+     margin-left: 20px;
+     border-radius: .4cm;
+     border-bottom: 1px solid teal;
+     color: #000;
+     content: '';
+     animation: laguna 3s infinite alternate;
+ }
+ 
+ @keyframes laguna {
+     from {
+         background-color: #6cc091;
+     }
+     to {
+         background-color: #b0ceed;
+     }
+ }
+ 
+ .caja1 h4 {
+     color: #000;
+ }
+ 
+ .caja1 p {
+     padding: 20px 20px;
+     color: #000;
+ }
+ 
+ #mls {
+     width: 60px;
+     height: 60px;
+     margin-left: 100px;
+     border-radius: 0.2cm;
+ }
+ 
+ .trabajos {
+     width: 100%;
+     height: auto;
+     background-color: #6cc091;
+ }
+ 
+ #foto_foto:hover {
+     background-image: url(./cafe2.jpg);
+ }
+ 
+ .preguntas {
+     margin-top: 140px;
+     background-image: url(./casa-28.jpg);
+     background-position: 35%;
+     background-size: cover;
+     width: 600px;
+     height: 300px;
+     text-align: center;
+     float: left;
+     margin-left: 260px;
+     border-radius: 0.2cm;
+     transition: all 2s ease-in-out;
+ }
+ 
+ .orario {
+     color: #60a5a5;
+     font-size: 20px;
+     margin-top: 2rem;
+ }
+ 
+ .preguntas:hover {
+     background-image: url(./istalacion.jpg);
+     transition: all 2s;
+ }
+ 
+ .preguntas:hover #negro {
+     font-size: 2.4rem;
+     color: teal;
+ }
+ 
+ .preguntas:hover #blanco {
+     font-size: 2rem;
+     color: #000;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 800;
+ }
+ 
+ #negro {
+     margin-top: 20px;
+     color: #000;
+     font-family: sans-serif;
+     transition: all 2s ease-in-out;
+ }
+ 
+ #blanco {
+     color: transparent;
+     font-size: large;
+     transition: all 2s ease-in-out;
+ }
+ 
+ .gracias {
+     margin-top: 6px;
+     width: 100%;
+     height: 200px;
+     text-align: center;
+     position: absolute;
+     transition: all 3s ease-in-out;
+     color: transparent;
+ }
+ 
+ .gracias:hover {
+     background-color: transparent;
+     transition: all 3s ease-in-out;
+     color: white;
+ }
+ 
+ .gracias p {
+     font-size: 3rem;
+     font-weight: 600;
+     z-index: 1;
+ }
+ 
+ .gracias h2 {
+     font-size: 1.6rem;
+     z-index: 1;
+ }
+ 
+ #servicioss {
+     margin-top: 220px;
+     width: 80%;
+     margin-left: 10%;
+     clear: both;
+ }
+ 
+ .contact {
+     margin-top: 100px;
+     width: 300px;
+     height: 200px;
+     background-color: white;
+     float: left;
+     margin-left: 180px;
+     text-align: center;
+     border-radius: 0.3cm;
+     padding: 2px;
+     cursor: pointer;
+     box-shadow: 0px 0px 30px 0 #0000002c;
+     transition: .3s ease box-shadow;
+ }
+ 
+ .contact:hover {
+     box-shadow: 0px 0px 5px 0 #0000002c;
+ }
+ 
+ .contact h2 {
+     margin-top: 10px;
+     content: '';
+     font-size: 2rem;
+     font-weight: 500;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .fecn {
+     margin-top: 10px;
+     color: #6cc091;
+     text-align: center;
+ }
+ 
+ .obb {
+     color: black;
+     text-transform: capitalize;
+ }
+ 
+ #arbol1 {
+     background-image: url(/img/arbol1.jpg);
+ }
+ 
+ #arbol1:hover {
+     background-image: url(/img/arbol2.jpg);
+ }
+ 
+ #mulch1 {
+     background-image: url(/img/mulch1.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch1:hover {
+     background-image: url(/img/mulch2.jpg);
+ }
+ 
+ #mulch3 {
+     background-image: url(/img/mulch4.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch3:hover {
+     background-image: url(/img/mulch3.jpg);
+ }
+ 
+ #mulch5 {
+     background-image: url(/img/mulch5.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch5:hover {
+     background-image: url(/img/mulch6.jpg);
+ }
+ 
+ #mulch7 {
+     background-image: url(/img/mulch7.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch7:hover {
+     background-image: url(/img/mulch8.jpg);
+ }
+ 
+ #mulch9 {
+     background-image: url(/img/mulch9.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch9:hover {
+     background-image: url(/img/mulch10.jpg);
+ }
+ 
+ #semilla1 {
+     background-image: url(/img/grass1.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #semilla1:hover {
+     background-image: url(/img/semilla1.jpg);
+ }
+ 
+ #semilla3 {
+     background-image: url(/img/semilla4.jpg);
+ }
+ 
+ #semilla3:hover {
+     background-image: url(/img/semilla3.jpg);
+ }
+ 
+ #semilla5 {
+     background-image: url(/img/semillas12.jpg);
+ }
+ 
+ #semilla5:hover {
+     background-image: url(/img/semilla5.jpg);
+ }
+ 
+ #mulch11 {
+     background-image: url(/web3/img/mulch13.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch13 {
+     background-image: url(/web3/img/mulch14.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch15 {
+     background-image: url(/web3/img/mulch15.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch17 {
+     background-image: url(/web3/img/mulch17.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch19 {
+     background-image: url(/web3/img/mulch20.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch11:hover {
+     background-image: url(/web3/img/mulch12.jpg);
+ }
+ 
+ #mulch13:hover {
+     background-image: url(/web3/img/mulch11.jpg);
+ }
+ 
+ #mulch15:hover {
+     background-image: url(/web3/img/mulch16.jpg);
+ }
+ 
+ #mulch17:hover {
+     background-image: url(/web3/img/mulch18.jpg);
+ }
+ 
+ #mulch19:hover {
+     background-image: url(/web3/img/mulch19.jpg);
+ }
+ 
+ #leaf1 {
+     background-image: url(/web3/img/leaf2.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf3 {
+     background-image: url(/web3/img/leaf4.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf1:hover {
+     background-image: url(/web3//img/leaf1.jpg);
+ }
+ 
+ #leaf3:hover {
+     background-image: url(/web3/img/leaf3.jpg);
+ }
+ 
+ #leaf5 {
+     background-image: url(/img/verde8.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf5:hover {
+     background-image: url(/web3/img/leaf6.jpg);
+ }
+ 
+ #leaf7 {
+     background-image: url(/web3/img/leaf88.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf7:hover {
+     background-image: url(/web3/img/leaf8.jpg);
+ }
+ 
+ #mulch21 {
+     background-image: url(/img/casaverde.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch21:hover {
+     background-image: url(/web3/img/mulch21.jpg);
+ }
+ 
+ #relleno1 {
+     background-image: url(/web3/img/relleno1.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #relleno1:hover {
+     background-image: url(/web3/img/relleno2.jpg);
+ }
+ 
+ #corte1 {
+     background-image: url(/img/verde1.jpg);
+ }
+ 
+ #corte1:hover {
+     background-image: url(/img/verde2.jpg);
+ }
+ 
+ #cortes1 {
+     background-image: url(/web3/img/cortes1.jpg);
+ }
+ 
+ #cortes1:hover {
+     background-image: url(/web3/img/cortes2.jpg);
+ }
+ 
+ #cortes3 {
+     background-image: url(/img/verde3.jpg);
+ }
+ 
+ #cortes3:hover {
+     background-image: url(/img/verde4.jpg);
+ }
+ 
+ #corte3 {
+     background-image: url(/web3/img/corte3.jpg);
+ }
+ 
+ #corte3:hover {
+     background-image: url(/web3/img/corte4.jpg);
+ }
+ 
+ #bolitas1 {
+     background-image: url(/web3/img/bolitas1.jpg);
+ }
+ 
+ #bolitas1:hover {
+     background-image: url(/web3/img/bolitas2.jpg);
+ }
+ 
+ #relleno3 {
+     background-image: url(/web3/img/relleno3.jpg);
+ }
+ 
+ #relleno3:hover {
+     background-image: url(/web3/img/relleno4.jpg);
+ }
+ 
+ #rojo1 {
+     background-image: url(/img/rojo2.jpg);
+ }
+ 
+ #rojo1:hover {
+     background-image: url(/img/rojo1.jpg);
+ }
+ 
+ #rojo3 {
+     background-image: url(/img/rojo4.jpg);
+ }
+ 
+ #rojo3:hover {
+     background-image: url(/img/rojo3.jpg);
+ }
+ 
+ #rojo5 {
+     background-image: url(/img/rojo6.jpg);
+ }
+ 
+ #rojo5:hover {
+     background-image: url(/img/rojo5.jpg);
+ }
+ 
+ #rojo7 {
+     background-image: url(/img/rojo8.jpg);
+ }
+ 
+ #rojo7:hover {
+     background-image: url(/img/rojo7.jpg);
+ }
+ 
+ #cafe1 {
+     background-image: url(/img/cafe2.jpg);
+ }
+ 
+ #cafe1:hover {
+     background-image: url(/img/cafe1.jpg);
+ }
+ 
+ #cafe3 {
+     background-image: url(/img/cafe3.jpg);
+ }
+ 
+ #cafe3:hover {
+     background-image: url(/img/cafe4.jpg);
+ }
+ 
+ #cafe5 {
+     background-image: url(/img/cafe6.jpg);
+ }
+ 
+ #cafe5:hover {
+     background-image: url(/img/cafe5.jpg);
+ }
+ 
+ #cafe7 {
+     background-image: url(/img/cafe8.jpg);
+ }
+ 
+ #cafe7:hover {
+     background-image: url(/img/cafe7.jpg);
+ }
+ 
+ #mantillo1 {
+     background-image: url(/img/mantillo1.jpg);
+ }
+ 
+ #mantillo1:hover {
+     background-image: url(/img/mantillo2.jpg);
+ }
+ 
+ #mantillo3 {
+     background-image: url(/img/mantillo3.jpg);
+ }
+ 
+ #mantillo3:hover {
+     background-image: url(/img/mantillo4.jpg);
+ }
+ 
+ #mantillo5 {
+     background-image: url(/img/mantillo5.jpg);
+ }
+ 
+ #mantillo5:hover {
+     background-image: url(/img/mantillo6.jpg);
+ }
+ 
+ #hoja1 {
+     background-image: url(/img/hoja1.jpg);
+ }
+ 
+ #hoja1:hover {
+     background-image: url(/img/hoja2.jpg);
+ }
+ 
+ #mantillo7 {
+     background-image: url(/img/mantillo7.jpg);
+ }
+ 
+ #mantillo7:hover {
+     background-image: url(/img/mantillo8.jpg);
+ }
+ 
+ #mantillo9 {
+     background-image: url(/img/mantillo9.jpg);
+ }
+ 
+ #mantillo9:hover {
+     background-image: url(/img/mantillo10.jpg);
+ }
+ 
+ #recorte1 {
+     background-image: url(/img/recorte2.jpg);
+ }
+ 
+ #recorte1:hover {
+     background-image: url(/img/recorte1.jpg);
+ }
+ /* parte de contact 2 */
+ 
+ .segunda {
+     background-color: #fff;
+     height: 140px;
+     width: 600px;
+     padding: 60px 60px;
+     justify-content: justify;
+     margin-left: 30%;
+     box-shadow: 0px 0px 26px 0 #0000002c;
+     transition: .3s ease box-shadow;
+     text-align: center;
+     font-size: 1.4rem;
+     font-weight: 600;
+     border-radius: 0.3cm;
+     clear: both;
+ }
+ 
+ .segunda:hover {
+     box-shadow: 0 0 5px 0 #0000002c;
+ }
+ 
+ #segunda12 {
+     margin-top: 600px;
+     clear: both;
+ }
+ /* parte de contact 2 */
+ /* buttom para ariva */
+ 
+ .ariva {
+     padding: 10px 10px;
+ }
+ 
+ .bi {
+     margin-top: 160px;
+     margin-bottom: 20px;
+     color: teal;
+     width: 60px;
+     height: 60px
+ }
+ 
+ .ariva a {
+     margin-top: 100px;
+     margin-left: 30px
+ }
+ 
+ #footer span {
+     color: teal;
+     font-size: 2rem;
+ }
+ 
+ #footer {
+     clear: both;
+     margin-top: 140px;
+     text-align: center;
+     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+ }
+ 
+ #footer .footer {
+     min-height: 200px;
+     flex-direction: column;
+     padding-top: 50px;
+     padding-bottom: 10px;
+ }
+ 
+ #footer h2 {
+     color: #fff;
+     font-weight: 500;
+     font-size: 1.8rem;
+     letter-spacing: .1rem;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ #footer .social-icon {
+     display: flex;
+     margin-bottom: 30px;
+ }
+ 
+ #footer .social-item {
+     width: 60px;
+     height: 60px;
+ }
+ 
+ .icon {
+     width: 70px;
+     margin: 0 auto;
+     margin-bottom: 10px;
+ }
