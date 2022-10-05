@@ -5,6 +5,9 @@
 }
 
 body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
     background-color: rgb(148, 221, 197, 0.2);
     overflow-x: hidden;
