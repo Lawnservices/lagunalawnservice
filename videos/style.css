@@ -9,6 +9,7 @@ header {
     overflow: hidden;
     position: sticky;
     top: 0;
+    display: flex;
 }
 
 #nav a {
@@ -16,6 +17,7 @@ header {
     color: #fff;
     font-size: 1.4rem;
     text-decoration: none;
+    line-height: 80px;
 }
 
 .orario {
@@ -132,7 +134,7 @@ html {
         grid-gap: 10px;
     }
     html {
-        font-size: calc(0.30rem + 1vw);
+        font-size: 1.4rem;
     }
     header {
         background-color: #34495e;
