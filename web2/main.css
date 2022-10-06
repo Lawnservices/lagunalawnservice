@@ -1,5 +1,6 @@
  body {
      margin: 0;
+     padding: 0;
      overflow-x: hidden;
  }
  
@@ -8,11 +9,7 @@
  }
  /* header */
  
- .content {
-     width: 100%
- }
- 
- header {
+ .nav {
      z-index: 1;
      background-color: #60a5a5;
      width: 100%;
@@ -29,14 +26,8 @@
      transition: all ease-in-out 1s;
  }
  
- .nav {
-     top: 0;
-     text-align: center;
-     text-decoration: none;
-     list-style: none;
- }
- 
  .nav a {
+     top: 0;
      display: block;
      float: left;
      padding: 17px;
@@ -44,21 +35,6 @@
      color: #fff;
      font-family: 'Courier New', Courier, monospace;
      text-decoration: none;
- }
- 
- ul {
-     display: flex;
-     padding: 16px 16px;
- }
- 
- .nav-link {
-     display: flex;
-     transition: all .4s
- }
- 
- .nav-link:hover {
-     padding-right: 20px;
-     transition: all .4s
  }
  
  #llamar {
@@ -81,13 +57,14 @@
  }
  
  .medio_f {
+     width: 100%;
      height: 800px;
      background-image: url(./casa-28.jpg);
      background-position: 50%;
      background-size: cover;
      background-attachment: fixed;
      object-fit: cover;
-     margin-top: 0;
+     top: 0;
  }
  
  .medio_f h2 {
@@ -154,13 +131,6 @@
  .caja1 p {
      padding: 20px 20px;
      color: #000;
- }
- 
- #mls {
-     width: 60px;
-     height: 60px;
-     margin-left: 100px;
-     border-radius: 0.2cm;
  }
  
  .trabajos {

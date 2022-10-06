@@ -1,11 +1,10 @@
-const laguna = document.getElementById('colores');
+const laguna = document.getElementById('mnb');
 
 document.addEventListener('scroll', () => {
     var scroll_position = window.scrollY;
     if (scroll_position > 160) {
-        colores.style.backgroundColor = '#04AA6D'
+        mnb.style.backgroundColor = '#04aa6d';
     } else {
-        colores.style.backgroundColor = '#60a5a5'
+        mnb.style.backgroundColor = '#60a5a5';
     }
-
-});
+})
