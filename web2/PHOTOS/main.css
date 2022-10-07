@@ -9,6 +9,7 @@
             padding: 17px;
             position: sticky;
             top: 0;
+            z-index: 20;
         }
         
         header a.active {
@@ -51,6 +52,7 @@
         h1 {
             color: green;
             text-align: center;
+            z-index: -1;
         }
         
         #zxcv {

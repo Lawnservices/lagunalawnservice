@@ -8,3 +8,10 @@ document.addEventListener('scroll', () => {
         mnb.style.backgroundColor = '#60a5a5';
     }
 })
+
+scrollReveal().reveal('nombre', {
+    rotate: {
+        x: 20,
+        z: 20
+    }
+})
