@@ -11,6 +11,7 @@
     <meta name="author" content="Miguel Laguna">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/img/miguel.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Miguel.Lawn.Services</title>
 </head>
 
@@ -19,10 +20,10 @@
     <section id="header">
         <div class="header container">
             <div class="nav-bar">
-                <img id="mls" src="/img/mls.jpg" alt="top-grass" />
+                <img id="mls" src="/img/mls.jpg" alt="top-grass" data-aos="zoom-in-down" />
                 <div class="brand">
                     <a href="https://greengrasslawn.info/" target="#">
-                        <h1 id="blanco">LAGUNA.</h1>
+                        <h1 id="blanco" data-aos="flip-down">LAGUNA.</h1>
                     </a>
                 </div>
                 <div class="nav-list">
@@ -49,9 +50,9 @@
                 <h1>My Name Is.<span></span></h1>
                 <h1>Miguel Laguna.<span></span></h1>
                 <h1>What can we do for your garden.<span></span></h1>
-                <a href="./web2/main" class="cta">Gallery</a>
-                <a href="/videos/main" class="cta" id="azul">Videos</a>
-                <a href="/web2/PHOTOS/index" class="cta">Photos</a>
+                <a href="./web2/main" class="cta" data-aos="zoom-in-down">Gallery</a>
+                <a href="/videos/main" class="cta" id="azul" data-aos="flip-left">Videos</a>
+                <a href="/web2/PHOTOS/index" class="cta" data-aos="zoom-in-down">Photos</a>
 
             </div>
         </div>
@@ -61,7 +62,7 @@
 
 
     <section id="services">
-        <div class="services container">
+        <div class="services container" data-aos="flip-down">
             <div class="service-top">
                 <h1 class="section-title">Ser<span>vi</span>ces</h1>
                 <h2 class="fcn">FREE ESTIMATE-CALL NOW</h2>
@@ -104,7 +105,7 @@
 
 
     <!-- projecto -->
-    <section id="projects">
+    <section id="projects" data-aos="flip-left">
         <div class="projects container">
             <div class="projects-header">
                 <h1 class="section-title">Projects<span>.Laguna</span></h1>
@@ -269,6 +270,13 @@
     </section>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9205886382677250" crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+            // once: true
+        });
+    </script>
 </body>
 
 </html>
