@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.js">
     <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/youtube-play.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>videos</title>
 </head>
 
 <body>
     <header id="colores">
 
-        <a href="/index"><img id="ft" src="/img/mls.jpg" alt="logo" width="60" height="60"></a>
+        <a href="/index"><img id="ft" src="/img/mls.jpg" alt="logo" width="60" height="60" data-aos="zoom-in-down"></a>
         <nav id="nav">
 
             <a href="https://www.google.com/maps/place/Miguel+Lawn+Services/@38.9627497,-76.8575863,17z/data=!3m1!4b1!4m5!3m4!1s0x8f6d334b1188e79f:0x977b2db02a46cf85!8m2!3d38.9627497!4d-76.8575863">Get Directions</a>
@@ -36,23 +37,23 @@
           Saturday-Sunday - Closed.
         </pre>
     <div class="solida">
-        <h1>THE BEST PRICES IN THE AREA.</h1>
-        <img src="../img/casa-29.jpg" alt="">
+        <h1 data-aos="zoom-in-down">THE BEST PRICES IN THE AREA.</h1>
+        <img src="../img/casa-29.jpg" alt="" data-aos="zoom-in-down">
     </div>
 
 
     <div class="videos">
-        <div class="videos_item">
+        <div class="videos_item" data-aos="zoom-in-down">
             <iframe src="https://www.youtube.com/embed/b6ng5gsM3Y8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video1"></iframe>
         </div>
-        <div class="videos_item">
+        <div class="videos_item" data-aos="zoom-in-down">
             <iframe src="https://www.youtube.com/embed/Z0h5ZGCOG7M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video2"></iframe>
         </div>
-        <div class="videos_item">
+        <div class="videos_item" data-aos="zoom-in-down">
             <iframe src="https://www.youtube.com/embed/ikevbKK3AZE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video3"></iframe>
 
         </div>
-        <div class="videos_item">
+        <div class="videos_item" data-aos="zoom-in-down">
             <iframe src="https://www.youtube.com/embed/yeHIWK_4sRA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video4"></iframe>
         </div>
 
@@ -74,5 +75,12 @@
     </footer>
 </body>
 <script src="main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1500,
+        // once: true
+    });
+</script>
 
 </html>
