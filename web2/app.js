@@ -14,4 +14,4 @@ scrollReveal().reveal('nombre', {
         x: 20,
         z: 20
     }
-})
+});

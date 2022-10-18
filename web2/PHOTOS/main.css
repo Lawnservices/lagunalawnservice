@@ -53,6 +53,22 @@
             font-weight: 800;
         }
         
+        .boton {
+            width: 160px;
+            background-color: #154;
+            color: #fff;
+            padding: 14px 17px;
+            border: none;
+            transition: all 2s ease-in-out;
+        }
+        
+        .boton:hover {
+            background-color: #fff;
+            color: #154;
+            border: 2px solid green;
+            transition: all 2s ease-in-out;
+        }
+        
         h1 {
             color: green;
             text-align: center;
