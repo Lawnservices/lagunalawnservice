@@ -1,17 +1,6 @@
-const laguna = document.getElementById('mnb');
-
-document.addEventListener('scroll', () => {
-    var scroll_position = window.scrollY;
-    if (scroll_position > 160) {
-        mnb.style.backgroundColor = '#04aa6d';
-    } else {
-        mnb.style.backgroundColor = '#60a5a5';
-    }
-})
-
-scrollReveal().reveal('nombre', {
-    rotate: {
-        x: 20,
-        z: 20
-    }
-});
+ scrollReveal().reveal('nombre', {
+     rotate: {
+         x: 20,
+         z: 20
+     }
+ });
