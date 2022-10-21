@@ -157,8 +157,12 @@
      transition: all 2s ease-in-out;
  }
  
+ .icon {
+     border-radius: 6px;
+ }
+ 
  .orario {
-     color: #60a5a5;
+     color: #fff;
      font-size: 20px;
      margin-top: 2rem;
  }
