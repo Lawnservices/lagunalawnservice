@@ -52,7 +52,7 @@ table {
 
 #print:hover {
     color: #9cde89;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 @media print {
