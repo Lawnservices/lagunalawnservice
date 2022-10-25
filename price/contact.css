@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.nombre {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid #154;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.tel {
+    font-size: 1.4rem;
+    color: #154;
+}
+
+.orario {
+    color: #04aa6b;
+    width: 70%;
+    margin-left: 7.3%;
+    margin-top: 120px;
+    font-size: 17px;
+}
+
+#print {
+    background-color: #04aa6b;
+    padding: 14px 17px;
+    margin-left: 186px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 0.3cm;
+    color: #fff;
+}
+
+#print:hover {
+    color: #9cde89;
+    transition: 0.3s;
+}
+
+@media print {
+    #print {
+        display: none;
+    }
+}
