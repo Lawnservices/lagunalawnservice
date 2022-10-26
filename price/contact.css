@@ -8,6 +8,7 @@ body {
     display: flex;
     margin-left: 180px;
     margin-top: 20px;
+    width: 4%;
 }
 
 .nombre {
