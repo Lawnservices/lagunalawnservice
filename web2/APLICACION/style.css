@@ -1,0 +1,13 @@
+#description {
+    resize: none;
+}
+
+#boton {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#navbar {
+    border-bottom: 2px solid #154;
+}
