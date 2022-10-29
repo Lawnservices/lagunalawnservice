@@ -75,29 +75,31 @@ p {
     color: teal;
 }
 
+
+/* class cta */
+
 .cta {
     display: inline-block;
     padding: 10px 30px;
     color: white;
-    background-color: #60a5a5;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
     border-radius: 0.2cm;
-    transition: 3s ease-in-out;
-    transition-property: background-color, color;
+    transform: rotateX('90deg');
+    transition: 2s ease-in-out;
 }
 
 .cta:hover {
-    transition: 3s ease-in-out;
+    transition: 2s ease-in-out;
     color: #fff;
-    background-color: transparent;
-    border-bottom: 2px solid green;
-    border-top: 2px solid tomato;
-    border-left: 2px solid #154;
-    border-right: 2px solid #60a5a5;
+    background-color: #154;
+    transform: rotateX('90deg');
 }
+
+
+/* class cta */
 
 .brand h1 {
     font-size: 3rem;
