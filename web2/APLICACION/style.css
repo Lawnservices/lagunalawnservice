@@ -11,3 +11,8 @@
 #navbar {
     border-bottom: 2px solid #154;
 }
+
+#fecha {
+    width: 80%;
+    margin-left: 10%;
+}

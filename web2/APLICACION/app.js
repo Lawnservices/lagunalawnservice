@@ -4,10 +4,12 @@
 
      let title = document.getElementById('title').value;
      let description = document.getElementById('description').value;
+     let fecha = document.getElementById('fecha').value;
 
      const task = {
          title,
-         description
+         description,
+         fecha
      };
 
      if (localStorage.getItem('tasks') == null) {
@@ -35,10 +37,11 @@
      for (let i = 0; i < tasks.length; i++) {
          let title = tasks[i].title;
          let description = tasks[i].description;
+         let fecha = tasks[i].fecha;
 
          tasksView.innerHTML += `<div class="card mb-3">
         <div class="card-body">
-        <p>${title} - ${description}</p>
+        <p>${title} - ${description} - ${fecha}</p>
         <a class="btn btn-danger" onclick="deleteTask('${title}')">
         DELETE
         </a>
