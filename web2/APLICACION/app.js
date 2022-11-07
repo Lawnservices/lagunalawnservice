@@ -42,6 +42,7 @@
          tasksView.innerHTML += `<div class="card mb-3">
         <div class="card-body">
         <p>${title} - ${description} - ${fecha}</p>
+    
         <a class="btn btn-danger" onclick="deleteTask('${title}')">
         DELETE
         </a>
@@ -61,6 +62,10 @@
      getTasks();
  }
  getTasks();
+
+
+
+
 
 
 
