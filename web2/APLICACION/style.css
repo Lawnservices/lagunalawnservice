@@ -6,6 +6,12 @@
     margin-top: 20px;
     width: 80%;
     margin-left: 10%;
+    transition: all 1s ease-in-out;
+}
+
+#boton:hover {
+    background-color: #154;
+    transition: all 1s ease-in-out;
 }
 
 #navbar {
