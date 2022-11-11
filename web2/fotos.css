@@ -1,0 +1,345 @@
+ #arbol1 {
+     background-image: url(/img/arbol1.jpg);
+ }
+ 
+ #arbol1:hover {
+     background-image: url(/img/arbol2.jpg);
+ }
+ 
+ #mulch1 {
+     background-image: url(/img/mulch1.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch1:hover {
+     background-image: url(/img/mulch2.jpg);
+ }
+ 
+ #mulch3 {
+     background-image: url(/img/mulch4.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch3:hover {
+     background-image: url(/img/mulch3.jpg);
+ }
+ 
+ #mulch5 {
+     background-image: url(/img/mulch5.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch5:hover {
+     background-image: url(/img/mulch6.jpg);
+ }
+ 
+ #mulch7 {
+     background-image: url(/img/mulch7.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch7:hover {
+     background-image: url(/img/mulch8.jpg);
+ }
+ 
+ #mulch9 {
+     background-image: url(/img/mulch9.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch9:hover {
+     background-image: url(/img/mulch10.jpg);
+ }
+ 
+ #semilla1 {
+     background-image: url(/img/grass1.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #semilla1:hover {
+     background-image: url(/img/semilla1.jpg);
+ }
+ 
+ #semilla3 {
+     background-image: url(/img/semilla4.jpg);
+ }
+ 
+ #semilla3:hover {
+     background-image: url(/img/semilla3.jpg);
+ }
+ 
+ #semilla5 {
+     background-image: url(/img/semillas12.jpg);
+ }
+ 
+ #semilla5:hover {
+     background-image: url(/img/semilla5.jpg);
+ }
+ 
+ #mulch11 {
+     background-image: url(/web3/img/mulch13.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch13 {
+     background-image: url(/web3/img/mulch14.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch15 {
+     background-image: url(/web3/img/mulch15.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch17 {
+     background-image: url(/web3/img/mulch17.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch19 {
+     background-image: url(/web3/img/mulch20.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch11:hover {
+     background-image: url(/web3/img/mulch12.jpg);
+ }
+ 
+ #mulch13:hover {
+     background-image: url(/web3/img/mulch11.jpg);
+ }
+ 
+ #mulch15:hover {
+     background-image: url(/web3/img/mulch16.jpg);
+ }
+ 
+ #mulch17:hover {
+     background-image: url(/web3/img/mulch18.jpg);
+ }
+ 
+ #mulch19:hover {
+     background-image: url(/web3/img/mulch19.jpg);
+ }
+ 
+ #leaf1 {
+     background-image: url(/web3/img/leaf2.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf3 {
+     background-image: url(/web3/img/leaf4.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf1:hover {
+     background-image: url(/web3//img/leaf1.jpg);
+ }
+ 
+ #leaf3:hover {
+     background-image: url(/web3/img/leaf3.jpg);
+ }
+ 
+ #leaf5 {
+     background-image: url(/img/verde8.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf5:hover {
+     background-image: url(/web3/img/leaf6.jpg);
+ }
+ 
+ #leaf7 {
+     background-image: url(/web3/img/leaf88.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #leaf7:hover {
+     background-image: url(/web3/img/leaf8.jpg);
+ }
+ 
+ #mulch21 {
+     background-image: url(/img/casaverde.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #mulch21:hover {
+     background-image: url(/web3/img/mulch21.jpg);
+ }
+ 
+ #relleno1 {
+     background-image: url(/web3/img/relleno1.jpg);
+     transition: all 2s ease-in-out;
+ }
+ 
+ #relleno1:hover {
+     background-image: url(/web3/img/relleno2.jpg);
+ }
+ 
+ #corte1 {
+     background-image: url(/img/verde1.jpg);
+ }
+ 
+ #corte1:hover {
+     background-image: url(/img/verde2.jpg);
+ }
+ 
+ #cortes1 {
+     background-image: url(/web3/img/cortes1.jpg);
+ }
+ 
+ #cortes1:hover {
+     background-image: url(/web3/img/cortes2.jpg);
+ }
+ 
+ #cortes3 {
+     background-image: url(/img/verde3.jpg);
+ }
+ 
+ #cortes3:hover {
+     background-image: url(/img/verde4.jpg);
+ }
+ 
+ #corte3 {
+     background-image: url(/web3/img/corte3.jpg);
+ }
+ 
+ #corte3:hover {
+     background-image: url(/web3/img/corte4.jpg);
+ }
+ 
+ #bolitas1 {
+     background-image: url(/web3/img/bolitas1.jpg);
+ }
+ 
+ #bolitas1:hover {
+     background-image: url(/web3/img/bolitas2.jpg);
+ }
+ 
+ #relleno3 {
+     background-image: url(/web3/img/relleno3.jpg);
+ }
+ 
+ #relleno3:hover {
+     background-image: url(/web3/img/relleno4.jpg);
+ }
+ 
+ #rojo1 {
+     background-image: url(/img/rojo2.jpg);
+ }
+ 
+ #rojo1:hover {
+     background-image: url(/img/rojo1.jpg);
+ }
+ 
+ #rojo3 {
+     background-image: url(/img/rojo4.jpg);
+ }
+ 
+ #rojo3:hover {
+     background-image: url(/img/rojo3.jpg);
+ }
+ 
+ #rojo5 {
+     background-image: url(/img/rojo6.jpg);
+ }
+ 
+ #rojo5:hover {
+     background-image: url(/img/rojo5.jpg);
+ }
+ 
+ #rojo7 {
+     background-image: url(/img/rojo8.jpg);
+ }
+ 
+ #rojo7:hover {
+     background-image: url(/img/rojo7.jpg);
+ }
+ 
+ #cafe1 {
+     background-image: url(/img/cafe2.jpg);
+ }
+ 
+ #cafe1:hover {
+     background-image: url(/img/cafe1.jpg);
+ }
+ 
+ #cafe3 {
+     background-image: url(/img/cafe3.jpg);
+ }
+ 
+ #cafe3:hover {
+     background-image: url(/img/cafe4.jpg);
+ }
+ 
+ #cafe5 {
+     background-image: url(/img/cafe6.jpg);
+ }
+ 
+ #cafe5:hover {
+     background-image: url(/img/cafe5.jpg);
+ }
+ 
+ #cafe7 {
+     background-image: url(/img/cafe8.jpg);
+ }
+ 
+ #cafe7:hover {
+     background-image: url(/img/cafe7.jpg);
+ }
+ 
+ #mantillo1 {
+     background-image: url(/img/mantillo1.jpg);
+ }
+ 
+ #mantillo1:hover {
+     background-image: url(/img/mantillo2.jpg);
+ }
+ 
+ #mantillo3 {
+     background-image: url(/img/mantillo3.jpg);
+ }
+ 
+ #mantillo3:hover {
+     background-image: url(/img/mantillo4.jpg);
+ }
+ 
+ #mantillo5 {
+     background-image: url(/img/mantillo5.jpg);
+ }
+ 
+ #mantillo5:hover {
+     background-image: url(/img/mantillo6.jpg);
+ }
+ 
+ #hoja1 {
+     background-image: url(/img/hoja1.jpg);
+ }
+ 
+ #hoja1:hover {
+     background-image: url(/img/hoja2.jpg);
+ }
+ 
+ #mantillo7 {
+     background-image: url(/img/mantillo7.jpg);
+ }
+ 
+ #mantillo7:hover {
+     background-image: url(/img/mantillo8.jpg);
+ }
+ 
+ #mantillo9 {
+     background-image: url(/img/mantillo9.jpg);
+ }
+ 
+ #mantillo9:hover {
+     background-image: url(/img/mantillo10.jpg);
+ }
+ 
+ #recorte1 {
+     background-image: url(/img/recorte2.jpg);
+ }
+ 
+ #recorte1:hover {
+     background-image: url(/img/recorte1.jpg);
+ }
+ /* parte de contact 2 */

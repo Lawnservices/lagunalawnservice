@@ -1,6 +1,18 @@
         body {
             margin: 0;
             font-family: 'Courier New', Courier, monospace;
+            background-color: #fff;
+        }
+        
+        html {
+            overflow-x: none;
+            overflow-y: none;
+            scroll-behavior: smooth;
+        }
+        
+        .list-1 img {
+            width: 40px;
+            height: 40px;
         }
         
         header {
@@ -9,6 +21,8 @@
             position: sticky;
             top: 0;
             z-index: 20;
+            background-color: #154256;
+            border-bottom: 3px solid #04aa6d;
         }
         
         #header {
@@ -16,7 +30,7 @@
         }
         
         header a.active {
-            background-color: #154;
+            background-color: #04aa6d;
         }
         
         header a {
@@ -29,8 +43,8 @@
         
         header a:hover {
             transition: 2s;
-            background-color: #fff;
-            color: black;
+            background-color: #04aa6d;
+            color: #fff;
         }
         
         .presente {

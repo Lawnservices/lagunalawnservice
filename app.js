@@ -20,11 +20,14 @@ menu_item.forEach((item) => {
 
 document.addEventListener('scroll', () => {
     var scroll_position = window.scrollY;
-    if (scroll_position > 250) {
-        header.style.backgroundColor = '#29323c';
+    if (scroll_position > 350) {
+        header.style.backgroundColor = '#04aa6d';
+        header.style.borderTop = '6px solid #34495e';
 
     } else {
-        header.style.backgroundColor = 'transparent';
+        header.style.backgroundColor = '#34495e';
+        header.style.borderTop = '6px solid #04aa6d';
+
 
     }
 });

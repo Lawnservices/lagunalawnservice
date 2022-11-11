@@ -4,13 +4,25 @@
     box-sizing: border-box;
 }
 
+.list-1 {
+    margin-left: 10%;
+    color: #000;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.list-1 img {
+    width: 40px;
+    height: 40px;
+}
+
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background-color: rgb(148, 221, 197, 0.2);
     overflow-x: hidden;
+    background-color: #fff;
 }
 
 #mls {
@@ -49,7 +61,13 @@ img {
 }
 
 #blanco {
-    color: #6cc091;
+    color: #fff;
+}
+
+#blanco:hover {
+    background-color: #04aa6d;
+    color: #fff;
+    padding: 17.8px 20px;
 }
 
 p {
@@ -88,14 +106,13 @@ p {
     margin-top: 30px;
     border-radius: 0.2cm;
     transform: rotateX('90deg');
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .cta:hover {
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
     color: #fff;
     background-color: #154;
-    transform: rotateX('90deg');
 }
 
 
@@ -124,12 +141,12 @@ p {
     top: 0;
     width: 100vw;
     height: auto;
-    border-bottom: 3px solid rgb(31, 30, 30, 0.8);
+    /* border-bottom: 3px solid #04aa6d; */
 }
 
 #header .header {
     min-height: 8vh;
-    background-color: rgb(31, 30, 30, 0.24);
+    background-color: #29323c;
     transform: 1s ease background-color;
 }
 
@@ -175,6 +192,12 @@ p {
     display: block;
 }
 
+#header .nav-list ul a:hover {
+    background-color: #04aa6d;
+    color: #fff;
+    padding: 21px 20px;
+}
+
 #header .nav-list ul a::after {
     content: attr(data-after);
     position: absolute;
@@ -182,8 +205,8 @@ p {
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     color: rgb(240, 248, 255, 0.021);
-    font-size: 13rem;
-    letter-spacing: 50px;
+    font-size: 8rem;
+    letter-spacing: 30px;
     z-index: -1;
     transition: .3s easeter-spacing;
 }
@@ -191,15 +214,6 @@ p {
 #header .nav-list ul li:hover a::after {
     transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
-}
-
-#header .nav-list ul li:hover a {
-    transition: all 2s;
-    color: #6cc091;
-}
-
-#header .nav-list ul li a {
-    transition: all 2s;
 }
 
 #header .hamburger {

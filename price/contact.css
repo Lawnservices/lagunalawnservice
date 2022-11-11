@@ -33,6 +33,15 @@ table {
     color: #154;
 }
 
+span {
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.tel a {
+    color: #154;
+}
+
 .orario {
     color: #04aa6b;
     width: 70%;
