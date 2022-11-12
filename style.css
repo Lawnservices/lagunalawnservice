@@ -1,3 +1,8 @@
 .mensaje {
     padding: 24%;
 }
+
+.mensaje img {
+    width: 60px;
+    height: 60px;
+}
