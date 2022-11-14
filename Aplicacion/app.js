@@ -99,8 +99,3 @@
          }
      }
  }
-
- // localStorage.setItem('tasks', JSON.stringify('task'));
- // localStorage.getItem('tasks');
-
- // document.getElementById('formTask').reset();
