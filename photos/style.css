@@ -123,11 +123,32 @@
             align-items: center;
         }
         
+        #icon {
+            filter: none;
+            animation: laguna 3s alternate-reverse infinite ease-in-out;
+        }
+        
+        @keyframes laguna {
+            to {
+                margin-left: 100px;
+                transition: 3s;
+            }
+            from {
+                margin-right: 100px;
+                transition: 3;
+            }
+        }
+        
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             border-radius: 0.2cm;
+            filter: brightness(60%);
+        }
+        
+        img:hover {
+            filter: brightness(100%);
         }
         
         .galeria__item:nth-child(1) {
