@@ -4,6 +4,27 @@
             background-color: #fff;
         }
         
+        .foto {
+            width: 100%;
+            height: 500px;
+            top: 0;
+            z-index: -1;
+        }
+        
+        .foto img {
+            width: 80%;
+            height: 400px;
+            margin-left: 10%;
+            top: 0;
+            filter: brightness(60%);
+            z-index: 100;
+            border-left: 0.4cm;
+        }
+        
+        .foto img:hover {
+            filter: brightness(100%);
+        }
+        
         html {
             overflow-x: none;
             overflow-y: none;
@@ -45,13 +66,6 @@
             transition: 2s;
             background-color: #04aa6d;
             color: #fff;
-        }
-        
-        .presente {
-            max-inline-size: 100%;
-            block-size: auto;
-            aspect-ratio: 2/1;
-            object-fit: contain;
         }
         
         .orario {
