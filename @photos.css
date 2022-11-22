@@ -1,0 +1,371 @@
+@media (min-width:300px) and (max-width:1100px) {
+    .content {
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        width: 100%;
+        background-color: #6cc091;
+        display: contents;
+    }
+    .nav {
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    @media (min-width:300px) and (max-width:500px) {
+        .nav #guarda {
+            display: none;
+        }
+        .icon {
+            display: none;
+        }
+    }
+    .nav-link a {
+        color: black;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .navegacion {
+        background-color: teal;
+    }
+    .navegacion li a {
+        font-size: 16px;
+        color: #fff;
+    }
+    /* header f/n */
+    /*  nombre*/
+    #nombre {
+        font-size: 16px;
+    }
+    #nombre span {
+        font-size: 16px;
+    }
+    /* NOMBRE F/N */
+    .caja1 {
+        width: 100%;
+        display: block;
+    }
+    .caja {
+        margin-left: 14%;
+        width: 60%;
+        height: fit-content;
+        display: flex;
+        margin-left: 10px;
+        margin-top: 16px;
+    }
+    .caja1 h4 {
+        font-size: 16px;
+        color: #00f;
+        display: none;
+    }
+    .llamar {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+        color: #000;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .preguntas {
+        display: block;
+        width: 700px;
+    }
+    h2 {
+        font-size: 16px;
+        color: teal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    img {
+        display: inline-block;
+        margin-top: 2px;
+        width: 50px;
+        height: 50px;
+    }
+    .informacion {
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        margin-top: 900px;
+        clear: both;
+    }
+    .informacion h3 {
+        display: flex;
+        font-size: 16px;
+        padding: 3px 3px;
+    }
+    .pregunta {
+        width: 90%;
+        display: none;
+    }
+    #pregunte {
+        font-size: 18px;
+        font-weight: 400px;
+    }
+    .contact {
+        width: 200px;
+        height: auto;
+    }
+    .contact h2 {
+        font-size: 16px;
+    }
+    #segunda12 {
+        display: none;
+    }
+    .segunda {
+        width: 360;
+        height: auto;
+        font-size: 16px;
+    }
+    .segunda a {
+        font-size: 16px;
+    }
+    .brand h2 {
+        font-size: 16px;
+    }
+    .brand h2 span {
+        font-size: 16px;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+    .bi {
+        float: right;
+        margin-top: 100px;
+        margin-right: 20px;
+    }
+    .contact {
+        align-items: center;
+        margin-left: 140px;
+        margin-bottom: 100px;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .pregunte span {
+        font-size: 16px;
+    }
+    .gracias img {
+        object-fit: cover;
+    }
+    .medio_f {
+        object-fit: cover;
+    }
+    .gracias {
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        z-index: -1;
+    }
+    .gracias p {
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .gracias h2 {
+        font-size: 16px;
+        color: #fff;
+    }
+    #mls {
+        display: none;
+    }
+    .obb {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1100px) and (max-width:1900px) {
+    .pregunta {
+        margin-left: -60px;
+        width: 400px;
+        display: flex;
+    }
+    img {
+        display: inline-block;
+        margin-top: 2px;
+        width: 50px;
+        height: 50px;
+        border-radius: .4cm;
+    }
+    .preguntas {
+        margin-left: 100px;
+    }
+    .informacion {
+        width: 1250px;
+        margin-left: 80px;
+    }
+    .contact {
+        width: 260px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+    .caja {
+        width: 40%;
+        float: left;
+        margin-top: 60px;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+    .footer .container {
+        width: 80%;
+    }
+    body {
+        width: fit-content;
+    }
+    ul {
+        width: 80%;
+    }
+    #verde_v {
+        width: fit-content;
+    }
+    .caja {
+        width: 36%;
+        float: left;
+        height: fit-content;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+    .medio_f {
+        width: 100%;
+    }
+}
+
+@media(min-width:320px) and (max-width:460px) {
+    .preguntas {
+        width: 360px;
+        margin-left: 20px;
+    }
+    .informacion {
+        width: 360px;
+        margin-left: 10px;
+    }
+    .caja1 {
+        margin-left: 4px;
+    }
+    ul {
+        display: block;
+        background-color: #6cc091;
+    }
+    .caja {
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        margin-top: 16px
+    }
+    .guarda {
+        display: none;
+    }
+    .nav {
+        background-color: #154256;
+    }
+    .contact {
+        width: 260px;
+        height: 200px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+}
+
+@media(min-width:460px) and (max-width:800px) {
+    .contact {
+        width: 180px;
+        height: 140px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+    .preguntas {
+        margin-left: 20px;
+    }
+    .caja {
+        width: 36%;
+        float: left;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+}
+
+@media(min-width:800px) and (max-width:1100px) {
+    .nav {
+        background-color: teal;
+    }
+    .contact {
+        width: 180px;
+        height: 140px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .llamenos {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .bi {
+        display: none;
+    }
+    .preguntas {
+        margin-left: 20px;
+    }
+    .pregunte {
+        width: 700px;
+        margin-left: 12px;
+    }
+    .medio_f {
+        width: 700px;
+        margin-left: 12px;
+    }
+    .caja {
+        width: 36%;
+        float: left;
+    }
+    .pregunte {
+        margin-top: 800px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1100px) {
+    .medio_f {
+        width: 100%;
+    }
+    .pregunte {
+        width: 100%;
+    }
+    .contact {
+        margin-left: 80px;
+    }
+    .preguntas {
+        margin-left: 200px;
+    }
+    .caja {
+        margin-left: 60px;
+    }
+}
