@@ -112,7 +112,13 @@ p {
 .cta:hover {
     transition: 1s ease-in-out;
     color: #fff;
+    background-color: #04aa6b;
+}
+
+.ctaa {
+    top: 0;
     background-color: #154;
+    border-radius: 20%;
 }
 
 
