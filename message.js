@@ -8,4 +8,4 @@ function pagos(precio) {
     document.getElementById('precio').textContent = precio;
 }
 
-pagos('happy thanksgiving');
+pagos('Happy thanksgiving');
