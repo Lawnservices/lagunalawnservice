@@ -1,15 +1,10 @@
 $(document).ready(function() {
-    $('ul.tabs li a:first').addClass('active');
-    $('secciones article').hide();
-    $('seccciones aticle:frist').show();
+    $("ul li a:first").addClass('active');
 
-    $('ul.tabs li a').click(function() {
-        $('ul.tabs li a').removeclass('active');
+    $("ul li a").click(function() {
+        $("ul li a").removeClass('active');
         $(this).addClass('active');
+    })
 
-        var activeTab = $this.attr('href');
-        $(activeTab).show();
-        return false;
-    });
 
 });
