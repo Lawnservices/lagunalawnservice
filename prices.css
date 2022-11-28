@@ -4,11 +4,27 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#principal {
+    background-color: #04aa6b;
+    color: #fff;
+}
+
 .icon {
     display: flex;
     margin-left: 180px;
     margin-top: 20px;
     width: 4%;
+}
+
+.icon img {
+    border-radius: 50%;
+    filter: brightness(60%);
+    transition: ease-in-out 1.4s;
+}
+
+.icon img:hover {
+    filter: brightness(100%);
+    transition: ease-in-out 1.4s;
 }
 
 .nombre {
@@ -90,5 +106,15 @@ span {
     .orario {
         margin-top: 10px;
         margin-left: 3%;
+    }
+    .orario img {
+        display: none;
+    }
+    #principal {
+        background-color: none;
+        color: #000;
+    }
+    .pie {
+        text-align: left;
     }
 }
