@@ -1,0 +1,36 @@
+ @media screen and (min-width:600px) and (max-width:800px) {
+     .title h1 {
+         color: #04aa6d;
+     }
+     .navbar {
+         width: 100%;
+         display: flex;
+         margin-left: 0;
+     }
+     /* .navbar .direcion {
+        display: ;
+    } */
+     .navbar .logo1 {
+         display: none;
+     }
+     .foto pre {
+         font-size: 1.4rem;
+     }
+     .informe h2 {
+         width: 100%;
+     }
+     #informacion {
+         height: 5260px;
+     }
+     #informacion .formato {
+         display: none;
+     }
+     #informacion .text {
+         display: block;
+     }
+     #informacion .text .text1,
+     span,
+     p {
+         width: 100%;
+     }
+ }

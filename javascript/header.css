@@ -1,0 +1,70 @@
+ * {
+     margin: 0;
+ }
+ 
+ .title {
+     margin: 0;
+     background-color: #0366d6;
+     height: 280px;
+     font-family: 'Courier New', Courier, monospace;
+     z-index: 100;
+ }
+ 
+ .title {
+     position: sticky;
+     position: -webkit-sticky;
+     top: -120px;
+ }
+ 
+ .title .foto img {
+     position: sticky;
+     top: -260px;
+     scroll-behavior: smooth;
+ }
+ 
+ .title .navbar {
+     position: sticky;
+     top: 0;
+ }
+ 
+ .nombre h1 {
+     color: #fff;
+     margin-left: 120px;
+     padding: 20px;
+ }
+ 
+ .navbar {
+     width: 40%;
+     margin-left: 36%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .navbar a {
+     margin-left: 26px;
+     text-decoration: none;
+     font-size: 1.6rem;
+     color: white;
+ }
+ 
+ .foto {
+     width: 200px;
+     height: 140px;
+     margin-left: 60px;
+     margin-bottom: 10px;
+     transition: all ease-in-out 1s;
+ }
+ 
+ .foto pre {
+     color: #fff;
+     font-size: 0.8rem;
+     margin-left: 60px;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0px;
+ }
+ 
+ .foto pre .tel {
+     text-decoration: none;
+     color: aliceblue;
+     font-size: 1.4rem;
+ }
