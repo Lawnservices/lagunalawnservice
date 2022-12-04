@@ -23,6 +23,7 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: #fff;
+    overflow-y: none;
 }
 
 #mls {
