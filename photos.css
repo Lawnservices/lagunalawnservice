@@ -2,6 +2,7 @@
             margin: 0;
             font-family: 'Courier New', Courier, monospace;
             background-color: #fff;
+            overflow-y: none;
         }
         
         .foto {
@@ -16,13 +17,8 @@
             height: 400px;
             margin-left: 10%;
             top: 0;
-            filter: brightness(80%);
             z-index: 100;
             border-left: 0.4cm;
-        }
-        
-        .foto img:hover {
-            filter: brightness(100%);
         }
         
         html {
@@ -71,6 +67,8 @@
         .orario {
             color: #04aa6d;
             font-size: 1.2rem;
+            display: none;
+            padding: 30px;
         }
         
         .precio {
@@ -94,6 +92,10 @@
             color: #154;
             border: 2px solid green;
             transition: all 2s ease-in-out;
+        }
+        
+        .btn {
+            margin-left: 30px;
         }
         
         h1 {
@@ -158,11 +160,6 @@
             height: 100%;
             object-fit: cover;
             border-radius: 0.2cm;
-            filter: brightness(60%);
-        }
-        
-        img:hover {
-            filter: brightness(100%);
         }
         
         .galeria__item:nth-child(1) {
