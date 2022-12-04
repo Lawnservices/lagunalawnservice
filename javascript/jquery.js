@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    $('#btn').click(function() {
-        $('#orario').slideToggle("slow");
+    $('.btn').click(function() {
+        $('.orario').slideToggle("slow");
     })
+
+
+
 });

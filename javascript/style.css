@@ -1,8 +1,8 @@
-#orario {
-    display: none;
-    padding: 20px;
+.orario {
+    color: #04aa6d;
     font-size: 1.2rem;
-    color: #000;
+    display: none;
+    padding: 30px;
 }
 
 
