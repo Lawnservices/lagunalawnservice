@@ -23,4 +23,8 @@ document.addEventListener('scroll', () => {
         colores.style.backgroundColor = '#04aa6d';
 
     }
-})
+});
+
+
+document.getElementById('nombre').style.color = '#0366d6';
+document.getElementById('nombre').style.fontFamily = 'verdana';
