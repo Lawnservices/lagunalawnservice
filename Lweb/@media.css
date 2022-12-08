@@ -6,6 +6,9 @@
          position: sticky;
          top: 0;
      }
+     .formato {
+         background-color: #fff;
+     }
      .navbar {
          width: 100%;
          display: flex;

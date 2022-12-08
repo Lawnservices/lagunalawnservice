@@ -2,7 +2,7 @@
      width: 80%;
      height: 3000px;
      margin-left: 2%;
-     background-color: #fff;
+     background: #fff;
  }
  
  .informe h2 {
@@ -21,13 +21,14 @@
  
  .text .text1 {
      width: 30%;
-     text-align: center;
+     text-align: justify;
      padding: 20px;
  }
  
  .text .text1 span {
-     margin-left: 20px;
-     font-family: cursive;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     color: #000;
  }
  
  .text .text1 p {
