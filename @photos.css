@@ -15,12 +15,26 @@
         top: 0;
         width: 100%;
     }
+    .titulo a img {
+        display: none;
+    }
     @media (min-width:300px) and (max-width:500px) {
         .nav #guarda {
             display: none;
         }
         .icon {
             display: none;
+        }
+        .titulo a img {
+            display: none;
+        }
+        li a {
+            display: inline-block;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
         }
     }
     .nav-link a {

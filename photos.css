@@ -14,29 +14,32 @@
             z-index: 1;
         }
         
+        #nombre::after {
+            content: "⛄";
+        }
+        
         .titulo {
             position: absolute;
-            bottom: 140px;
+            top: 30px;
             margin-left: 170px;
             z-index: 100;
             font-size: 1.4rem;
             color: #154256;
         }
         
-        .titulo a {
-            color: #fff;
-            text-decoration: none;
-            border-bottom: 2px solid #04aa6b;
+        .titulo a img {
+            width: 100px;
+            height: 100px;
+            image-rendering: auto;
+            background-repeat: no-repeat;
+            background-position: cover;
         }
         
         .foto img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             width: 80%;
-            height: 400px;
-            margin-left: 10%;
-            top: 0;
-            z-index: 100;
-            border-left: 0.4cm;
-            position: relative;
         }
         
         html {
@@ -50,36 +53,41 @@
             height: 40px;
         }
         
-        header {
-            overflow: hidden;
-            padding: 17px;
+        #header {
             position: sticky;
             top: 0;
-            z-index: 20;
-            background-color: #154256;
-            border-bottom: 3px solid #04aa6d;
-        }
-        
-        #header {
+            position: -webkit-sticky;
             z-index: 100;
         }
         
-        header a.active {
-            background-color: #04aa6d;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #04aa6b;
         }
         
-        header a {
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: inline-block;
+            padding: 14px 17px;
             text-decoration: none;
-            font-size: 1.4rem;
             color: #fff;
-            margin-left: 10px;
-            padding: 17px;
+            text-align: center;
+            font-size: 1.0rem;
         }
         
-        header a:hover {
-            transition: 2s;
-            background-color: #04aa6d;
-            color: #fff;
+        li .active {
+            background-color: #154;
+        }
+        
+        li a:hover {
+            background-color: #fff;
+            color: #0366d6;
         }
         
         .orario {
@@ -124,6 +132,60 @@
         
         #zxcv {
             color: #154256;
+        }
+        
+        .titulo1 {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .titulo h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: auto;
+        }
+        
+        .imagen2 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        
+        .imagen2 .saludo span {
+            display: none;
+            padding: 16px;
+        }
+        
+        .imagen2:hover span {
+            display: block;
+        }
+        
+        .imagen2 img {
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 160px;
+        }
+        
+        .saludo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        
+        .saludo span {
+            font-size: 1.4rem;
+            color: #0366d6;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 600px;
         }
         
         .pie {

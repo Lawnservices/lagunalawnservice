@@ -8,6 +8,12 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    overflow-x: none;
+    overflow-y: none;
+    scroll-behavior: smooth;
+}
+
 #maximo {
     max-width: 500px;
     margin: auto;
