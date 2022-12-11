@@ -105,6 +105,12 @@ span {
     cursor: pointer;
 }
 
+@media (max-width:500px) {
+    .prices a {
+        display: none;
+    }
+}
+
 @media print {
     #print {
         display: none;
@@ -132,6 +138,9 @@ span {
     ul,
     li,
     a {
+        display: none;
+    }
+    .prices a {
         display: none;
     }
 }

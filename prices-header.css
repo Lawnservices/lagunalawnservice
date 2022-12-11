@@ -1,3 +1,10 @@
+.btn {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -20,5 +27,13 @@ li a {
 }
 
 li a:hover {
+    background-color: #0366D6;
+}
+
+.prices {
+    float: right;
+}
+
+.prices a {
     background-color: #0366D6;
 }
