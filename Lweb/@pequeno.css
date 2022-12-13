@@ -1,4 +1,8 @@
 @media screen and (min-width:360px) and (max-width:500px) {
+    .title {
+        height: 100px;
+        width: 100%;
+    }
     .title h1 {
         display: none;
     }
@@ -11,9 +15,6 @@
     .navbar .direcion {
         display: none;
     }
-    .navbar .logo1 {
-        display: none;
-    }
     .foto pre {
         font-size: 1.4rem;
         margin-top: 20px;
@@ -24,7 +25,7 @@
         width: 100%;
     }
     #informacion {
-        height: 6000px;
+        height: 5200px;
     }
     #informacion .formato {
         display: none;
@@ -36,5 +37,9 @@
     span,
     p {
         width: 100%;
+    }
+    img {
+        width: 80%;
+        margin-right: 10%;
     }
 }
