@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* cuerpo */
+
+
+/* cuerpo final */
+
+.navbar {
+    background-color: #04aa6b;
+    overflow: hidden;
+    border-bottom: 3px solid #154;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px 10px;
+}
+
+.navbar ul a:hover {
+    background-color: #154;
+    color: #fff;
+}
+
+
+/* titulo */
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h2 {
+    color: #154;
+}
+
+.titulo h2 span a {
+    color: #04aa6b;
+}
+
+
+/* final */
+
+
+/* pie de pagina */
+
+.pie {
+    height: 160px;
+    background-color: #6cc091;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pie h1 {
+    color: #000;
+}
+
+.pie h1 span {
+    color: #fff;
+}
+
+.pie h4 {
+    color: #154;
+}
+
+
+/* final de pie de pigina */
+
+.list-1 {
+    margin-left: 10%;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.area {
+    color: #04aa6b;
+    text-align: center;
+}
+
+.pictura {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    display: flow-root;
+}
+
+.pictura img {
+    width: 30%;
+    height: 360px;
+    margin-top: 1%;
+    object-fit: cover;
+    margin-left: 10px;
+    border-radius: 0.2cm;
+}
+
+@media (min-width:360px) and (max-width:600px) {
+    .pictura img {
+        display: block;
+        width: 90%;
+        height: 360px;
+        margin-left: 5%;
+        margin-top: 10px;
+        border-radius: 0.4rem;
+    }
+    .pictura {
+        margin-top: 20px;
+        width: 94%;
+        margin-left: 2%;
+    }
+}
