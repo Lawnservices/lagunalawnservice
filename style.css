@@ -84,10 +84,18 @@ img {
     color: #fff;
 }
 
+#blanco span {
+    color: #0366d6;
+}
+
 #blanco:hover {
     background-color: #04aa6d;
-    color: #fff;
+    color: #0366d6;
     padding: 17.8px 20px;
+}
+
+#blanco:hover span {
+    color: #fff;
 }
 
 p {
