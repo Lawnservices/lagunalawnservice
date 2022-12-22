@@ -139,10 +139,11 @@ p {
 }
 
 .cta:hover {
+    content: '\00bb';
+    right: 10px;
     transition: 1s ease-in-out;
-    background-color: #fff;
-    color: #0366d6;
-    text-shadow: 2px 2px 2px #04aa6d;
+    background-image: linear-gradient(green, #0366b6);
+    color: #fff;
     letter-spacing: 0.1em;
 }
 
