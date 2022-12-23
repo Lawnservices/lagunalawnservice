@@ -1,18 +1,18 @@
  #arbol1 {
-     background-image: url(/img/arbol1.jpg);
+     background-image: url(/galeria/galeria1.jpg);
  }
  
  #arbol1:hover {
-     background-image: url(/img/arbol2.jpg);
+     background-image: url(/galeria/galeria10.jpg);
  }
  
  #mulch1 {
-     background-image: url(/img/mulch1.jpg);
+     background-image: url(/galeria/galeria11.jpg);
      transition: all 2s ease-in-out;
  }
  
  #mulch1:hover {
-     background-image: url(/img/mulch2.jpg);
+     background-image: url(/galeria/galeria12.jpg);
  }
  
  #mulch3 {
