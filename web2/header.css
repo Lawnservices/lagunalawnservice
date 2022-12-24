@@ -33,7 +33,8 @@ li a:hover {
 /* titulo */
 
 div.titulo {
-    width: 30%;
+    text-align: center;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -47,6 +48,16 @@ div.titulo span {
 
 
 /* orario */
+
+div.bisne {
+    color: #0366b6;
+}
+
+div.bisne .orario {
+    display: none;
+    overflow: hidden;
+    display: block;
+}
 
 .icon {
     border-radius: 6px;
