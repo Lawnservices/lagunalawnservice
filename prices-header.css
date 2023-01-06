@@ -9,7 +9,7 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    height: fit-content;
     background-color: #154;
 }
 
@@ -22,8 +22,9 @@ li a {
     color: aliceblue;
     font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 14px 17px;
+    padding: 16px 16px;
     text-decoration: none;
+    line-height: 50%;
 }
 
 li a:hover {
