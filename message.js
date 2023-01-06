@@ -10,4 +10,4 @@ function pagos(precio) {
     document.getElementById('precio').style.color = '#0366d6';
 }
 
-pagos('Merry Christmas');
+pagos('Shrub pruning if you hire our services');
