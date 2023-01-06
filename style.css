@@ -142,8 +142,8 @@ p {
     content: '\00bb';
     right: 10px;
     transition: 1s ease-in-out;
-    background-image: linear-gradient(green, #0366b6);
-    color: #fff;
+    background-color: rgba(116, 185, 120, 0.66);
+    color: #0366d6;
     letter-spacing: 0.1em;
 }
 
