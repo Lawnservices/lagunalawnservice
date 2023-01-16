@@ -123,6 +123,17 @@ span {
     opacity: 1;
 }
 
+
+/* mensaje */
+
+#mensaje {
+    font-size: 1.6rem;
+    color: #154;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #print {
     background-color: #0366d6;
     padding: 14px 17px;
@@ -235,6 +246,9 @@ span {
 
 @media (max-width:500px) {
     .prices a {
+        display: none;
+    }
+    #mensaje {
         display: none;
     }
 }
