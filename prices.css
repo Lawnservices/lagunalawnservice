@@ -31,6 +31,16 @@ body {
     text-align: center;
 }
 
+.nombre span {
+    color: #0366d6;
+}
+
+.nombre a {
+    text-decoration: none;
+    color: #04aa6b;
+    font-size: 1.4rem;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -62,6 +72,12 @@ tr:nth-child(even) {
 .pie h4 {
     color: #fff;
     padding: 14px;
+}
+
+.pie span {
+    display: block;
+    overflow: hidden;
+    display: none;
 }
 
 .tel {
@@ -233,6 +249,7 @@ span {
     .orario {
         margin-top: 10px;
         margin-left: 3%;
+        display: none;
     }
     .orario img {
         display: none;
@@ -244,6 +261,9 @@ span {
     .pie {
         text-align: left;
     }
+    .pie span {
+        display: block;
+    }
     img {
         display: none;
     }
@@ -254,5 +274,11 @@ span {
     }
     .prices a {
         display: none;
+    }
+    .nombre a {
+        color: #000;
+        display: block;
+        text-decoration: none;
+        border-bottom: none;
     }
 }
