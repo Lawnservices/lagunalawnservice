@@ -7,4 +7,12 @@ document.addEventListener('scroll', () => {
     } else {
         abajo.style.backgroundColor = 'rgb(123, 157, 145)';
     }
-})
+});
+
+function laguna() {
+    alert('This document is now being printed');
+}
+
+function lame() {
+    document.getElementById('mensage').innerHTML = 'please call for good services';
+}
