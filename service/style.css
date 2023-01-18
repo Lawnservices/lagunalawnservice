@@ -1,0 +1,177 @@
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #fff;
+        }
+        
+        html {
+            overflow-x: none;
+            overflow-y: none;
+            scroll-behavior: smooth;
+        }
+        
+        .list-1 img {
+            width: 40px;
+            height: 40px;
+        }
+        
+        header {
+            overflow: hidden;
+            padding: 17px;
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            background-color: #154256;
+            border-bottom: 3px solid #04aa6d;
+        }
+        
+        #header {
+            z-index: 100;
+        }
+        
+        header a.active {
+            background-color: #04aa6d;
+        }
+        
+        header a {
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: #fff;
+            margin-left: 16px;
+            padding: 17px;
+        }
+        
+        header a:hover {
+            transition: 2s;
+            background-color: #04aa6d;
+            color: #fff;
+        }
+        
+        .presente {
+            max-inline-size: 100%;
+            block-size: auto;
+            aspect-ratio: 2/1;
+            object-fit: contain;
+        }
+        
+        .orario {
+            color: #04aa6d;
+            font-size: 1.2rem;
+        }
+        
+        .precio {
+            margin-left: 17%;
+            font-size: 1.2rem;
+            color: #154;
+            font-weight: 800;
+        }
+        
+        .boton {
+            width: 160px;
+            background-color: #154;
+            color: #fff;
+            padding: 14px 17px;
+            border: none;
+            transition: all 2s ease-in-out;
+        }
+        
+        .boton:hover {
+            background-color: #fff;
+            color: #154;
+            border: 2px solid green;
+            transition: all 2s ease-in-out;
+        }
+        
+        h1 {
+            color: green;
+            text-align: center;
+            z-index: -1;
+        }
+        
+        #zxcv {
+            color: #154256;
+        }
+        
+        .pie {
+            width: 100%;
+            height: 160px;
+            text-align: center;
+            background-color: #154;
+            margin-top: 160px;
+        }
+        
+        .pie h2 {
+            padding: 10px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 800;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /*style galery*/
+        
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 260px;
+            padding: 20px;
+            grid-gap: 10px;
+        }
+        
+        .galeria__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0.2cm;
+        }
+        
+        .galeria__item:nth-child(1) {
+            grid-row-start: span 2;
+        }
+        
+        .galeria__item:nth-child(3) {
+            grid-row-start: span 2;
+        }
+        
+        .galeria__item:nth-child(6) {
+            grid-row-start: span 2;
+        }
+        
+        .galeria__item:nth-child(10) {
+            grid-row-start: span 2;
+        }
+        
+        @media (max-width:800px)and (min-width:375px) {
+            .galeria__item:nth-child(4) {
+                grid-column-start: span 2;
+            }
+            .galeria__item:nth-child(7) {
+                grid-column-start: span 2;
+            }
+            .galeria__item:nth-child(9) {
+                grid-column-start: span 2;
+            }
+            .galeria {
+                grid-auto-rows: 200px;
+            }
+            .galeria__item:nth-child(1) {
+                grid-column-start: span 2;
+            }
+            .galeria__item:nth-child(3) {
+                grid-row-start: span 1;
+            }
+            .galeria__item:nth-child(6) {
+                grid-row-start: span 1;
+            }
+            .galeria__item:nth-child(10) {
+                grid-row-start: span 2;
+            }
+            .presente .precio {
+                display: none;
+            }
+        }
