@@ -30,16 +30,8 @@ span {
     color: rgb(123, 157, 145);
 }
 
-a:hover span {
+a:hover {
     color: #fff;
-}
-
-a:hover .verde {
-    color: red;
-}
-
-a:hover .azul {
-    color: #0366d6;
 }
 
 h1 {
