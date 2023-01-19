@@ -42,6 +42,15 @@ li {
     float: left;
 }
 
+@media (max-width:500px) {
+    li:first-child {
+        display: none;
+    }
+    li {
+        float: right;
+    }
+}
+
 li a {
     color: aliceblue;
     padding: 16px 17px;
