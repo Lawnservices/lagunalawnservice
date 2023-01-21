@@ -285,7 +285,7 @@ p {
 /* una */
 
 #hero {
-    background-image: url(./img/casa-28.jpg);
+    background-image: url(https://lagunalawnservice.com/img/casa-28.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -393,7 +393,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/img/mantillo5.jpg);
+    background-image: url(https://lagunalawnservice.com/img/mantillo5.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
