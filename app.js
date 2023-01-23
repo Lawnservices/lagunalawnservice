@@ -39,7 +39,7 @@ function myFunction() {
 function laguna() {
     document.getElementById('blanco').style.color = 'blue';
     document.getElementById('blancoo').style.color = '#fff';
-    document.getElementById('mls').style.backgroundImage = 'https://lagunalawnservice.com/img/mls.jpg';
+    document.getElementById('mls').style.img = 'https://lagunalawnservice.com/img/mls.jpg';
 
 
 
