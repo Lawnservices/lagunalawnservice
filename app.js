@@ -42,4 +42,5 @@ function laguna() {
 
 function lagunass() {
     document.getElementById('blanco').style.color = '#fff';
+    alert('subscribe to our channel the YouTube');
 }
