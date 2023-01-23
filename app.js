@@ -40,6 +40,9 @@ function laguna() {
     document.getElementById('blanco').style.color = 'blue';
     document.getElementById('blancoo').style.color = '#fff';
     window.confirm('subscribe to our channel the YouTube');
+    if (window.confirm("gracias suscribete")) {
+        window.open("exit", "Thanks for Visiting!");
+    }
 
 
 }
