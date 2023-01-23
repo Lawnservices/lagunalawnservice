@@ -40,7 +40,7 @@ function laguna() {
     document.getElementById('blanco').style.color = 'blue';
 }
 
-function lagunass() {
+function lagunas() {
     document.getElementById('blanco').style.color = '#fff';
     alert('subscribe to our channel the YouTube');
 }
