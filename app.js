@@ -39,15 +39,8 @@ function myFunction() {
 function laguna() {
     document.getElementById('blanco').style.color = 'blue';
     document.getElementById('blancoo').style.color = '#fff';
-    // window.confirm('subscribe to our channel the YouTube');
-    // if (window.confirm("gracias suscribete")) {
-    //     window.open("https://lagunalawnservice.com/", "Thanks for Visiting!");
-    // }
+    document.getElementById('mls').style.backgroundImage = 'https://lagunalawnservice.com/img/mls.jpg';
+
 
 
 }
-
-// function lagunas() {
-//     document.getElementById('blanco').style.color = '#fff';
-//     alert('subscribe to our channel the YouTube');
-// }
