@@ -41,7 +41,7 @@ function laguna() {
     document.getElementById('blancoo').style.color = '#fff';
     window.confirm('subscribe to our channel the YouTube');
     if (window.confirm("gracias suscribete")) {
-        window.open("exit", "Thanks for Visiting!");
+        window.open("https://lagunalawnservice.com/", "Thanks for Visiting!");
     }
 
 
