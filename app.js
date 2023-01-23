@@ -36,6 +36,6 @@ function myFunction() {
     alert('This document is now being printed');
 }
 
-function laguna() {
+function laguna1() {
     document.getElementById('blanco').style.color = 'blue';
 }
