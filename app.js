@@ -42,7 +42,7 @@ function laguna() {
     document.getElementById('blancoo').style.color = '#fff';
 }
 
-function lagunas() {
-    document.getElementById('blanco').style.color = '#fff';
-    alert('subscribe to our channel the YouTube');
-}
+// function lagunas() {
+//     document.getElementById('blanco').style.color = '#fff';
+//     alert('subscribe to our channel the YouTube');
+// }
