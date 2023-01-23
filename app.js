@@ -38,8 +38,8 @@ function myFunction() {
 
 function laguna() {
     document.getElementById('blanco').style.color = 'blue';
-
     document.getElementById('blancoo').style.color = '#fff';
+    alert('subscribe to our channel the YouTube');
 }
 
 // function lagunas() {
