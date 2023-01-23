@@ -39,3 +39,7 @@ function myFunction() {
 function laguna() {
     document.getElementById('blanco').style.color = 'blue';
 }
+
+function lagunass() {
+    document.getElementById('blanco').style.color = '#fff';
+}
