@@ -35,3 +35,7 @@ document.addEventListener('scroll', () => {
 function myFunction() {
     alert('This document is now being printed');
 }
+
+function laguna() {
+    document.getElementById('blanco').style.color = 'blue';
+}
