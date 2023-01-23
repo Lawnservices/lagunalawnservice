@@ -38,6 +38,7 @@ function myFunction() {
 
 function laguna() {
     document.getElementById('blanco').style.color = 'blue';
+    document.getElementById('blanco').style.backgroundColor = '#fff';
 }
 
 function lagunas() {
