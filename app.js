@@ -40,7 +40,8 @@ function laguna() {
     document.getElementById('blanco').style.color = 'blue';
     document.getElementById('blancoo').style.color = '#fff';
     document.getElementById('blanco').innerHTML = 'Miguel 🍁';
+}
 
-
-
+function lagunas() {
+    document.getElementById('blanco').style.color = '#fff';
 }
