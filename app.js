@@ -44,5 +44,5 @@ function laguna() {
 
 function lagunas() {
     document.getElementById('blanco').style.color = '#fff';
-    document.getElementById('blanco').innerHTML = 'Laguna ❄';
+
 }
