@@ -44,5 +44,6 @@ function laguna() {
 
 function lagunas() {
     document.getElementById('blanco').style.color = '#fff';
+    document.getElementById('foto2').style.display = 'block';
 
 }

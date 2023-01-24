@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#foto2 {
+    display: none;
+}
+
 body {
     overflow-x: hidden;
 }
