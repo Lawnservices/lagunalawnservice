@@ -480,6 +480,13 @@ p {
     padding: 100px 0;
 }
 
+
+/* garden */
+
+#garden {
+    display: none;
+}
+
 #projects .projects-header h1 {
     margin-bottom: 50px;
 }
