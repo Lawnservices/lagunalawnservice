@@ -3,6 +3,7 @@
      top: 0;
      position: relative;
      z-index: 1;
+     background-image: linear-gradient(rgb(131, 205, 250), rgba(242, 249, 249, 0.956));
  }
  
  .foto img {
