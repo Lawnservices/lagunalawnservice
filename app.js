@@ -23,18 +23,21 @@ document.addEventListener('scroll', () => {
     if (scroll_position > 350) {
         header.style.backgroundColor = '#04aa6d';
         header.style.borderTop = '6px solid #34495e';
+        header.style.height = '80px';
+        if (scroll) {
+            header.style.height = '100px';
 
+
+        }
     } else {
         header.style.backgroundColor = '#34495e';
         header.style.borderTop = '6px solid #04aa6d';
-
-
+        header.style.height = '80px';
     }
+
 });
 
-function myFunction() {
-    alert('This document is now being printed');
-}
+
 
 function laguna() {
     document.getElementById('blanco').style.color = 'blue';
