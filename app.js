@@ -37,18 +37,18 @@ document.addEventListener('scroll', () => {
 
 });
 
-
-
-function laguna() {
-    document.getElementById('blanco').style.color = 'blue';
-    document.getElementById('blancoo').style.color = '#fff';
-    document.getElementById('blanco').innerHTML = 'Thanks 💕';
-}
-
 function lagunas() {
     document.getElementById('blanco').style.color = '#fff';
     document.getElementById('foto2').style.display = 'block';
     document.getElementById('mls').style.display = 'none';
 
+
+}
+
+function laguna() {
+    document.getElementById('blanco').style.color = 'blue';
+    document.getElementById('blancoo').style.color = '#fff';
+    document.getElementById('mls').style.display = 'block';
+    document.getElementById('foto2').style.display = 'none';
 
 }
