@@ -182,7 +182,6 @@ p {
     top: 0;
     width: 100vw;
     height: auto;
-    /* border-bottom: 3px solid #04aa6d; */
 }
 
 #header .header {
@@ -326,11 +325,10 @@ p {
 /* una */
 
 #hero {
-    background-image: url(img/casa-28.jpg);
+    background-image: url(https://lagunalawnservice.com/img/casa-28.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
-    /* background: rgb(0, 128, 0, 0.2); */
 }
 
 #hero::after {
