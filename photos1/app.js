@@ -28,15 +28,11 @@ document.addEventListener('scroll', () => {
 
 const mexi = document.getElementById('colores');
 document.addEventListener('scroll', () => {
-        var scroll_position = window.scrollY;
-        if (scroll_position > 250) {
-            colores.style.backgroundColor = '#154256';
-        } else {
-            colores.style.backgroundColor = '#04aa6d';
+    var scroll_position = window.scrollY;
+    if (scroll_position > 250) {
+        colores.style.backgroundColor = '#154256';
+    } else {
+        colores.style.backgroundColor = '#04aa6d';
 
-        }
-    })
-    // document.getElementById('mnb').addEventListener('click', function() {
-    //     this.style.marginLeft = '20%';
-    //     this.style.width = '60%';
-    // })
+    }
+})
