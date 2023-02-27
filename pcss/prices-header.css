@@ -41,6 +41,9 @@ li a:hover {
 
 .lanw {
     background: -webkit-linear-gradient(green, #0fcdf3);
+    background: -moz-linear-gradient(green, #0fcdf3);
+    background: -ms-linear-gradient(green, #0fcdf3);
+    background: -o-linear-gradient(green, #0fcdf3);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
