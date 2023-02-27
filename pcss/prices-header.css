@@ -38,3 +38,10 @@ li a:hover {
 .prices a {
     background-color: #0366D6;
 }
+
+.lanw {
+    background: -webkit-linear-gradient(green, #0fcdf3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
