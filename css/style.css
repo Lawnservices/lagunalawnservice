@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #fff;
+    overflow-y: none;
+}
+
+html {
+    overflow-x: none;
+    overflow-y: none;
+    scroll-behavior: smooth;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
 #foto2 {
     display: none;
     width: 60px;
@@ -11,16 +30,6 @@
     margin-left: 0px;
     border-radius: 0.2cm;
     margin-top: 1px;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-html {
-    overflow-x: none;
-    overflow-y: none;
-    scroll-behavior: smooth;
 }
 
 #maximo {
@@ -44,28 +53,12 @@ html {
     height: 40px;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    background-color: #fff;
-    overflow-y: none;
-}
-
 #mls {
     width: 60px;
     height: 60px;
     margin-left: 0px;
     border-radius: 0.2cm;
     margin-top: 1px;
-}
-
-html {
-    font-size: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    scroll-behavior: smooth;
 }
 
 a {
@@ -136,24 +129,27 @@ p {
 .cta {
     display: inline-block;
     padding: 10px 10px;
-    color: #fff;
+    color: green;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-top: 30px;
     border-radius: 0.2cm;
     transition: 1s ease-in-out;
-    background-color: #04aa6d;
     font-family: Arial, serif, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(top, rgb(140, 226, 140) 60%, white);
+    background: -moz-linear-gradient(top, rgb(140, 226, 140) 60%, white);
+    background: -ms-linear-gradient(top, rgb(140, 226, 140) 60%, white);
+    background: -o-linear-gradient(top, rgb(140, 226, 140) 60%, white);
 }
 
 .cta:hover {
     content: '\00bb';
-    right: 10px;
     transition: 1s ease-in-out;
-    background-color: rgba(116, 185, 120, 0.66);
-    color: #0366d6;
+    background-color: rgba(116, 185, 120, 0.4);
+    color: #000;
     letter-spacing: 0.1em;
+    box-shadow: 0px 8px 0px 0px rgba(18, 68, 5, 0.9);
 }
 
 

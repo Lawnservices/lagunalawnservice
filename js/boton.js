@@ -6,7 +6,7 @@ setTimeout(function() {
 
 function setColor() {
     var pagina = document.body;
-    pagina.style.backgroundColor = pagina.style.backgroundColor == "#fff" ? "green" : "#B5D8F0";
+    pagina.style.backgroundColor = pagina.style.backgroundColor == "#fff" ? "green" : "rgba(156,240,164,0.2)";
 
 }
 
