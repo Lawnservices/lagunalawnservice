@@ -5,7 +5,12 @@
     },
     {
         "id": 2,
-        "nombre": "patricia laguna",
+        "nombre": "Patricia laguna",
+        "telefono": "30189867"
+    },
+    {
+        "id": 3,
+        "nombre": "Angel",
         "telefono": "30189867"
     }
 ]
