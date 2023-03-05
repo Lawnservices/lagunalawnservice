@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(rgb(172, 212, 172), #fff);
 }
 
 #principal {
