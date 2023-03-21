@@ -3,17 +3,15 @@ const lagunes = document.getElementById('header');
 document.addEventListener('scroll', () => {
     var scroll_position = window.scrollY;
     if (scroll_position > 250) {
-        header.style.backgroundColor = '#0366b6';
+        header.style.borderBottom = '4px solid #154';
+
 
     } else {
-        header.style.backgroundColor = ' #04aa6b';
-
+        header.style.borderBottom = '0';
     }
 });
 
-function myFunction() {
-    alert('This document is now being printed');
-}
+
 
 function laguna() {
     document.getElementById('nombre').style.color = '#0366d6';
