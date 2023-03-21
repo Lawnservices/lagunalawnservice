@@ -1,5 +1,6 @@
 function showMessage(message) {
     document.getElementById('message').textContent = message;
+    document.getElementById('message').style.color = '#04aa6b';
 }
 
 showMessage("Call For Services:\n");
