@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(rgb(172, 212, 172), #fff);
+    background: linear-gradient(rgb(209, 232, 209), #fff);
 }
 
 #principal {
@@ -48,6 +48,13 @@ body {
 
 table {
     border-collapse: collapse;
+}
+
+.titulo {
+    color: #154;
+    font-size: 1.2rem;
+    text-align: start;
+    padding: 6px;
 }
 
 table,

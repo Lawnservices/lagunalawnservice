@@ -3,7 +3,6 @@
             font-family: 'Courier New', Courier, monospace;
             background-color: #fff;
             overflow-y: none;
-            scroll-behavior: smooth;
         }
         
         #nombre::after {
@@ -13,7 +12,6 @@
         html {
             overflow-x: none;
             overflow-y: none;
-            scroll-behavior: smooth;
         }
         
         .list-1 img {
@@ -27,12 +25,12 @@
             display: none;
             padding: 6px;
             background-color: #f6f6f6;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
             max-width: 300px;
-            margin-left: 40px;
+            margin-left: 30px;
             height: fit-content;
             margin-top: 10px;
             border-radius: 0.4rem;
+            position: absolute;
         }
         
         .precio::first-letter {
@@ -87,55 +85,8 @@
             width: 100%;
         }
         
-        .titulo h2 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: auto;
-        }
-        
-        .imagen2 {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 80%;
-        }
-        
-        .imagen2 .saludo span {
-            display: none;
-            padding: 16px;
-        }
-        
-        .imagen2:hover span {
-            display: block;
-        }
-        
-        .imagen2 img {
-            width: 80%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 160px;
-        }
-        
-        .imagen2 img:hover {
-            width: 80%;
-            height: 260px;
-            box-shadow: 0px 8px 16px 0px rgba(47, 142, 16, 0.4);
-        }
-        
-        .saludo {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 80%;
-        }
-        
-        .saludo span {
-            font-size: 1.4rem;
-            color: #0366d6;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 600px;
+        .titulo1 h2 {
+            color: #04aa6d;
         }
         
         .pie {
