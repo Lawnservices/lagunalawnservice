@@ -74,6 +74,7 @@
         
         #zxcv {
             color: #154256;
+            z-index: 1;
         }
         
         .titulo1 {

@@ -1,18 +1,3 @@
-const lagunes = document.getElementById('header');
-
-document.addEventListener('scroll', () => {
-    var scroll_position = window.scrollY;
-    if (scroll_position > 250) {
-        header.style.borderBottom = '4px solid #154';
-
-
-    } else {
-        header.style.borderBottom = '0';
-    }
-});
-
-
-
 function laguna() {
     document.getElementById('nombre').style.color = '#0366d6';
     document.getElementById('calor').style.color = '#04aa6b';
