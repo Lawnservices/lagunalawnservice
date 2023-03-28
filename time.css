@@ -1,7 +1,11 @@
 div.time {
     width: 600px;
+    height: 80px;
+    margin-top: 20px;
     background-color: antiquewhite;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 0.2cm;
+    border-bottom-right-radius: 0.2cm;
 }
 
 div.time span {
