@@ -243,4 +243,8 @@ span {
     #mensaje {
         display: none;
     }
+    .titulos h3 {
+        font-size: 16px;
+        color: blue;
+    }
 }

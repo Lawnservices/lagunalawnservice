@@ -1,0 +1,17 @@
+.titulos {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f6f6;
+    border-top-right-radius: 0.2cm;
+    border-top-left-radius: 0.2cm;
+    border-top: 3px solid #04dd6b;
+}
+
+.titulos h3 {
+    color: #299684;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
