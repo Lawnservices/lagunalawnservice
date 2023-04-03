@@ -6,6 +6,7 @@ body{
 position: sticky;
 position: -webkit-sticky;
 top: 0;
+z-index: 10;
 }
 .navbar ul{
 background-color: #299684;
@@ -233,6 +234,9 @@ h4 {
 #informe {
     color: seagreen;
 }
+#mas:hover{
+    border-bottom: none;
+}
 
 .llamadas:hover {
     box-shadow: 0px 0px 6px 0px #0000002c;
@@ -271,19 +275,24 @@ span {
 
 .ndt {
     width: 100%;
-    height: 100px;
-    margin-top: 100px;
+    padding: 0;
+    margin: 0;
+    height:fit-content;
+  
+    
     text-align: center;
-    text-size-adjust: 24px;
+    
+    background-color:  rgba(99, 96, 96, 0.4);
+    z-index: 1;
 }
 
 .ndt h1 {
-    color: #60A5A5;
+    color: #fff;
     text-transform: capitalize;
 }
 
 .ndt .dtn {
-    color: seagreen;
+    color:  #fff;
 }
 
 .mnb {
@@ -299,14 +308,7 @@ span {
 }
 
 .foto {
-    margin-top: 140px;
-    width: 100%;    
-    height: 400px;
-    background-image: url("/img/casa-28.jpg");
-    background-attachment: fixed;
-    background-size: 50%;
-    padding-top: 10%;
-    background-size: cover;
+background-image: url("/img/casa-28.jpg");
 }
 
 .gry {
