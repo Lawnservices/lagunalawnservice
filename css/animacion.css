@@ -1,40 +1,18 @@
 body {
     padding: 0;
     margin: 0;
-    background: -webkit-linear-gradient(green, #fff);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+   
+    
     animation: infinite ease-in-out 6s;
     animation-name: lagun;
 }
 
-@keyframes lagun {
-    from {
-        width: 200px;
-        height: 200px;
-        background: -webkit-radial-gradient(rgb(81, 171, 196), rgb(13, 31, 42));
-    }
-    to {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-#ani {
-    padding: 16px 16px;
-    background-color: blue;
-    color: #fff;
-    border: 0;
-    margin: 20px 30px;
-    border-radius: 0.4rem;
-}
 
 #bolo {
-    width: 500px;
-    height: 500px;
+    width: 50px;
+    height: 50px;
     background: -webkit-radial-gradient(rgb(0, 255, 8), rgb(0, 251, 255));
-    border-radius: 50%;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -44,8 +22,8 @@ body {
 
 @keyframes lagunus {
     from {
-        width: 200px;
-        height: 200px;
+        width: 600px;
+        height: 600px;
         background: -webkit-radial-gradient(rgb(128, 122, 118), rgb(169, 229, 48));
     }
     to {
@@ -54,95 +32,3 @@ body {
     }
 }
 
-#bolo2 {
-    width: 500px;
-    height: 500px;
-    background: -webkit-radial-gradient(rgb(240, 138, 138), rgb(25, 25, 211));
-    border-radius: 50%;
-    margin-top: 200px;
-    margin-left: 120px;
-    animation: infinite 6s;
-    animation-name: lagunas;
-}
-
-@keyframes lagunas {
-    from {
-        width: 200px;
-        height: 200px;
-        background: -webkit-radial-gradient(rgb(255, 111, 0), rgb(159, 38, 168));
-    }
-    to {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-#bolo3 {
-    width: 300px;
-    height: 300px;
-    background: -webkit-radial-gradient(rgb(255, 111, 0), rgb(159, 38, 168));
-    border-radius: 50%;
-    float: right;
-    margin-right: 100px;
-    margin-top: -600px;
-    animation: infinite 6s ease-in-out;
-    animation-name: laguna;
-}
-
-@keyframes laguna {
-    from {
-        width: 300px;
-        height: 300px;
-    }
-    to {
-        width: 200px;
-        height: 200px;
-        background: -webkit-radial-gradient(rgb(240, 138, 138), rgb(25, 25, 211));
-    }
-}
-
-#bolo4 {
-    width: 400px;
-    height: 400px;
-    background: -webkit-radial-gradient(rgb(221, 54, 17), rgb(255, 217, 0));
-    border-radius: 10%;
-    animation: infinite 6s;
-    animation-name: lagunus;
-    margin-left: 800px;
-    margin-top: -300px;
-}
-
-@keyframes lagunus {
-    from {
-        width: 300px;
-        height: 300px;
-    }
-    to {
-        width: 200px;
-        height: 200px;
-        background: -webkit-radial-gradient(rgb(219, 23, 23), rgb(43, 43, 44));
-    }
-}
-
-#bolo5 {
-    width: 400px;
-    height: 400px;
-    background: -webkit-radial-gradient(rgb(221, 54, 17), rgb(0, 30, 255));
-    border-radius: 10%;
-    animation: infinite 6s;
-    animation-name: lagunusa;
-    margin-left: 1200px;
-    margin-top: -400px;
-}
-
-@keyframes lagunusa {
-    from {
-        width: 300px;
-        height: 300px;
-    }
-    to {
-        width: 200px;
-        height: 100px;
-        background: -webkit-radial-gradient(rgb(56, 219, 23), rgb(50, 73, 70));
-    }
-}
