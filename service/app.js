@@ -18,7 +18,8 @@ document.addEventListener('scroll', () => {
     var scroll_position = window.scrollY;
     if (scroll_position > 250) {
         mnb.style.width = '80%';
-        mnb.style.transition = '2s '
+        mnb.style.transition = '2s';
+        mnd.style.borderRadius = '0.6rem';
 
     } else {
         mnb.style.width = '100%';
