@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(rgb(209, 232, 209), #fff);
+   
 }
 
 #principal {
@@ -55,6 +55,7 @@ table {
     font-size: 1.2rem;
     text-align: start;
     padding: 6px;
+    
 }
 
 table,
@@ -76,15 +77,26 @@ tr:nth-child(even) {
 }
 
 .pie {
-    margin-top: 160px;
+    width: 100%;
+    height: 160px;
+    position: relative;
+    margin-top: 200px;
     text-align: center;
     height: 160px;
-    background-color: #04aa6b;
+    background-image: url(https://lagunalawnservice.com/img/galeria11.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pie h4 {
     color: #fff;
     padding: 14px;
+    background-color:rgba(0, 0, 0, 0.5);
+      width: 100%;
+    height: 160px;
+    
+    
 }
 
 .pie span {

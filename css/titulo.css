@@ -3,12 +3,15 @@
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #299684;
+     background-image: url(https://lagunalawnservice.com/img/galeria11.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top: 3px solid #04dd6b;
 }
 
 .titulos h3 {
-    color: #036;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
