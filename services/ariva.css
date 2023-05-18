@@ -1,0 +1,25 @@
+.ariva{
+  width: 100%;
+  height: 100px;
+  
+  text-align: center;
+  margin-top: 140px;
+   
+}
+.ariva div{
+  background-color:#fff;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90px;
+  border: 3px solid #299684;
+}
+.ariva a{
+  position: relative;
+  color: #299684; 
+  text-decoration: none;
+  font-size: 1.6rem;
+   display: block;
+   padding: 16px 16px;
+}
+ 
