@@ -129,29 +129,35 @@ p {
 .cta {
     display: inline-block;
     padding: 10px 10px;
-    color: green;
-    font-size: 1rem;
+    color:#fff;
+    font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-top: 30px;
     border-radius: 0.2cm;
     transition: 1s ease-in-out;
     font-family: Arial, serif, Helvetica, sans-serif;
-    background: -webkit-linear-gradient(top, rgb(140, 226, 140) 60%, white);
-    background: -moz-linear-gradient(top, rgb(140, 226, 140) 60%, white);
-    background: -ms-linear-gradient(top, rgb(140, 226, 140) 60%, white);
-    background: -o-linear-gradient(top, rgb(140, 226, 140) 60%, white);
+    position: relative;
+    text-align: center;
+     
 }
-
-.cta:hover {
-    content: '\00bb';
-    transition: 1s ease-in-out;
-    background-color: rgba(116, 185, 120, 0.4);
-    color: #000;
-    letter-spacing: 0.1em;
-    box-shadow: 0px 8px 0px 0px rgba(18, 68, 5, 0.9);
+.cta::after{
+  content: "";
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 0;
+    height: 6px;
+    background-color: rgba(12, 49, 83);
+    transition: width 0.3s, left 0.3s;
+    /* Transición suave */   
 }
-
+.cta:hover::after {
+    width: 100%;
+    left: 0;
+     
+}
+ 
 
 /* class cta */
 
