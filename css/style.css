@@ -83,22 +83,31 @@ img {
 }
 
 #blanco {
-    color: #fff;
+    width: ;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
 }
 
-#blanco span {
-    color: #0366d6;
+#blanco::before  {
+       content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgb(138, 230, 63), rgb(27, 161, 132));
+    transition: transform 0.3s;
+    z-index: -1;
 }
 
-#blanco:hover {
-    background-color: #04aa6d;
-    color: #0366d6;
-    padding: 17.8px 20px;
+#blanco:hover::before {
+    transform: translateX(100%);
 }
 
-#blanco:hover span {
-    color: #fff;
-}
+ 
 
 p {
     color: black;
