@@ -159,6 +159,7 @@ p {
     height: 6px;
     background-color: rgba(12, 49, 83);
     transition: width 0.3s, left 0.3s;
+    border-radius: 0.4rem;
     /* Transición suave */   
 }
 .cta:hover::after {
