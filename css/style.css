@@ -244,11 +244,11 @@ p {
     display: block;
 }
 
-#header .nav-list ul a:hover {
+ #header .nav-list ul a:hover {
    
     color: #fff;
     padding: 21px 20px;
-}
+} 
 
 #header .nav-list ul a::after {
     content: attr(data-after);
