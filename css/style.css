@@ -151,7 +151,7 @@ p {
      
 }
 .cta::after{
-  content: "";
+    content: "";
     position: absolute;
     bottom: 0;
     left: 100%;
@@ -245,7 +245,7 @@ p {
 }
 
 #header .nav-list ul a:hover {
-    background-color: #04aa6d;
+   
     color: #fff;
     padding: 21px 20px;
 }
