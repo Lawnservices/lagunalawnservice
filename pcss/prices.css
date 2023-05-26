@@ -156,7 +156,13 @@ span {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* mass */
+.mass p{
+color: #04aa6b;
+font-size: 1.4rem;
+letter-spacing: 1.2px;
+text-align: center;
+}
 
 /* WHA */
 
