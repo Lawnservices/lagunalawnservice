@@ -22,7 +22,7 @@
 }
 
 .down .down-content {
-    width: fit-content;
+    width:auto;
     background-color: #f6f6f6;
     padding: 16px 16px;
     display: none;

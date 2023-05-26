@@ -65,7 +65,7 @@
     .caja {
         margin-left: 14%;
         width: 60%;
-        height: fit-content;
+        height:auto;
         display: flex;
         margin-left: 10px;
         margin-top: 16px;
@@ -239,18 +239,18 @@
         width: 80%;
     }
     body {
-        width: fit-content;
+        width:auto;
     }
     ul {
         width: 80%;
     }
     #verde_v {
-        width: fit-content;
+        width:auto;
     }
     .caja {
         width: 36%;
         float: left;
-        height: fit-content;
+        height:auto;
     }
     .pregunte {
         margin-top: 800px;
@@ -278,7 +278,7 @@
     }
     .caja {
         width: 80%;
-        height: fit-content;
+        height:auto;
         display: flex;
         margin-top: 16px
     }
