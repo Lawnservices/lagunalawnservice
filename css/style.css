@@ -332,7 +332,19 @@ p {
 
 
 /* cavesa */
+        /* scroll */
+        
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-thumb {
+    background-color:#55e09a; 
+   height:140px; 
+}
 
+        /* final */
+        /* Para el track (rastro) de la barra de desplazamiento */
+ 
 
 /* una */
 
