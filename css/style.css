@@ -83,7 +83,7 @@ img {
 }
 
 #blanco {
-    width: ;
+    width:"";
     position: relative;
     display: block;
     overflow: hidden;
