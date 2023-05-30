@@ -81,8 +81,8 @@ img {
     width: 100%;
     margin-bottom: cover;
 }
-
-#blanco {
+/* animacion  */
+#uno {
     width:"";
     position: relative;
     display: block;
@@ -90,23 +90,124 @@ img {
     z-index: 1;
     padding: 16px 16px;
 }
-
-#blanco::before  {
+ 
+#uno::before  {
        content: "";
     position: absolute;
     top: 0;
     right: 100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, rgb(138, 230, 63), rgb(27, 161, 132));
+    background: rgb(27, 161, 132);
     transition: transform 0.3s;
     z-index: -1;
 }
 
-#blanco:hover::before {
+#uno:hover::before {
     transform: translateX(100%);
 }
 
+#dos {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+}
+ 
+#dos::before  {
+       content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 161, 132);
+    transition: transform 0.3s;
+    z-index: -1;
+}
+
+#dos:hover::before {
+    transform: translateX(100%);
+}
+
+ #tres {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+}
+ 
+#tres::before  {
+       content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 161, 132);
+    transition: transform 0.3s;
+    z-index: -1;
+}
+
+#tres:hover::before {
+    transform: translateX(100%);
+}
+
+#cuatro {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+}
+ 
+#cuatro::before  {
+       content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 161, 132);
+    transition: transform 0.3s;
+    z-index: -1;
+}
+
+#cuatro:hover::before {
+    transform: translateX(100%);
+}
+#cinco {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+}
+ 
+#cinco::before  {
+       content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 161, 132);
+    transition: transform 0.3s;
+    z-index: -1;
+}
+
+#cinco:hover::before {
+    transform: translateX(100%);
+}
+
+ 
+  
  
 
 p {
@@ -375,7 +476,7 @@ p {
     justify-content: flex-start;
 }
 
-#hero h1 {
+#hero h2 {
     display: block;
     width:100%;
     font-size: 4rem;
@@ -383,26 +484,27 @@ p {
     color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1s;
+     
 }
 
-#hero h1:nth-child(1) {
+#hero h2:nth-child(1) {
     animation-delay: 1s;
 }
 
-#hero h1:nth-child(2) {
+#hero h2:nth-child(2) {
     animation-delay: 2s;
 }
 
-#hero h1:nth-child(3) {
+#hero h2:nth-child(3) {
     animation-delay: 3s;
 }
 
-#hero h1:nth-child(4) {
+#hero h2:nth-child(4) {
     animation: text_reveal_name .5s ease forwards;
     animation-delay: 4s;
 }
 
-#hero h1 span {
+#hero h2 span {
     position: absolute;
     top: 0;
     left: 0;
@@ -413,19 +515,19 @@ p {
     animation-delay: .5s;
 }
 
-#hero h1:nth-child(1) span {
+#hero h2:nth-child(1) span {
     animation-delay: .5s;
 }
 
-#hero h1:nth-child(2) span {
+#hero h2:nth-child(2) span {
     animation-delay: 1.5s;
 }
 
-#hero h1:nth-child(3) span {
+#hero h2:nth-child(3) span {
     animation-delay: 2.5s;
 }
 
-#hero h1:nth-child(4) span {
+#hero h2:nth-child(4) span {
     animation-delay: 3s;
 }
 
