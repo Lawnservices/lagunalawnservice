@@ -14,13 +14,4 @@ function pagos(precio) {
 pagos('Time to replace the old mulch call us for the special');
 
 
-// 0000
-// if('geolocation' in navigator){
-
-// } else{}
-// navigator.geolocation.getCurrentPosition(function(position){
-// var latitude = position.latitude;
-// var longitude = position.coords.longitude;
-// }), function(error){
-
-// };
+ 
