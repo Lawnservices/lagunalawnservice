@@ -21,6 +21,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="./maps.css">
     <title>Gallery</title>
 </head>
 
@@ -68,6 +69,10 @@
 
         </pre>
     </section>
+    <div class="lugares">
+        <p>we provide our services in these areas.</p>
+    </div>
+    <div id="map"></div>
 
     <section class="main">
         <div id="galeria" class="galeria">
@@ -164,6 +169,10 @@
 <script src="./js/photos.js"></script>
 <script src="./js/scroll.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBg_nmx21EOtcojM28f0Ia38IyF_12ptsI&callback=initMap">
+    </script>
+<script src="script.js"></script>
 <script>
     AOS.init({
         duration: 1500,
