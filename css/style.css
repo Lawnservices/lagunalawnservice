@@ -936,6 +936,12 @@ h1 {
 /* media query */
 
 @media only screen and (min-width:768px) {
+    div.time{
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .mensaje{
         width: 100%;
         height: 160px;
