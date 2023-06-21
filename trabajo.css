@@ -1,0 +1,14 @@
+.trabajo{
+  background-color: rgb(38, 136, 234);
+  margin-top: 140px;
+  height: 120px;
+  text-align: center;
+}
+.trabajo b{
+  color: #fff;
+}
+.trabajo p{
+  font-size: 1.4rem;
+  padding: 10px 10px;
+  color: #000;
+}
