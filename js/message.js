@@ -3,7 +3,7 @@ function showMessage(message) {
     document.getElementById('message').style.color = '#04aa6b';
 }
 
-showMessage("Call For Services:\n");
+showMessage("Call For good price:\n");
 
 function pagos(precio) {
     document.getElementById('precio').textContent = precio;
