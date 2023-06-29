@@ -37,15 +37,18 @@
   height: 40px;
   background-color: #f2eaec;
 overflow: hidden;
+border-right: 6px solid green;
+  border-bottom: 4px solid green;
 }
 .mnb p{
   margin-left: 10px;
   padding: 8px 8px;
-  color: green;
+  color:#299684;
   text-transform: capitalize;
   box-shadow:0px 0px 2px 16px #c90b4d;
-  border-right: 10px solid green;
+   
   font-weight: bold;
+ 
 }
 @media (min-width:360px) and (max-width:600px){
   .zxc{
