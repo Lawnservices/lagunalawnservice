@@ -1,0 +1,45 @@
+.poi{
+  width: 100%;
+  height: auto;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.poi h1{
+  font-size: 4rem;
+  color: rgb(85, 182, 85);
+}
+.poi p{
+  font-size: 1.6rem;
+  color: #e93232;
+}
+.iop{
+  text-align: center;
+  margin-top: 60px;
+}
+.iop a{
+  font-size: 1.8rem;
+  padding: 16px 16px;
+  color: #04aa6d;
+  font-weight: bold;
+  border-radius: 0.4rem;
+   
+}
+.iop a:hover{
+  background-color: #e93232;
+  color: #fff;
+  transition: 0.3s;
+}
+.iop #get{
+  background-color: #e93232;
+  color: #fff;
+  border-radius: 0.4rem;
+}
+.iop #get:hover{
+  background-color: #04aa6d;
+  transition: 0.3s;
+}
+.iop a img{
+  width: 30px;
+  height: 30px;
+}
+ 
