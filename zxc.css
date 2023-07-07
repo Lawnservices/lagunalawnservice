@@ -59,7 +59,7 @@ border-right: 6px solid green;
   padding: 8px 8px;
   color:#299684;
   text-transform: capitalize;
-  box-shadow:0px 0px 2px 16px #c90b4d;
+  box-shadow:0px 0px 2px 16px #226c8e;
    
   font-weight: bold;
  
@@ -80,6 +80,14 @@ border-right: 6px solid green;
 .pie span{
   color: green;
    
+}
+.hero p{
+  text-align: center;
+  color: #fff;
+  border-radius: 0.4rem;
+  padding: 10px 10px;
+  font-size: 1.6rem;
+  background-color: #299684;
 }
 @media (min-width:360px) and (max-width:600px){
   .zxc{

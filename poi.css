@@ -10,7 +10,9 @@
 }
 .poi p{
   font-size: 1.6rem;
-  color: #e93232;
+  color: #226c8e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: weight 600px;
 }
 .iop{
   text-align: center;
