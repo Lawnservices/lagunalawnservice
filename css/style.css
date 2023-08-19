@@ -93,13 +93,13 @@ img {
 }
  
 #uno::before  {
-       content: "";
+    content: "";
     position: absolute;
     top: 0;
     right: 100%;
     width: 100%;
     height: 100%;
-    background:#f71c47;
+    background:#f05a7b;
     transition: transform 0.3s;
     z-index: -1;
     border-radius: 0.4rem;
@@ -107,8 +107,12 @@ img {
 
 #uno:hover::before {
     transform: translateX(100%);
+    
 }
-
+#uno:hover{
+    color: #404643;
+    transition: all 0.3s;
+}
 #dos {
     width:"";
     position: relative;
