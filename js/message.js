@@ -4,7 +4,7 @@ function showMessage(message) {
     document.getElementById('message').style.fontSize = '1.5rem';
 }
 
-showMessage("Call for good price:\n");
+showMessage("Call for good prices:\n");
 
 function pagos(precio) {
     document.getElementById('precio').textContent = precio;
