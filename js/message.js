@@ -1,9 +1,10 @@
 function showMessage(message) {
     document.getElementById('message').textContent = message;
-    document.getElementById('message').style.color = '#04aa6b';
+    document.getElementById('message').style.color = '#0366b6';
+    document.getElementById('message').style.fontSize = '1.5rem';
 }
 
-showMessage("Call For good price:\n");
+showMessage("Call for good price:\n");
 
 function pagos(precio) {
     document.getElementById('precio').textContent = precio;
