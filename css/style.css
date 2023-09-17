@@ -83,6 +83,10 @@ img {
 }
 /* animacion  */
 #uno {
+    font-size: 26px;
+    color: #fff;
+}
+#uno {
     width:"";
     position: relative;
     display: block;
@@ -99,7 +103,7 @@ img {
     right: 100%;
     width: 100%;
     height: 100%;
-    background:#f05a7b;
+    background:#5af0bb;
     transition: transform 0.3s;
     z-index: -1;
     border-radius: 0.4rem;
