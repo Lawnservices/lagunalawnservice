@@ -156,7 +156,7 @@ img {
 }
  
 #tres::before  {
-       content: "";
+    content: "";
     position: absolute;
     top: 0;
     right: 100%;
@@ -183,7 +183,7 @@ img {
 }
  
 #cuatro::before  {
-       content: "";
+    content: "";
     position: absolute;
     top: 0;
     right: 100%;
@@ -209,7 +209,7 @@ img {
 }
  
 #cinco::before  {
-       content: "";
+    content: "";
     position: absolute;
     top: 0;
     right: 100%;
@@ -447,8 +447,7 @@ p {
    height:140px; 
 }
 
-        /* final */
-        /* Para el track (rastro) de la barra de desplazamiento */
+       
  
 
 /* una */
@@ -945,13 +944,7 @@ h1 {
         margin-left: auto;
         margin-right: auto;
     }
-    .mensaje{
-        width: 100%;
-        height: 160px;
-    }
-    .mensaje p{
-        font-size: 16px;
-    }
+    
     .cta {
         font-size: 2.5rem;
         padding: 20px 60px;
