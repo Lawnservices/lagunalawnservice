@@ -8,6 +8,14 @@
   font-size: 4rem;
   color: rgb(85, 182, 85);
 }
+@media (min-width:300px) and (max-width:500px){
+  .poi h1{
+    font-size: 18px;
+  }
+  .section-title{
+    font-size: 20px;
+  }
+}
 .poi p{
   font-size: 1.6rem;
   color: #226c8e;
