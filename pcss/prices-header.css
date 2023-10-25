@@ -16,7 +16,9 @@ ul {
 li {
     float: left;
 }
-
+a{
+    padding: 16px 16px;
+}
 li a {
     display: block;
     color: aliceblue;

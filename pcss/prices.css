@@ -57,7 +57,9 @@ table {
     padding: 6px;
     
 }
-
+.titulos{
+    background-color: #333;
+}
 table,
 th,
 td {
