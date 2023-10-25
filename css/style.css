@@ -96,27 +96,6 @@ img {
      border-radius: 0.4rem;
 }
  
-#uno::before  {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 100%;
-    width: 100%;
-    height: 100%;
-    background:#5af0bb;
-    transition: transform 0.3s;
-    z-index: -1;
-    border-radius: 0.4rem;
-}
-
-#uno:hover::before {
-    transform: translateX(100%);
-    
-}
-#uno:hover{
-    color: #404643;
-    transition: all 0.3s;
-}
 #dos {
     width:"";
     position: relative;
