@@ -180,3 +180,13 @@ html{
   background-color: #04aa6d;
   transition: all 1s;
 }
+/*pie fotos*/
+.pie{
+  background-color: #556660;
+  text-align: center;
+  width: 100%;
+  height: 160px;
+}
+.pie h2{
+  padding: 30px 30px;
+}
