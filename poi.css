@@ -52,4 +52,110 @@
   width: 30px;
   height: 30px;
 }
+/*style estra*/
  
+
+.pie{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(206, 252, 206);
+  overflow: hidden;
+  text-align: justify;
+}
+.pie p{
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  
+}
+.pie span{
+  color: green;
+   
+}
+.hero p{
+  text-align: center;
+  color: #fff;
+  border-radius: 0.4rem;
+  padding: 10px 10px;
+  font-size: 1.6rem;
+  background-color: #299684;
+}
+@media (min-width:360px) and (max-width:600px){
+  .zxc{
+  width: 100%;
+  height: 150px;
+  background-color: #036;
+  display:block;
+}
+.cajon{
+  display:flex;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+/*time.css para estra*/
+div.time {
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 0.2cm;
+    border-bottom-right-radius: 0.2cm;
+}
+
+div.time span {
+    font-size: 2.2rem;
+    color: #0366b6;
+}
+html{
+    overflow-x: hidden;
+}
+.mira{
+    margin-top: 40px;
+    width: 96%;
+    height: auto;
+     margin-left: auto;
+    margin-right: auto;
+    border-right: 4px solid #31da96;
+    border-top: 4px solid rgb(56, 179, 12);
+    border-radius: 0.2rem;
+}
+.mira #mira{
+    font-size: 1.2rem;
+    color: green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.mirar{
+    padding: 4px 4px;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-bottom: 4px solid #f6f6f6;
+    border-right: 4px solid #f6f6f6;
+    border-left: 4px solid  #036;
+    border-top: 4px solid #036;
+    border-radius: 0.2rem;
+}
+.mirar p{
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #036;
+    padding: 10px 10px;
+}
+.mirar img{
+    width: 50px;
+    height: 50px;
+}
+/* esto es ventas */
+
+.main {
+     width: 100%;
+     height: auto;
+    
+ }
