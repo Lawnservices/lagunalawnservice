@@ -178,4 +178,5 @@ html{
 }
 #llamar:hover{
   background-color: #04aa6d;
+  transition: all 1s;
 }
