@@ -1068,7 +1068,10 @@ h1 {
      
 }
 @media only screen and (min-width:300px) and (max-width:1000px){
-.videos,p, span{
+.videos{
+        display: none;
+    }
+    .video,.pan{
         display: none;
     }
 }
