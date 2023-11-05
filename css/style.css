@@ -1046,6 +1046,9 @@ h1 {
     #botom{
         display: none;
     }
+    #cooke{
+        display: none;
+    }
     .cta{
     float: left;
     font-size: 20px;

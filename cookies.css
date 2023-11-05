@@ -1,0 +1,55 @@
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size:48px;
+}
+.titulo{
+  font-weight: bold;
+  color: #333;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.titulocookeis{
+  font-weight: bold;
+  color: rgba(19, 22, 21);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.foto{
+  margin-top: 30px;
+  width:80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.foto img{
+  margin-top: 30px;
+  width: 80%;
+  height: auto;
+}
+.uso{
+  margin-top: 30px;
+  font-weight: bold;
+  color: #333;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.date{
+   margin-top: 30px;
+  font-weight: bold;
+  color: #333;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+strong{
+  color: #0366b6;
+}
+ 
