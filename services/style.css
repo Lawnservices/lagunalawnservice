@@ -95,17 +95,31 @@ h3 {
 }
 
 .foto h1,
-h3,
-p {
+h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    max-width: 800px;
+    width: 86%;
+    max-width:auto;
     position: relative;
     text-align: justify;
 }
-
+p{
+font-size: 20px;
+width: 86%;
+height: auto;
+ margin-left: auto;
+margin-right: auto;
+text-align: justify;
+letter-spacing: 1.4px;
+font-family:  sans-serif;
+line-height: 1.5;
+ 
+}
+strong{
+    color: #154;
+    font-weight: bold;
+}
 h1 {
     color: #154;
     letter-spacing: 0.2cm;
