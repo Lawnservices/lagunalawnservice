@@ -5,6 +5,7 @@
     <loc>https://lagunalawnservice.com</loc>
     <lastmod>2023-11-06</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://lagunalawnservice.com/img/icons8-lawn-mower-48.png</image:loc>
       <!--ERROR - Object reference not set to an instance of an object.-->
@@ -12,6 +13,7 @@
         <loc>https://lagunalawnservice.com/cookies</loc>
         <lastmod>2023-11-06</lastmod>
         <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
         <image:image>
           <image:loc>https://lagunalawnservice.com/img/icons8-lawn-mower-48.png</image:loc>
           <!--ERROR - Object reference not set to an instance of an object.-->
@@ -19,11 +21,13 @@
             <loc>https://lagunalawnservice.com/services/index</loc>
             <lastmod>2023-11-06</lastmod>
             <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
           </url>
           <url>
             <loc>https://lagunalawnservice.com/prices</loc>
             <lastmod>2023-11-06</lastmod>
             <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
             <image:image>
               <image:loc>https://lagunalawnservice.com/img/mls.jpg</image:loc>
               <!--ERROR - Object reference not set to an instance of an object.-->
@@ -31,6 +35,7 @@
                 <loc>https://lagunalawnservice.com/photos</loc>
                 <lastmod>2023-11-06</lastmod>
                 <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
                 <image:image>
                   <image:loc>https://lagunalawnservice.com/img/icons8-lawn-mower-48.png</image:loc>
                   <!--ERROR - Object reference not set to an instance of an object.-->
@@ -38,6 +43,7 @@
                     <loc>https://lagunalawnservice.com/index</loc>
                     <lastmod>2023-11-06</lastmod>
                     <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
                     <image:image>
                       <image:loc>https://lagunalawnservice.com/img/icons8-lawn-mower-48.png</image:loc>
                       <!--ERROR - Object reference not set to an instance of an object.-->
@@ -45,6 +51,7 @@
                         <loc>https://lagunalawnservice.com/</loc>
                         <lastmod>2023-11-06</lastmod>
                         <changefreq>weekly</changefreq>
+                        <priority>0.8</priority>
                         <image:image>
                           <image:loc>https://lagunalawnservice.com/img/icons8-lawn-mower-48.png</image:loc>
                           <!--ERROR - Object reference not set to an instance of an object.-->
