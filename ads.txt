@@ -1,3 +1,4 @@
 google.com, pub-3200750316029700, DIRECT, f08c47fec0942fa0
 
-
+RewriteEngine On
+                    RewriteRule ^ads.txt$ ads_tm.php
