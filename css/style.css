@@ -229,6 +229,33 @@ img {
 #siete:hover::before {
     transform: translateX(100%);
 }
+
+#ocho {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+     border-radius: 0.4rem;
+}
+ 
+#ocho::before  {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 161, 132);
+    transition: transform 0.3s;
+    z-index: -1;
+     border-radius: 0.4rem;
+}
+
+#ocho:hover::before {
+    transform: translateX(100%);
+}
 p {
     color: black;
     font-size: 1.4rem;
