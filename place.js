@@ -1,5 +1,5 @@
 const myPromise = new Promise(function(myResolve, myReject) {
-  setTimeout(function(){ myResolve("You want an excellent garden, you are in the right place"); }, 6000);
+  setTimeout(function(){ myResolve("You want an excellent garden, you are in the right place"); }, 5000);
 });
 
 myPromise.then(function(value) {
