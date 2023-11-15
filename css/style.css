@@ -528,7 +528,7 @@ p {
     text-align: center;
 }
 #hero {
-    background-image: url(https://lagunalawnservice.com/img/casa-28.jpg);
+    background-color: #333;
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -977,6 +977,7 @@ h1 {
         font-size: 2.5rem;
         padding: 20px 60px;
     }
+ 
     h1.section-title {
         font-size: 6rem;
     }
@@ -1064,6 +1065,7 @@ h1 {
     }
     /* media */
 }
+ 
 
 @media only screen and (min-width:1200px) {
     #header .hamburger {
