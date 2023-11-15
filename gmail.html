@@ -59,7 +59,7 @@
 
 <body>
 
-  <form id="contactForm" action="enviar.php" method="post">
+  <form id="contactForm">
     <label for="name">Nombre:</label>
     <input type="text" id="name" name="name" required>
 
@@ -69,8 +69,26 @@
     <label for="message">Mensaje:</label>
     <textarea id="message" name="message" rows="4" required></textarea>
 
-    <button type="submit">Enviar</button>
+    <button type="button" onclick="enviarFormulario()">Enviar</button>
   </form>
+
+  <script>
+    function enviarFormulario() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+
+      // Puedes realizar validaciones adicionales aquí
+
+      alert("Mensaje enviado:\n\nNombre: " + name + "\nCorreo Electrónico: " + email + "\nMensaje: " + message);
+
+      // Aquí puedes agregar la lógica para enviar el formulario a un servidor o hacer lo que necesites
+      // Por ejemplo, puedes usar Fetch API para enviar los datos a un servidor.
+
+      // Resetear el formulario
+      document.getElementById("contactForm").reset();
+    }
+  </script>
 
 </body>
 
