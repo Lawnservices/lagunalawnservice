@@ -1,6 +1,8 @@
 .videos{
-  width:auto;
+  width:86%;
   height: auto;
+  margin-right:auto;
+  margin-right:auto;
   margin-top: 30px;
   
 }
@@ -14,10 +16,7 @@
   color:#0366b6;
   font-weight: bold;
 }
-iframe{
-  padding: 10px 10px;
-
-}
+ 
 #pan{
   width: 100%;
   height: 2px;
@@ -61,6 +60,7 @@ iframe{
   border:1px solid black;
   width:80%;
   height:560px;
+  padding: 10px 10px;
 }
 
  
