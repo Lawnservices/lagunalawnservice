@@ -528,7 +528,7 @@ p {
     text-align: center;
 }
 #hero {
-    background-color: #fff;
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipMr04p_6sMIhG4jaPdsEFVepe2w4ir4HZkJYI9L=w1080-h608-p-no-v0);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -546,13 +546,13 @@ p {
     opacity: .7;
     z-index: -1;
 }
-
+ 
 #hero .hero {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
-    
+     
 }
 #hero h2 {
     display: block;
@@ -561,7 +561,7 @@ p {
     position: relative;
     color: transparent;
     
-    color: #154;
+    color: #fff;
 }
  #hero h2 span {
     color: #154;
