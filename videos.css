@@ -2,7 +2,7 @@
   width:94%;
   height: auto;
   margin-right:auto;
-  margin-right:auto;
+  margin-left:auto;
   margin-top: 30px;
   
 }
@@ -61,7 +61,8 @@ iframe{
   width:460px;
   height:460px;
   padding: 10px 10px;
-   
+  margin-right:auto;
+  margin-left:auto; 
  
 }
 
