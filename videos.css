@@ -56,6 +56,10 @@ iframe{
   line-height: 30px;
   font-size: 16px;
 } 
+iframe{
+  border:1px solid black;
+  width:100%;
+}
 
  
  
