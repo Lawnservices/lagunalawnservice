@@ -8,6 +8,21 @@
   font-size: 4rem;
   color: rgb(85, 182, 85);
 }
+
+@keyframes  fade-in {
+   entry 0%{
+    opacity: 0; transform: translateY(100%);
+   }
+    
+  
+}
+.mas {
+  animation: fade-in linear;
+  animation-timeline: view(block);
+  animation-range: entry;
+}
+ 
+
 @media (min-width:300px) and (max-width:500px){
   .poi h1{
     font-size: 18px;
