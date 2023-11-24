@@ -11,3 +11,10 @@
   color: #fff;
   font-size: 1.4rem;
 }
+.videos{
+  text-align: center;
+  margin-top: 60px;
+}
+iframe{
+  width:auto; height:auto;
+}
