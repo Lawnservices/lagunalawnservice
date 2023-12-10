@@ -87,20 +87,19 @@
             overflow: hidden;
             z-index: 1;
         }
-        /* scroll */
-        /* Para el track (rastro) de la barra de desplazamiento */
+       
 ::-webkit-scrollbar {
-    width: 10px; /* Ancho de la barra de desplazamiento */
+    width: 10px; 
     
 }
 
-/* Para el thumb (pulgares) de la barra de desplazamiento */
+ 
 ::-webkit-scrollbar-thumb {
- background-color:#6fb1f4; /* Color del thumb (pulgares) */
+ background-color:#6fb1f4; 
    height: 140px;
 }
 
-        /* final */
+       
         h1 {
             color: green;
             text-align: center;
@@ -136,9 +135,9 @@
         }
         .pie {
             width: 100%;
-            height: 160px;
+            height: 180px;
             text-align: center;
-            background-color: #154;
+            background-color: #333;
             margin-top: 160px;
         }
         
@@ -146,8 +145,20 @@
             padding: 10px;
             color: #fff;
             font-size: 1.4rem;
-            font-weight: 300;
+            font-weight: 800;
             font-family: 'Courier New', Courier, monospace;
+        }
+          .informe{
+            text-align:left;
+            background-color: #154256;
+            width: 100%;
+            height: 60px;
+        }
+         .informe a{
+            text-decoration: none;
+            color: #fff;
+            padding: 18px 18px;
+            font-size: large;
         }
         /*style galery*/
         
