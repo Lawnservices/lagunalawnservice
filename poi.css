@@ -184,7 +184,7 @@ html{
   border-top: none;
   border-bottom: none;
   border-left: none;
-  cursor: pointer;
+  border-radius: 0;
 }
 #llamar span{
   color: #fff;

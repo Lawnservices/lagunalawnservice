@@ -50,10 +50,7 @@ document.addEventListener('scroll', () => {
 
 });
 
-
-function llamar(){
-document.getElementById('llamar').innerHTML="240-883-84798";
-document.getElementById('llamar').style.color="#fff"
-}
+ 
+ 
  
  
