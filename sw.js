@@ -3,8 +3,8 @@ self.addEventListener('install', event => {
         caches.open('mi-cache').then(cache => {
             return cache.addAll([
                 '/',
-                '/index.html',
-                '/js/main.js'
+                './index.html',
+                './main.js'
                 // Agrega aquí otros recursos que desees cachear
             ]);
         })
