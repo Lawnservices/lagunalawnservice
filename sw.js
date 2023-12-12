@@ -5,7 +5,7 @@ self.addEventListener('install', event => {
                 '/',
                 './index.html',
                 './main.js'
-                // Agrega aquí otros recursos que desees cachear
+                 
             ]);
         })
     );
