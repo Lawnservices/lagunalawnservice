@@ -1,14 +1,19 @@
 .poi{
   width: 100%;
   height: auto;
-  background-color: #f6f6f6;
+  background-color: #f76b2a;
   text-align: center;
 }
 .poi h1{
   font-size: 4rem;
-  color: rgb(85, 182, 85);
+  color:#fff;
 }
-
+.poi p{
+  font-size:20px;
+  color: #003349;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
 @keyframes  fade-in {
    entry 0%{
     opacity: 0; transform: translateY(100%);
@@ -31,12 +36,7 @@
     font-size: 20px;
   }
 }
-.poi p{
-  font-size: 1.6rem;
-  color: #226c8e;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font: weight 600px;
-}
+ 
 .iop{
   text-align: center;
   margin-top: 60px;
