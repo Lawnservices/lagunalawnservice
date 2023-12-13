@@ -1,7 +1,7 @@
 .poi{
   width: 100%;
   height: auto;
-  background-color: #003349;
+  background-color: #f76b2a;
   text-align: center;
 }
 .poi h1{
@@ -42,9 +42,9 @@
   margin-top: 60px;
 }
 .iop a{
-  font-size: 1.8rem;
+  font-size:20px;
   padding: 16px 16px;
-  color: #04aa6d;
+  color: #003349;
   font-weight: bold;
   border-radius: 0.4rem;
    
@@ -55,7 +55,7 @@
   transition: 0.3s;
 }
 .iop #get{
-  background-color: #e93232;
+  background-color: #003349;
   color: #fff;
   border-radius: 0.4rem;
 }
