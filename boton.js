@@ -1,31 +1,36 @@
-  let deferredPrompt;
+let deferredPrompt;
 
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
 
-     
+    
     showInstallPrompt();
   });
 
   function showInstallPrompt() {
     
-    const installBanner = document.getElementById('install-banner');
+    const installButton = document.getElementById('install-button');
 
-    installBanner.style.display = 'block';
+    installButton.style.display = 'block';
 
-    installBanner.addEventListener('click', () => {
+    installButton.addEventListener('click', () => {
        
       deferredPrompt.prompt();
 
-       
+      
       deferredPrompt.userChoice
         .then((choiceResult) => {
-           
+           if (choiceResult.outcome === 'accepted') {
+            console.log('');
+          } else {
+            console.log('');
+          }
 
-          
+
+           
           deferredPrompt = null;
-          installBanner.style.display = 'none';
+          installButton.style.display = 'none';
         });
     });
   }
