@@ -1,7 +1,7 @@
 .poi{
   width: 100%;
   height: auto;
-  background-color: #f76b2a;
+  background-color: #454545;
   text-align: center;
 }
 .poi h1{
@@ -10,7 +10,7 @@
 }
 .poi p{
   font-size:20px;
-  color: #003349;
+  color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
 }
