@@ -44,6 +44,7 @@ li a{
 .conectado {
   width: 100%;
   height: 20px;
+   
 }
 .conectado p{
   text-align: center;
@@ -123,6 +124,7 @@ li a{
   
   
  }
+  
  /* social */
 @media  (min-width:320px) and (max-width:1000px){
   .logo-laguna{

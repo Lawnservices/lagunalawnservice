@@ -1,0 +1,29 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.mas{
+  display: none;
+} 
+li:hover .mas{
+  display: block;
+  position: absolute;
+  background-color:#333;
+   
+}
+
+.mas ul{
+  display: block;
+  margin: 10px;
+}
+.mas ul li{
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 2px;
+  border-bottom: 1px dotted #fff;
+  
+}
+.mas ul li a{
+   color: #003349;
+}
