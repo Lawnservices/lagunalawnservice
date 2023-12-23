@@ -3,6 +3,20 @@ h1{
   font-weight: bold;
   font-size:48px;
 }
+ 
+header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.active{
+  background-color: #003349;
+}
+.container a{
+  color: #fff;
+  padding: 18px 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .titulo{
   font-weight: bold;
   color: #333;
@@ -28,7 +42,7 @@ h1{
 }
 .foto img{
   margin-top: 30px;
-  width: 80%;
+  width: 40%;
   height: auto;
 }
 .uso{
