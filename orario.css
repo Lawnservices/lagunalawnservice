@@ -1,0 +1,26 @@
+.mass{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.mass .orario{
+  background-color: #fff;
+  overflow: hidden;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mass .orario p{
+  color: #003349;
+  padding: 6px 6px;
+  text-align:right;
+  font-size: 18px;
+}
+@media (min-width:320px) and (max-width:600px){
+  .mass{
+    display: none;
+  }
+}
