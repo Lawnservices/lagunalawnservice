@@ -27,11 +27,16 @@ li a{
 }
 .content{
   text-align: center;
+  
 }
 span{
   display:unset;
   font-size: 48px;
   color: #333;
+}
+.content .cipal{
+  color: #003349;
+   
 }
 .cuerpo{
   display: block;
@@ -49,7 +54,7 @@ span{
    
   display: initial;
   padding: 16px 16px;
-  font-size:20px;
+  font-size:22px;
   text-decoration: none;
   color: #154; 
   font-weight:500;
@@ -78,7 +83,7 @@ span{
 }
 .paginafinal span,a{
   color: aliceblue;
-  font-size: 16px;
+  font-size: 18px;
   display: block;
   padding: 16px 16px;
 }
