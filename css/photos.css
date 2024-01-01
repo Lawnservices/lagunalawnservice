@@ -107,8 +107,20 @@
         }
         
         #zxcv {
-            color: #154256;
+            color: #fff;
             z-index: 1;
+            border: 1px solid #04aa6d;
+            width: 60%;
+            margin: auto;
+            background-color: #333;
+            border-radius:0.8rem;
+        }
+        #zxcv a{
+            text-decoration: none;
+            color: #fff;
+        }
+        #zxcv span{
+            color: #04aa6d;
         }
         
         .titulo1 {
