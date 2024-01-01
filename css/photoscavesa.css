@@ -45,3 +45,14 @@
     width: auto;
     height: 560px;
 }
+.lawn{
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+    border: 1px solid #6cba8a;
+    background-color: #036;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+   
+}
