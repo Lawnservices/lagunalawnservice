@@ -8,7 +8,7 @@
 }
 .ariva div{
   background-color:#fff;
-  width: 30%;
+  width:200px;
   margin-left: auto;
   margin-right: auto;
   height:auto;
@@ -19,7 +19,7 @@
 .ariva div:hover{
   border: 3px solid blue;
   transition: all ease-in-out 2s;
-  background-color: #f6f6;
+  background-color: #333;
   
 }
 .ariva a{
@@ -28,6 +28,6 @@
   text-decoration: none;
   font-size: 1.6rem;
    display: block;
-   padding: 16px 16px;
+   padding: 6px 6px;
 }
  

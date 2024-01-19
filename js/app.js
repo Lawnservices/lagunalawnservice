@@ -36,24 +36,9 @@ document.addEventListener('scroll', () => {
     }
 });
 
-document.addEventListener('scroll', () => {
-    var scroll_position = window.scrollY;
-    if (scroll_position > 600){
+ 
 
-   header.style.borderBottom= '4px solid #ed8080';
-   verde.style.display = 'none';
-    } else{
-          header.style.borderBottom= 'none';
-          verde.style.display = 'none';
-    }
-
-
-});
-
-
-function llamar(){
-document.getElementById('llamar').innerHTML="240-883-84798";
-document.getElementById('llamar').style.color="#fff"
-}
+ 
+ 
  
  

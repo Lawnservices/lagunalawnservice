@@ -9,7 +9,15 @@ body {
     background-color: #0366d6;
     color: #fff;
 }
-
+#principal .id-s{
+    background-color: #154;
+    color: #fff;
+}
+#principal .services{
+background-color: #3e8e41;
+color: #fff;
+}
+ 
 .icon {
     display: flex;
     margin-left: 180px;
@@ -21,6 +29,8 @@ body {
     border-radius: 50%;
     filter: brightness(60%);
     transition: ease-in-out 1.4s;
+    border: 2px solid #04aa6b;
+    padding: 8px;
 }
 
 .icon img:hover {
@@ -63,10 +73,13 @@ table {
 table,
 th,
 td {
-    border: 1px solid #000;
+    border: 1px solid #154;
     padding: 12px 12px;
+     
 }
-
+td{
+    text-align: justify;
+}
 table {
     width: 80%;
     margin-left: 10%;
@@ -80,15 +93,13 @@ tr:nth-child(even) {
 
 .pie {
     width: 100%;
-    height: 160px;
+    height: 140px;
     position: relative;
     margin-top: 200px;
     text-align: center;
-    height: 160px;
-    background-image: url(https://lagunalawnservice.com/img/galeria11.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-color: #333;
+    
     clear: both;
 }
 
@@ -97,9 +108,7 @@ tr:nth-child(even) {
     padding: 14px;
     background-color:rgba(0, 0, 0, 0.5);
       width: 100%;
-    height: 160px;
-    
-    
+    height: 140px;
 }
 
 .pie span {
@@ -124,7 +133,7 @@ span {
 
 .orario {
     width: 30%;
-    margin-left: 7%;
+    margin-left:30px;
     margin-top: 120px;
     font-size: 17px;
     position: relative;
@@ -138,17 +147,34 @@ span {
 }
 
 .orario .horas {
-    display: none;
-    width: 300px;
+    
+    width: 320px;
     position: absolute;
     background-color: #f6f6f6;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.4);
 }
 
-.orario:hover .horas {
-    display: block;
+ 
+address {
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #f4cfcf;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 14px 0px #1548;
+    float: right;
+    margin-right:30px ;
 }
 
+address p {
+    margin: 0;
+}
+address .email a{
+    font-size: 20px;
+    color: #154;
+
+}
 
 /* mensaje */
 
@@ -280,7 +306,7 @@ border-top: 4px solid #0366;
     }
      
 }
-@media (min-width:340px) and (max-width:600px){
+@media (min-width:300px) and (max-width:600px){
       .fotoss img{
         display: block;
         object-fit: cover;
@@ -289,6 +315,9 @@ border-top: 4px solid #0366;
         
     }
     ul li #home{
+        display: none;
+    }
+    .horas {
         display: none;
     }
 }

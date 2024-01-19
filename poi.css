@@ -1,13 +1,33 @@
 .poi{
   width: 100%;
   height: auto;
-  background-color: #f6f6f6;
+  background-color: #454545;
   text-align: center;
 }
 .poi h1{
   font-size: 4rem;
-  color: rgb(85, 182, 85);
+  color:#fff;
 }
+.poi p{
+  font-size:20px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+@keyframes  fade-in {
+   entry 0%{
+    opacity: 0; transform: translateY(100%);
+   }
+    
+  
+}
+.mas {
+  animation: fade-in linear;
+  animation-timeline: view(block);
+  animation-range: entry;
+}
+ 
+
 @media (min-width:300px) and (max-width:500px){
   .poi h1{
     font-size: 18px;
@@ -16,20 +36,15 @@
     font-size: 20px;
   }
 }
-.poi p{
-  font-size: 1.6rem;
-  color: #226c8e;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font: weight 600px;
-}
+ 
 .iop{
   text-align: center;
   margin-top: 60px;
 }
 .iop a{
-  font-size: 1.8rem;
+  font-size:20px;
   padding: 16px 16px;
-  color: #04aa6d;
+  color: #003349;
   font-weight: bold;
   border-radius: 0.4rem;
    
@@ -40,7 +55,7 @@
   transition: 0.3s;
 }
 .iop #get{
-  background-color: #e93232;
+  background-color: #003349;
   color: #fff;
   border-radius: 0.4rem;
 }
@@ -169,7 +184,7 @@ html{
   border-top: none;
   border-bottom: none;
   border-left: none;
-  cursor: pointer;
+  border-radius: 0;
 }
 #llamar span{
   color: #fff;

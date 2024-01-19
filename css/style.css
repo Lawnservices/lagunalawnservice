@@ -54,8 +54,8 @@ html {
 }
 
 #mls {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     margin-left: 0px;
     border-radius: 0.2cm;
     margin-top: 1px;
@@ -114,7 +114,7 @@ img {
     right: 100%;
     width: 100%;
     height: 100%;
-    background: rgb(27, 161, 132);
+    background:#1548;
     transition: transform 0.3s;
     z-index: -1;
     border-radius: 0.4rem;
@@ -141,7 +141,7 @@ img {
     right: 100%;
     width: 100%;
     height: 100%;
-    background: rgb(27, 161, 132);
+    background: #1548;
     transition: transform 0.3s;
     z-index: -1;
      border-radius: 0.4rem;
@@ -168,7 +168,7 @@ img {
     right: 100%;
     width: 100%;
     height: 100%;
-    background: rgb(27, 161, 132);
+    background: #1548;
     transition: transform 0.3s;
     z-index: -1;
      border-radius: 0.4rem;
@@ -194,13 +194,66 @@ img {
     right: 100%;
     width: 100%;
     height: 100%;
-    background: rgb(27, 161, 132);
+    background: #1548;
     transition: transform 0.3s;
     z-index: -1;
      border-radius: 0.4rem;
 }
 
 #cinco:hover::before {
+    transform: translateX(100%);
+}
+#siete {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+     border-radius: 0.4rem;
+}
+ 
+#siete::before  {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: #1548;
+    transition: transform 0.3s;
+    z-index: -1;
+     border-radius: 0.4rem;
+}
+
+#siete:hover::before {
+    transform: translateX(100%);
+}
+
+#ocho {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+     border-radius: 0.4rem;
+}
+ 
+#ocho::before  {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: #1548;
+    transition: transform 0.3s;
+    z-index: -1;
+     border-radius: 0.4rem;
+}
+
+#ocho:hover::before {
     transform: translateX(100%);
 }
 p {
@@ -211,7 +264,40 @@ p {
     font-weight: 300;
     letter-spacing: .05rem;
 }
+#seis {
+    width:"";
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 16px;
+     border-radius: 0.4rem;
+}
+ 
+#seis::before  {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: #1548;
+    transition: transform 0.3s;
+    z-index: -1;
+     border-radius: 0.4rem;
+}
 
+#seis:hover::before {
+    transform: translateX(100%);
+}
+p {
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
 .section-title {
     font-size: 4rem;
     font-weight: 300;
@@ -435,14 +521,16 @@ p {
     overflow: hidden;
     width: 100%;
     height: 60px;
-    background-color: rgb(20, 159, 164);
+    background-color:#003349;
 }
 .colores p{
     color: #fff;
     text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #hero {
-    background-image: url(https://lagunalawnservice.com/img/casa-28.jpg);
+    background-image: url(../img/casa-28.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -460,69 +548,32 @@ p {
     opacity: .7;
     z-index: -1;
 }
-
+ 
 #hero .hero {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
+     
 }
-
 #hero h2 {
     display: block;
     width:100%;
-    font-size: 4rem;
+    font-size: 3rem;
     position: relative;
     color: transparent;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1s;
-     
+    
+    color: #fff;
 }
-
-#hero h2:nth-child(1) {
-    animation-delay: 1s;
-}
-
-#hero h2:nth-child(2) {
-    animation-delay: 2s;
-}
-
-#hero h2:nth-child(3) {
-    animation-delay: 3s;
-}
-
-#hero h2:nth-child(4) {
-    animation: text_reveal_name .5s ease forwards;
-    animation-delay: 4s;
-}
-
-#hero h2 span {
+ #hero h2 span {
+    color: #154;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 0;
-    background-color: #6cc091;
-    animation: text_reveal_box 1s ease;
-    animation-delay: .5s;
+    
 }
-
-#hero h2:nth-child(1) span {
-    animation-delay: .5s;
-}
-
-#hero h2:nth-child(2) span {
-    animation-delay: 1.5s;
-}
-
-#hero h2:nth-child(3) span {
-    animation-delay: 2.5s;
-}
-
-#hero h2:nth-child(4) span {
-    animation-delay: 3s;
-}
-
 #services .services {
     flex-direction: column;
     text-align: center;
@@ -621,9 +672,14 @@ h1 {
 }
 
 .fecn {
-    color: #6cc091;
+    color: #003349;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 16px;
 }
-
+.contact-info .fecn{
+    font-size: 18px;
+}
 .verde12 {
     color: green;
     font-size: 20px;
@@ -722,6 +778,7 @@ h1 {
 
 #about .col-right {
     width: 100%;
+    
 }
 
 #about .col-right h2 {
@@ -729,10 +786,22 @@ h1 {
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 10px;
+    background-color: #003349;
+    padding: 8px;
+    color: #fff;
+    border-left: 8px solid green;
 }
 
 #about .col-right p {
     margin-bottom: 20px;
+    border: 1.6px solid #003349;
+    padding: 8px;
+    background-color: #60a5a5;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    text-align: justify;
+    letter-spacing: 1px;
 }
 
 #about .col-right .cta {
@@ -928,6 +997,7 @@ h1 {
         font-size: 2.5rem;
         padding: 20px 60px;
     }
+ 
     h1.section-title {
         font-size: 6rem;
     }
@@ -1015,6 +1085,7 @@ h1 {
     }
     /* media */
 }
+ 
 
 @media only screen and (min-width:1200px) {
     #header .hamburger {
