@@ -1,93 +1,87 @@
-.poi{
+.poi {
   width: 100%;
   height: auto;
   background-color: #454545;
   text-align: center;
 }
-.poi h1{
+.poi h1 {
   font-size: 4rem;
-  color:#fff;
+  color: #fff;
 }
-.poi p{
-  font-size:20px;
+.poi p {
+  font-size: 20px;
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
 }
-@keyframes  fade-in {
-   entry 0%{
-    opacity: 0; transform: translateY(100%);
-   }
-    
-  
+@keyframes fade-in {
+  entry 0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
 }
 .mas {
   animation: fade-in linear;
   animation-timeline: view(block);
   animation-range: entry;
 }
- 
 
-@media (min-width:300px) and (max-width:500px){
-  .poi h1{
+@media (min-width: 300px) and (max-width: 500px) {
+  .poi h1 {
     font-size: 18px;
   }
-  .section-title{
+  .section-title {
     font-size: 20px;
   }
 }
- 
-.iop{
+
+.iop {
   text-align: center;
   margin-top: 60px;
 }
-.iop a{
-  font-size:20px;
+.iop a {
+  font-size: 20px;
   padding: 16px 16px;
   color: #003349;
   font-weight: bold;
   border-radius: 0.4rem;
-   
 }
-.iop a:hover{
+.iop a:hover {
   background-color: #e93232;
   color: #fff;
   transition: 0.3s;
 }
-.iop #get{
+.iop #get {
   background-color: #003349;
   color: #fff;
   border-radius: 0.4rem;
 }
-.iop #get:hover{
+.iop #get:hover {
   background-color: #04aa6d;
   transition: 0.3s;
 }
-.iop a img{
+.iop a img {
   width: 30px;
   height: 30px;
 }
 /*style estra*/
- 
 
-.pie{
+.pie {
   width: 100%;
   height: 80px;
   background-color: rgb(206, 252, 206);
   overflow: hidden;
   text-align: justify;
 }
-.pie p{
+.pie p {
   color: #fff;
   font-size: 1.4rem;
   margin-left: 20px;
-  
 }
-.pie span{
+.pie span {
   color: green;
-   
 }
-.hero p{
+.hero p {
   text-align: center;
   color: #fff;
   border-radius: 0.4rem;
@@ -95,88 +89,87 @@
   font-size: 1.6rem;
   background-color: #299684;
 }
-@media (min-width:360px) and (max-width:600px){
-  .zxc{
-  width: 100%;
-  height: 150px;
-  background-color: #036;
-  display:block;
-}
-.cajon{
-  display:flex;
-  width: 80%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-}
-/*time.css para estra*/
-div.time {
-    width: 400px;
-    height: 80px;
-    margin-top: 20px;
-    background-color: antiquewhite;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-    border-bottom-left-radius: 0.2cm;
-    border-bottom-right-radius: 0.2cm;
-}
-
-div.time span {
-    font-size: 2.2rem;
-    color: #0366b6;
-}
-html{
-    overflow-x: hidden;
-}
-.mira{
-    margin-top: 40px;
-    width: 96%;
-    height: auto;
-     margin-left: auto;
-    margin-right: auto;
-    border-right: 4px solid #31da96;
-    border-top: 4px solid rgb(56, 179, 12);
-    border-radius: 0.2rem;
-}
-.mira #mira{
-    font-size: 1.2rem;
-    color: green;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-.mirar{
-    padding: 4px 4px;
-    width: 90%;
+@media (min-width: 360px) and (max-width: 600px) {
+  .zxc {
+    width: 100%;
+    height: 150px;
+    background-color: #036;
+    display: block;
+  }
+  .cajon {
+    display: flex;
+    width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    border-bottom: 4px solid #f6f6f6;
-    border-right: 4px solid #f6f6f6;
-    border-left: 4px solid  #036;
-    border-top: 4px solid #036;
-    border-radius: 0.2rem;
+  }
 }
-.mirar p{
-    text-align: justify;
-    font-size: 1.2rem;
-    color: #036;
-    padding: 10px 10px;
+/*time.css para estra*/
+div.time {
+  width: 400px;
+  height: 80px;
+  margin-top: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 0.2cm;
+  border-bottom-right-radius: 0.2cm;
 }
-.mirar img{
-    width: 50px;
-    height: 50px;
+
+div.time span {
+  font-size: 2.2rem;
+  color: #0366b6;
+}
+html {
+  overflow-x: hidden;
+}
+.mira {
+  margin-top: 40px;
+  width: 96%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 4px solid #31da96;
+  border-top: 4px solid rgb(56, 179, 12);
+  border-radius: 0.2rem;
+}
+.mira #mira {
+  font-size: 1.2rem;
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.mirar {
+  padding: 4px 4px;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-bottom: 4px solid #f6f6f6;
+  border-right: 4px solid #f6f6f6;
+  border-left: 4px solid #036;
+  border-top: 4px solid #036;
+  border-radius: 0.2rem;
+}
+.mirar p {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #036;
+  padding: 10px 10px;
+}
+.mirar img {
+  width: 50px;
+  height: 50px;
 }
 /* esto es ventas */
 
 .main {
-     width: 100%;
-     height: auto;
-    
- }
+  width: 100%;
+  height: auto;
+}
 
- /*boton */
-#llamar{
+/*boton */
+#llamar {
   padding: 20px 16px;
   margin: 10px;
   background-color: #000000;
@@ -186,22 +179,22 @@ html{
   border-left: none;
   border-radius: 0;
 }
-#llamar span{
+#llamar span {
   color: #fff;
   font-weight: bolder;
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
 }
-#llamar:hover{
+#llamar:hover {
   background-color: #04aa6d;
   transition: all 1s;
 }
 /*pie fotos*/
-.pie{
+.pie {
   background-color: #556660;
   text-align: center;
   width: 100%;
   height: 160px;
 }
-.pie h2{
+.pie h2 {
   padding: 30px 30px;
 }

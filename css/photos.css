@@ -1,258 +1,255 @@
-        body {
-            margin: 0;
-            font-family: 'Courier New', Courier, monospace;
-            overflow-y: none;
-        }
-        
-        #nombre {
-            color: #0366d6;
-            font-size: 26px;
-            margin-top: 12px;
-        }
-        
-        #nombre::after {
-            content: "";
-        }
-        
-        html {
-            overflow-x: none;
-            overflow-y: none;
-        }
-        
-        .list-1 img {
-            width: 40px;
-            height: 40px;
-        }
-        
-        .orario {
-            color: #04aa6d;
-            font-size: 1rem;
-            display: none;
-            padding: 6px;
-            background-color: #f6f6f6;
-            max-width: 300px;
-            margin-left: 30px;
-            height:180px;
-            margin-top: 10px;
-            border-radius: 0.4rem;
-            position: absolute;
-        }
-        
-        .precio::first-letter {
-            color: #0366d6;
-            font-size: 1.6rem;
-            letter-spacing: 0.2rem;
-        }
-        
-        .precio {
-            margin-left: 17%;
-            font-size: 1.2rem;
-            color: #154;
-            font-weight: 800;
-        }
-        
-        .boton {
-            width: 160px;
-            background-color: #154;
-            color: #fff;
-            padding: 14px 17px;
-            border: none;
-            transition: all 2s ease-in-out;
-        }
-        
-        .boton:hover {
-            background-color: #fff;
-            color: #154;
-            border: 2px solid green;
-            transition: all 2s ease-in-out;
-        }
-        .btn::before{
-            width: 100%;
-            height: 100%;
-            right: 100%;
-            content: "";
-            background-color: #0366d6;
-            transition: 0.3s;
-            position: absolute;
-            overflow: hidden;
-            top: 0;
-            z-index: -1;
-        }
-        .btn:hover::before{
-            transform: translateX(100%);
-        }
-        .btn {
-            margin-left: 30px;
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
-        }
-       
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  overflow-y: none;
+}
+
+#nombre {
+  color: #0366d6;
+  font-size: 26px;
+  margin-top: 12px;
+}
+
+#nombre::after {
+  content: "";
+}
+
+html {
+  overflow-x: none;
+  overflow-y: none;
+}
+
+.list-1 img {
+  width: 40px;
+  height: 40px;
+}
+
+.orario {
+  color: #04aa6d;
+  font-size: 1rem;
+  display: none;
+  padding: 6px;
+  background-color: #f6f6f6;
+  max-width: 300px;
+  margin-left: 30px;
+  height: 180px;
+  margin-top: 10px;
+  border-radius: 0.4rem;
+  position: absolute;
+}
+
+.precio::first-letter {
+  color: #0366d6;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+
+.precio {
+  margin-left: 17%;
+  font-size: 1.2rem;
+  color: #154;
+  font-weight: 800;
+}
+
+.boton {
+  width: 160px;
+  background-color: #154;
+  color: #fff;
+  padding: 14px 17px;
+  border: none;
+  transition: all 2s ease-in-out;
+}
+
+.boton:hover {
+  background-color: #fff;
+  color: #154;
+  border: 2px solid green;
+  transition: all 2s ease-in-out;
+}
+.btn::before {
+  width: 100%;
+  height: 100%;
+  right: 100%;
+  content: "";
+  background-color: #0366d6;
+  transition: 0.3s;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  z-index: -1;
+}
+.btn:hover::before {
+  transform: translateX(100%);
+}
+.btn {
+  margin-left: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
 ::-webkit-scrollbar {
-    width: 10px; 
-    
+  width: 10px;
 }
 
- 
 ::-webkit-scrollbar-thumb {
- background-color:#6fb1f4; 
-   height: 140px;
+  background-color: #6fb1f4;
+  height: 140px;
 }
 
-       
-        h1 {
-            color: green;
-            text-align: center;
-            z-index: -1;
-        }
-        
-        #zxcv {
-            color: #fff;
-            z-index: 1;
-            border: 1px solid #04aa6d;
-            width: 60%;
-            margin: auto;
-            background-color: #333;
-            border-radius:0.8rem;
-        }
-        #zxcv a{
-            text-decoration: none;
-            color: #fff;
-        }
-        #zxcv span{
-            color: #04aa6d;
-        }
-        
-        .titulo1 {
-            display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #fff;
-            text-align: center;
-            width: 100%;
-        }
-        
-        .titulo1 h2 {
-            color: #04aa6d;
-        }
-        /* pothosmensages */
-        .pothosmensages{
-            text-align: center;
-        }
-        .pothosmensages p{
-            color: #154256;
-            font-size: 1.4rem;
-            letter-spacing: 1.1px;
-            font-weight: bold;
-        }
-        .pie {
-            width: 100%;
-            height: 180px;
-            text-align: center;
-            background-color: #333;
-            margin-top: 160px;
-        }
-        
-        .pie h2 {
-            padding: 10px;
-            color: #fff;
-            font-size: 1.4rem;
-            font-weight: 800;
-            font-family: 'Courier New', Courier, monospace;
-        }
-          .informe{
-            text-align:left;
-            background-color: #154256;
-            width: 100%;
-            height: 60px;
-        }
-         .informe a{
-            text-decoration: none;
-            color: #fff;
-            padding: 18px 18px;
-            font-size: large;
-        }
-        /*style galery*/
-        
-        .galeria {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-auto-rows: 260px;
-            padding: 20px;
-            grid-gap: 10px;
-        }
-        
-        .galeria__item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #icon {
-            filter: none;
-            animation: laguna 3s alternate-reverse infinite ease-in-out;
-        }
-        
-        @keyframes laguna {
-            to {
-                margin-left: 100px;
-                transition: 3s;
-            }
-            from {
-                margin-right: 100px;
-                transition: 3;
-            }
-        }
-        
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 0.2cm;
-        }
-        
-        .galeria__item:nth-child(1) {
-            grid-row-start: span 2;
-        }
-        
-        .galeria__item:nth-child(3) {
-            grid-row-start: span 2;
-        }
-        
-        .galeria__item:nth-child(6) {
-            grid-row-start: span 2;
-        }
-        
-        .galeria__item:nth-child(10) {
-            grid-row-start: span 2;
-        }
-        
-        @media (max-width:800px)and (min-width:375px) {
-            .galeria__item:nth-child(4) {
-                grid-column-start: span 2;
-            }
-            .galeria__item:nth-child(7) {
-                grid-column-start: span 2;
-            }
-            .galeria__item:nth-child(9) {
-                grid-column-start: span 2;
-            }
-            .galeria {
-                grid-auto-rows: 200px;
-            }
-            .galeria__item:nth-child(1) {
-                grid-column-start: span 2;
-            }
-            .galeria__item:nth-child(3) {
-                grid-row-start: span 1;
-            }
-            .galeria__item:nth-child(6) {
-                grid-row-start: span 1;
-            }
-            .galeria__item:nth-child(10) {
-                grid-row-start: span 2;
-            }
-            .presente .precio {
-                display: none;
-            }
-        }
+h1 {
+  color: green;
+  text-align: center;
+  z-index: -1;
+}
+
+#zxcv {
+  color: #fff;
+  z-index: 1;
+  border: 1px solid #04aa6d;
+  width: 60%;
+  margin: auto;
+  background-color: #333;
+  border-radius: 0.8rem;
+}
+#zxcv a {
+  text-decoration: none;
+  color: #fff;
+}
+#zxcv span {
+  color: #04aa6d;
+}
+
+.titulo1 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.titulo1 h2 {
+  color: #04aa6d;
+}
+/* pothosmensages */
+.pothosmensages {
+  text-align: center;
+}
+.pothosmensages p {
+  color: #154256;
+  font-size: 1.4rem;
+  letter-spacing: 1.1px;
+  font-weight: bold;
+}
+.pie {
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  background-color: #333;
+  margin-top: 160px;
+}
+
+.pie h2 {
+  padding: 10px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: "Courier New", Courier, monospace;
+}
+.informe {
+  text-align: left;
+  background-color: #154256;
+  width: 100%;
+  height: 60px;
+}
+.informe a {
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 18px;
+  font-size: large;
+}
+/*style galery*/
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 260px;
+  padding: 20px;
+  grid-gap: 10px;
+}
+
+.galeria__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon {
+  filter: none;
+  animation: laguna 3s alternate-reverse infinite ease-in-out;
+}
+
+@keyframes laguna {
+  to {
+    margin-left: 100px;
+    transition: 3s;
+  }
+  from {
+    margin-right: 100px;
+    transition: 3;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.2cm;
+}
+
+.galeria__item:nth-child(1) {
+  grid-row-start: span 2;
+}
+
+.galeria__item:nth-child(3) {
+  grid-row-start: span 2;
+}
+
+.galeria__item:nth-child(6) {
+  grid-row-start: span 2;
+}
+
+.galeria__item:nth-child(10) {
+  grid-row-start: span 2;
+}
+
+@media (max-width: 800px) and (min-width: 375px) {
+  .galeria__item:nth-child(4) {
+    grid-column-start: span 2;
+  }
+  .galeria__item:nth-child(7) {
+    grid-column-start: span 2;
+  }
+  .galeria__item:nth-child(9) {
+    grid-column-start: span 2;
+  }
+  .galeria {
+    grid-auto-rows: 200px;
+  }
+  .galeria__item:nth-child(1) {
+    grid-column-start: span 2;
+  }
+  .galeria__item:nth-child(3) {
+    grid-row-start: span 1;
+  }
+  .galeria__item:nth-child(6) {
+    grid-row-start: span 1;
+  }
+  .galeria__item:nth-child(10) {
+    grid-row-start: span 2;
+  }
+  .presente .precio {
+    display: none;
+  }
+}

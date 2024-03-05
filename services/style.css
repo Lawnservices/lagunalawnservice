@@ -1,228 +1,202 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #fff;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 .navbar {
-    margin: 0;
-    padding: 0;
-    top: 0;
-    height: 100px;
-    background-image: url(https://www.w3schools.com/css/img_flwr.gif);
-    position: relative;
-    text-align: center;
-    background-repeat: no-repeat;
-    border-bottom: 3px solid #61bf0e;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  height: 100px;
+  background-image: url(https://www.w3schools.com/css/img_flwr.gif);
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  border-bottom: 3px solid #61bf0e;
 }
 
 .navbar span {
-    color: #0366d6;
+  color: #0366d6;
 }
 
 .navbar h2 {
-    color: #154;
-    font-size: 1.8rem;
+  color: #154;
+  font-size: 1.8rem;
 }
 
 .cav {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 100;
+  position: -webkit-sticky;
+  position: sticky;
+
+  top: 0;
+  z-index: 100;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    background-color: #0366d6;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #0366d6;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
-@media (max-width:500px) {
-    li:first-child {
-        display: none;
-    }
-    li {
-        float: right;
-    }
+@media (max-width: 500px) {
+  li:first-child {
+    display: none;
+  }
+  li {
+    float: right;
+  }
 }
 
 li a {
-    color: aliceblue;
-    padding: 16px 17px;
-    display: block;
-    text-decoration: none;
-    font-size: 1.4rem;
-    transition: all ease-in-out 1s;
-    line-height: 50%;
+  color: aliceblue;
+  padding: 16px 17px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: all ease-in-out 1s;
+  line-height: 50%;
 }
 
 li a:hover {
-    background-color: aliceblue;
-    color: #0366b6;
-    transition: all ease-in-out 1s;
+  background-color: aliceblue;
+  color: #0366b6;
+  transition: all ease-in-out 1s;
 }
 
 .active {
-    background-color: #14aa6a;
-    border-bottom: 2px solid #0366d6;
-    border-top: 2px solid #0366d6;
+  background-color: #14aa6a;
+  border-bottom: 2px solid #0366d6;
+  border-top: 2px solid #0366d6;
 }
 
 .active:hover {
-    background-color: #14aa6a;
+  background-color: #14aa6a;
 }
 
 .foto {
-    position: relative;
+  position: relative;
 }
 
 .foto h1,
 h3 {
-    text-align: left;
-    margin-top: 12px;
+  text-align: left;
+  margin-top: 12px;
 }
 
 .foto h3 {
-    color: #0366d6;
+  color: #0366d6;
 }
 
 .foto h1,
-h3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 86%;
-    max-width:auto;
-    position: relative;
-    text-align: justify;
+h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
+  max-width: auto;
+  position: relative;
+  text-align: justify;
 }
-p{
-font-size: 20px;
-width: 86%;
-height: auto;
- margin-left: auto;
-margin-right: auto;
-text-align: justify;
-letter-spacing: 1.4px;
-font-family:  sans-serif;
-line-height: 1.5;
- 
+p {
+  font-size: 20px;
+  width: 86%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  letter-spacing: 1.4px;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
-strong{
-    color: #154;
-    font-weight: bold;
+strong {
+  color: #154;
+  font-weight: bold;
 }
 h1 {
-    color: #154;
-    letter-spacing: 0.2cm;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #154;
+  letter-spacing: 0.2cm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .main-inf {
-    background-color: #fff;
-    top: 100px;
-    position: static;
+  background-color: #fff;
+  top: 100px;
+  position: static;
 }
-
 
 /* WHA */
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown a {
-    font-size: 1.2em;
-    color: #fff;
-    padding: 10px;
-    display: block;
+  font-size: 1.2em;
+  color: #fff;
+  padding: 10px;
+  display: block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(98, 169, 163, 0.4);
-    padding: 12px 12px;
-    font-size: 1.2em;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(98, 169, 163, 0.4);
+  padding: 12px 12px;
+  font-size: 1.2em;
+  z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
-
 
 /* navbar */
 
 .dropbtn {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
-
-
-/* The container <div> - needed to position the dropdown content */
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
-
-
-/* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #bdd9f0;
-    min-width: 170px;
-    box-shadow: 0px 8px 16px 0px rgba(49, 155, 106, 0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #bdd9f0;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(49, 155, 106, 0.2);
+  z-index: 1;
 }
-
-
-/* Links inside the dropdown */
 
 .dropdown-content a {
-    color: #3e8e41;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: #3e8e41;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
-
-
-/* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
-
-
-/* Show the dropdown menu on hover */
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
-
-
-/* wha */
-
-
-/* @media (max-width:500px) {
-    .foto {
-        display: block;
-    }
-} */

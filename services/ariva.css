@@ -1,33 +1,30 @@
-.ariva{
+.ariva {
   width: 100%;
   height: 100px;
-  
+
   text-align: center;
   margin-top: 140px;
-   
 }
-.ariva div{
-  background-color:#fff;
-  width:200px;
+.ariva div {
+  background-color: #fff;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
-  height:auto;
+  height: auto;
   border: 3px solid #299684;
   transition: all ease-in-out 2s;
   border-radius: 0.6rem;
 }
-.ariva div:hover{
+.ariva div:hover {
   border: 3px solid blue;
   transition: all ease-in-out 2s;
   background-color: #333;
-  
 }
-.ariva a{
+.ariva a {
   position: relative;
-  color: #299684; 
+  color: #299684;
   text-decoration: none;
   font-size: 1.6rem;
-   display: block;
-   padding: 6px 6px;
+  display: block;
+  padding: 6px 6px;
 }
- 

@@ -1,23 +1,23 @@
-h1{
+h1 {
   text-align: center;
   font-weight: bold;
-  font-size:48px;
+  font-size: 48px;
 }
- 
-header{
+
+header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
-.active{
+.active {
   background-color: #003349;
 }
-.container a{
+.container a {
   color: #fff;
   padding: 18px 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.titulo{
+.titulo {
   font-weight: bold;
   color: #333;
   width: 80%;
@@ -25,7 +25,7 @@ header{
   margin-right: auto;
   font-size: 20px;
 }
-.titulocookeis{
+.titulocookeis {
   font-weight: bold;
   color: rgba(19, 22, 21);
   width: 80%;
@@ -33,19 +33,19 @@ header{
   margin-right: auto;
   font-size: 20px;
 }
-.foto{
+.foto {
   margin-top: 30px;
-  width:80%;
+  width: 80%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
-.foto img{
+.foto img {
   margin-top: 30px;
   width: 40%;
   height: auto;
 }
-.uso{
+.uso {
   margin-top: 30px;
   font-weight: bold;
   color: #333;
@@ -54,8 +54,8 @@ header{
   margin-right: auto;
   font-size: 20px;
 }
-.date{
-   margin-top: 30px;
+.date {
+  margin-top: 30px;
   font-weight: bold;
   color: #333;
   width: 80%;
@@ -63,7 +63,7 @@ header{
   margin-right: auto;
   font-size: 20px;
 }
-strong{
+strong {
   color: #0366b6;
 }
 footer {
@@ -80,4 +80,3 @@ footer {
 footer p {
   margin: 0;
 }
- 

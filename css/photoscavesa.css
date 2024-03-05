@@ -1,58 +1,57 @@
- .foto {
-     width: 100%;
-     top: 0;
-     z-index: 1;
-     background: -webkit-linear-gradient(top,  #003349, #fff);
-     background: -moz-linear-gradient(top,  #003349, #fff);
-     background: -ms-linear-gradient(top,  #003349, #fff);
-     background: -o-linear-gradient(top,  #003349, #fff);
-     z-index: 3;
- }
- 
- .foto img {
-     border-top-left-radius: 0px;
-     border-top-right-radius: 0px;
-     top: 0;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 80%;
-     height: 360px;
-     
-     z-index: 3;
- }
-.mesa{
-    width: 90%;
-    height:auto;
-    margin-left: auto;
-    margin-right: auto;
+.foto {
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background: -webkit-linear-gradient(top, #003349, #fff);
+  background: -moz-linear-gradient(top, #003349, #fff);
+  background: -ms-linear-gradient(top, #003349, #fff);
+  background: -o-linear-gradient(top, #003349, #fff);
+  z-index: 3;
 }
-.ariva{
-    width: 100%;
-    height: 30px;
-    background-color: #036;
-    text-align: center;
-    margin-top: 140px;
-    position: absolute;
+
+.foto img {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 360px;
+
+  z-index: 3;
 }
-.ariva a{
-   padding: 10px 20px;
-    font-size: 1.4rem;
-    color: #fff;
-    text-decoration: none;
+.mesa {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.carousel-item img{
-    width: auto;
-    height: 560px;
+.ariva {
+  width: 100%;
+  height: 30px;
+  background-color: #036;
+  text-align: center;
+  margin-top: 140px;
+  position: absolute;
 }
-.lawn{
-    padding: 10px;
-    margin: 10px;
-    text-align: right;
-    border: 1px solid #6cba8a;
-    background-color: #036;
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-   
+.ariva a {
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+}
+.carousel-item img {
+  width: auto;
+  height: 560px;
+}
+.lawn {
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  border: 1px solid #6cba8a;
+  background-color: #036;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
 }

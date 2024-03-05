@@ -1,13 +1,13 @@
 .pie {
-    text-align: center;
-    background-color: #afdbca;
-    background-image: url(https://www.w3schools.com/css/img_flwr.gif);
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+  text-align: center;
+  background-color: #afdbca;
+  background-image: url(https://www.w3schools.com/css/img_flwr.gif);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .pie h2 {
-    color: #0366d6;
-    padding: 26px 26px;
+  color: #0366d6;
+  padding: 26px 26px;
 }
