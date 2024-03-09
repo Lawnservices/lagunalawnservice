@@ -36,6 +36,7 @@
 
   <body>
     <header>
+      
       <div class="header">
         <ul>
           <li><a href="https://lagunalawnservice.com/">Home</a></li>
@@ -65,7 +66,20 @@
         </ul>
       </div>
     </header>
-
+    <picture>
+      <source
+        media="(max-width: 640px)"
+        srcset="https://lagunalawnservice.com/img/casa-28.jpg"
+      />
+      <source
+        media="(min-width:640 )"
+        srcset="https://lagunalawnservice.com/img/casa-28.jpg"/>
+      <img
+        class="cavesa"   
+        src="https://lagunalawnservice.com/img/galeria11.jpg"
+        alt="" loading="lazy"/>
+    </picture>
+    <!-- 
     <div class="foto">
       <img
         src="https://lagunalawnservice.com/img/casa-28.jpg"
@@ -73,7 +87,7 @@
         alt=""
         loading="lazy"
       />
-    </div>
+    </div> -->
 
     <h1 id="nombre"></h1>
 
@@ -82,7 +96,7 @@
         THE BEST PRICES IN THE AREA. <br />Shrub pruning if you hire our
         services
       </h2>
-      <button class="btn btn-dark" onclick="laguna()">Business Hours</button>
+      <button class="btn btn-dark" id="btn" onclick="laguna()">Business Hours</button>
       <pre class="orario list-1">
  Business Hours
  Monday - Friday
@@ -91,8 +105,9 @@
 </pre
       >
     </section>
-
+       <h4 id="nombre"></h4>
     <section class="main">
+     
       <div id="galeria" class="galeria">
         <div class="galeria__item">
           <img
