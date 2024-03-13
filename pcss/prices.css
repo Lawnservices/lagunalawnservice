@@ -317,8 +317,11 @@ border-top: 4px solid #0366;
     ul li #home{
         display: none;
     }
+    .orario{
+     margin-left: 12px;
+    }
     .horas {
-        display: none;
+        display:block;
     }
 }
 #dark-mode-btn {
