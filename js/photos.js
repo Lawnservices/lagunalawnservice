@@ -6,4 +6,5 @@ function laguna() {
 };
 document.getElementById("btn").addEventListener("click",function(){
     document.getElementById("nombre").innerHTML = "Gallery of Finished Works.";
+   
 });

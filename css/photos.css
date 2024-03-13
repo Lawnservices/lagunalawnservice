@@ -23,26 +23,60 @@ html {
   width: 40px;
   height: 40px;
 }
-
+/* orario */
 .orario {
-  color: #04aa6d;
-  font-size: 1rem;
   display: none;
   padding: 6px;
   background-color: #f6f6f6;
   max-width: 300px;
   margin-left: 30px;
-  height: 180px;
+  height: 260px;
   margin-top: 10px;
   border-radius: 0.4rem;
   position: absolute;
 }
-
-.precio::first-letter {
-  color: #0366d6;
-  font-size: 1.6rem;
-  letter-spacing: 0.2rem;
+.orario ul{
+  list-style: none;
 }
+.orario ul li{
+  text-decoration: none;
+}
+.orario ul li a{
+  text-align: center;
+  color: #154256;
+}
+.orario ul li a:hover{
+  background-color: #f6f6f6;
+  color: #04aa6d;
+}
+.orario ul li a img{
+  border: 2px solid #154256;
+  width: 60px;
+  height: auto; 
+} 
+
+#domingo{
+  width: 70%;
+  height: 120px;
+  background-color: #003349;
+  margin: auto;
+  border-radius: 0.4rem;
+  display: none;
+}
+#domingo span{
+  display: block;
+  text-align: center;
+  padding: 6px 6px;
+  color: #fff;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#bisnes1{
+  display: none;
+}
+/* orario */
+ 
 
 .precio {
   margin-left: 17%;
