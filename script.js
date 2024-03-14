@@ -13,13 +13,13 @@ document.getElementById("seis").addEventListener("click", function () {
   document.getElementById("seis").style.color = "yellow";
   document.getElementById("mensajes").style.display = "block";
 });
-setInterval(tiempo, 20000);
+setInterval(tiempo, 8000);
 
 function mas() {
   document.getElementById("seis").style.color = "#fff";
   document.getElementById("mensajes").style.display = "none";
 }
-setInterval(mas, 30000);
+setInterval(mas, 9000);
 
 document.getElementById("tube").addEventListener("click", function () {
   let paginas;
