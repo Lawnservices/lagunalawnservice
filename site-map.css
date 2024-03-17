@@ -2,12 +2,18 @@ body {
   padding: 0;
   margin: 0;
 }
+#navbar{
+ position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 .navbar {
   width: 100%;
   height: 100px;
   background-color: #003349;
   display: flex;
   border-bottom: 2px solid #fff;
+  
 }
 ul {
   list-style: none;
@@ -58,6 +64,27 @@ span {
   letter-spacing: 0.1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.foto{
+  width: 100%;
+  height: 360px;
+  margin-top: 240px;
+  background-image: url(https://lagunalawnservice.com/img/galeria9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  cursor: pointer;
+}
+#foto2{
+  display: none;
+   width: 100%;
+  height: 360px;
+  margin-top: 100px;
+  background-image: url(https://lagunalawnservice.com/img/galeria7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+}
 .pie {
   background-color: #003349;
 }
@@ -73,7 +100,7 @@ span {
   height: 260px;
   background-color: #003349;
   clear: both;
-  margin-top: 500px;
+  margin-top: 0px;
   display: block;
 }
 .paginafinal span,
@@ -99,6 +126,6 @@ a {
     text-decoration: none;
   }
   .paginafinal {
-    margin-top: 200px;
+    margin-top: 0px;
   }
 }
