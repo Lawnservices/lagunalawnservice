@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #00b154;
+  overflow: hidden;
+}
+.navbar {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+}
+.navbar ul {
+  display: inline-flex;
+  padding: 18px;
+}
+.navbar ul li {
+  margin-left: 30px;
+  float: left;
+  list-style: none;
+}
+.navbar ul li a {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: #003349;
+  transition: all 1s;
+}
+.navbar ul li a:hover {
+  color: #fff;
+  transition: all 1s;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #003349;
+  font-weight: bolder;
+}
+#video {
+  display: none;
+  width: 100%;
+  height: 460px;
+  border-radius: 0.4rem;
+}
+#demo {
+  text-align: center;
+  color: #00b154;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.fotos {
+  width: 60%;
+  height: 460px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fotos img {
+  width: 100%;
+  height: 460px;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+.fotos #foto1 {
+  display: none;
+}
+.fotos #foto2 {
+  display: none;
+}
+.fotos #foto3 {
+  display: none;
+}
+.about {
+  background-color: #00b154;
+  width: 100%;
+  height: 100px;
+  margin-top: 140px;
+}
+.about p,
+a {
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+.videos {
+  font-size: 18px;
+  padding: 8px;
+  border: none;
+  background-color: #003349;
+  color: #fff;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.videos1 {
+  display: none;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #003349;
+    overflow: hidden;
+  }
+  .navbar ul li a {
+    font-size: x-large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bolder;
+    color: #fff;
+    transition: all 1s;
+  }
+  .navbar {
+    width: 98%;
+    height: 100px;
+    margin: auto;
+  }
+
+  .fotos {
+    width: 98%;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fotos #demo {
+    font-size: 18px;
+  }
+}
