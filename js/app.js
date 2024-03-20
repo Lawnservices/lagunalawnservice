@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(){
 const cavesa = document.querySelector(".header .nav-bar .nav-list .hamburger");
 const mobile_menu = document.querySelector(".header .nav-bar .nav-list ul");
 const menu_item = document.querySelectorAll(
@@ -29,23 +28,21 @@ document.addEventListener("scroll", () => {
       tres.style.color = "green";
       cuatro.style.color = "#fff";
     }
-    if(scroll_position < 2000){
-         tres.style.color = "#fff";
+    if (scroll_position < 2000) {
+      tres.style.color = "#fff";
     }
-     if(scroll_position > 4340){
-     tres.style.color = "#fff";
-     cuatro.style.color = "green";
-     cinco.style.color = "#fff";
-     }
-     if(scroll_position > 5300){
-        cuatro.style.color = "#fff";
-        cinco.style.color = "green";
-         
-     }
-     if(scroll_position > 6200){
-         cinco.style.color = "#fff";
-        
-     }
+    if (scroll_position > 4340) {
+      tres.style.color = "#fff";
+      cuatro.style.color = "green";
+      cinco.style.color = "#fff";
+    }
+    if (scroll_position > 5300) {
+      cuatro.style.color = "#fff";
+      cinco.style.color = "green";
+    }
+    if (scroll_position > 6200) {
+      cinco.style.color = "#fff";
+    }
     if (scroll) {
       header.style.height = "90px";
     }
@@ -57,8 +54,3 @@ document.addEventListener("scroll", () => {
     tres.style.color = "#fff";
   }
 });
-
-});
-
-
- 

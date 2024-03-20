@@ -1,5 +1,9 @@
+document.addEventListener("DOMContentLoaded", function(){
 document.getElementById("foto").addEventListener("click", function () {
   document.getElementById("foto").style.display = "none";
+  document.getElementById("nava").style.backgroundColor = "#333";
+   document.getElementById("home").style.color = "#fff";
+   document.getElementById("site").style.color = "#fff";
   document.getElementById("foto1").style.display = "block";
   document.getElementById("demo").innerText = "Lawn Mowing";
 });
@@ -20,6 +24,9 @@ document.getElementById("foto2").addEventListener("click", function () {
 document.getElementById("foto3").addEventListener("click",function(){
 document.getElementById("foto3").style.display = "none";
 document.getElementById("foto").style.display = "block";
+ document.getElementById("nava").style.backgroundColor = "#00b154";
+  document.getElementById("home").style.color = "#003349";
+   document.getElementById("site").style.color = "#003349";
 });
 document.getElementById("videos").addEventListener("click",function(){
      document.getElementById("videos").style.display = "none";
@@ -41,9 +48,8 @@ document.getElementById("videos").addEventListener("click",function(){
    document.getElementById("demo").innerText = "THE BEST PRICES IN THE AREA.";
     document.getElementById("demo").style.color = "#00b154";
      document.getElementById("laguna").style.color = "#003349";
+     
   });
-  
-
+});
  
-
  
