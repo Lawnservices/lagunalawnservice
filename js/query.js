@@ -10,7 +10,7 @@ $(document).ready(function() {
         mas.css('color','blue');
     });
 
-
+document.getElementById('mass');
 
 });
-document.getElementById('mass');
+ 
