@@ -10,13 +10,14 @@ header {
   height: 60px;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 .header ul {
   padding: 0;
   margin: 0;
-  position: relative;
+   
   list-style-type: none;
-  overflow: hidden;
+   
 }
 li {
   float: left;
