@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #003349;
   color: #fff;
   padding: 10px;
   position: -webkit-sticky;
@@ -41,16 +41,13 @@ nav a {
   color: #fff;
   font-weight: bold;
   font-size: 20px;
-  line-height: 50px;
+  display: block;
+  border-radius: .2rem;
 }
 
 nav a:hover {
-  color: rgba(
-    227,
-    244,
-    239,
-    0.533
-  ); /* Cambiar el color al pasar el ratón sobre el enlace */
+  background-color: aliceblue;
+  color: #003349;
 }
 
 main {
