@@ -1,0 +1,14 @@
+.avisar{
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avisar h2{
+  color: green;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.avisar p{
+  color: black;
+}
