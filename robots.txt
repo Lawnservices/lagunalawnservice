@@ -1,5 +1,3 @@
 # version 0.0.1
 User-agent:*
-User-agent:googlebot
-User-agent:bingbot
 Disallow:
