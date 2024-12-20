@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   enla.href = "https://lagunalawnservice.com";
   enla.textContent='Home';
 
-   
+  enlace.href = "https://lagunalawnservice.com/photos";
+  enlace.textContent='Photos';
 
   enlac.href = "https://lagunalawnservice.com/prices";
   enlac.textContent='Prices';
