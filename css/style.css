@@ -779,12 +779,13 @@ h1 {
   color: #fff;
   border-left: 8px solid green;
 }
-
+/* esto es donde las fotos y texto colores */
 #about .col-right p {
   margin-bottom: 20px;
   border: 1.6px solid #003349;
   padding: 8px;
-  background-color: #60a5a5;
+  background-color: #fff;
+  box-shadow: 0px 2px 0px 2px #003349;
   color: #000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
