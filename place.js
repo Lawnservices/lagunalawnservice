@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const myPromise = new Promise(function (myResolve) {
     setTimeout(function () {
-      myResolve("You want an excellent garden, you are in the right place..");
+      myResolve("What can we do for your garden? If you want an excellent garden, you are in the right place.");
     }, 3000);
   });
 

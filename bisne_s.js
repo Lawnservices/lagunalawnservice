@@ -1,8 +1,10 @@
 const vesa = document.getElementById("navega");
 const vesas = document.getElementById("vermas");
+
+
 const cavesa = document.addEventListener("scroll", () => {
-  var scroll_positin = window.scrollY;
-  if (scroll_positin > 300) {
+  var scroll_position = window.scrollY;
+  if (scroll_position > 300) {
     navega.style.backgroundColor = "#003349";
     vermas.style.color = "#fff";
   } else {

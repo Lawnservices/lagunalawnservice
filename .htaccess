@@ -1,1 +1,1 @@
-RewriteBase / RewriteEngine On RewriteCond %{REQUES_FILENAME} !-d RewriteCond %{REQUES_FILENAME}.html -f RewriteRule ^(.*)$ $1.html
+RewriteBase / RewriteEngine On RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}.html -f RewriteRule ^(.*)$ $1.html[L]
