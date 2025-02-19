@@ -1,25 +1,17 @@
-// Función para establecer una cookie
-function setCookie(nombre, valor, diasExpiracion) {
-    var fecha = new Date();
-    fecha.setTime(fecha.getTime() + (diasExpiracion * 24 * 60 * 60 * 1000));  
-    var expiracion = "expires=" + fecha.toUTCString();
-    document.cookie = nombre + "=" + valor + "; " + expiracion + "; path=/"; 
-}
-
- 
-function usuarioAceptoCookies() {
-    return document.cookie.indexOf("aceptoCookies=true") !== -1;    
-}
-
- 
-function mostrarMensajeCookies() {
-    if (!usuarioAceptoCookies()) {  
-        var mensaje = "This website uses cookies to improve your experience. Do you accept our cookies?";
-        if (confirm(mensaje)) {  
-            setCookie("aceptoCookies", "true", 365);    
-        }
+document.addEventListener('DOMContentLoaded', function() {
+    // Verifica si ya se ha dado una respuesta
+    if (!localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookieConsent').style.display = 'block';
     }
-}
 
- 
-mostrarMensajeCookies();
+    // Botón Aceptar
+    document.getElementById('acceptCookies').addEventListener('click', function() {
+      localStorage.setItem('cookiesAccepted', 'true');
+      document.getElementById('cookieConsent').style.display = 'none';
+    });
+
+    // Botón Rechazar
+    document.getElementById('rejectCookies').addEventListener('click', function() {
+      document.getElementById('cookieConsent').style.display = 'none';
+    });
+  });
