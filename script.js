@@ -38,10 +38,10 @@ window.addEventListener("load", function () {
     tube.addEventListener("click", function () {
       if (confirm("Subscribe to the channel thanks.")) {
         window.location.assign(
-          "https://www.youtube.com/watch?v=JWaalpVgbtU&list=PLBuaTHsUXhWnHvzCQIJky3J_RLgm8bBlB"
+          "https://www.youtube.com/channel/UCDrj5SFghzYP0d2Luaue99A"
         );
       } else {
-        alert("Gracias");
+        alert("Thanks you");
       }
     });
   }
