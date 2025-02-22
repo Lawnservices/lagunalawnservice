@@ -12,3 +12,6 @@
 .avisar p{
   color: black;
 }
+a.nav-link.active{
+color: green;
+}
