@@ -35,35 +35,7 @@
   }
 }
 
-.iop {
-  text-align: center;
-  margin-top: 60px;
-}
-.iop a {
-  font-size: 20px;
-  padding: 16px 16px;
-  color: #003349;
-  font-weight: bold;
-  border-radius: 0.4rem;
-}
-.iop a:hover {
-  background-color: #e93232;
-  color: #fff;
-  transition: 0.3s;
-}
-.iop #get {
-  background-color: #003349;
-  color: #fff;
-  border-radius: 0.4rem;
-}
-.iop #get:hover {
-  background-color: #04aa6d;
-  transition: 0.3s;
-}
-.iop a img {
-  width: 30px;
-  height: 30px;
-}
+ 
 /*style estra*/
 
 .pie {
@@ -105,20 +77,7 @@
   }
 }
 /*time.css para estra*/
-div.time {
-  width: 400px;
-  height: 80px;
-  margin-top: 20px;
-  background-color: antiquewhite;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-  border-bottom-left-radius: 0.2cm;
-  border-bottom-right-radius: 0.2cm;
-}
-
-div.time span {
-  font-size: 2.2rem;
-  color: #0366b6;
-}
+ 
 html {
   overflow-x: hidden;
 }
