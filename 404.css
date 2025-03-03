@@ -1,3 +1,23 @@
-#btn {
+body {
+   
+   background: linear-gradient(#000, white);
+   background-repeat: no-repeat;
+ }
+.mensaje h1{
+color: #fff;
+
+}
+p{
+color: #9a1919;
+font-size: 24px;
+}
+ a {
+   margin-top: 20px;
+ }
+ .mensaje {
+   padding: 10%;
+ }
+ 
+ #btn {
    background-color: rgb(42, 49, 190);
 }
