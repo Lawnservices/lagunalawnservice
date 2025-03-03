@@ -19,9 +19,16 @@
   text-align: right;
   font-size: 18px;
 }
-
+.lanham{
+background: linear-gradient(black,white);
+padding: 10px; 
+border-radius: 0.4rem;
+}
 @media (min-width: 320px) and (max-width: 600px) {
   .mass {
     display: none;
+  }
+  .lanham{
+  display: none;
   }
 }
