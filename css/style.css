@@ -63,7 +63,9 @@ html {
 
 a {
   text-decoration: none;
+
 }
+ 
 
 .container {
   min-height: 100vh;
@@ -81,164 +83,20 @@ img {
   margin-bottom: cover;
 }
 /* animacion  */
-#uno {
-  font-size: 26px;
-  color: #fff;
-}
-#uno {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
+ 
 
-#dos {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
+ 
+ 
+ 
 
+ 
 
+ 
+ 
 
-#tres {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
+ 
 
-#tres::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 100%;
-  background: #1548;
-  transition: transform 0.3s;
-  z-index: -1;
-  border-radius: 0.4rem;
-}
-
-#tres:hover::before {
-  transform: translateX(100%);
-}
-
-#cuatro {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
-
-#cuatro::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 100%;
-  background: #1548;
-  transition: transform 0.3s;
-  z-index: -1;
-  border-radius: 0.4rem;
-}
-
-#cuatro:hover::before {
-  transform: translateX(100%);
-}
-#cinco {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
-
-#cinco::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 100%;
-  background: #1548;
-  transition: transform 0.3s;
-  z-index: -1;
-  border-radius: 0.4rem;
-}
-
-#cinco:hover::before {
-  transform: translateX(100%);
-}
-#siete {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
-
-#siete::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 100%;
-  background: #1548;
-  transition: transform 0.3s;
-  z-index: -1;
-  border-radius: 0.4rem;
-}
-
-#siete:hover::before {
-  transform: translateX(100%);
-}
-
-#ocho {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
-
-#ocho::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 100%;
-  background: #1548;
-  transition: transform 0.3s;
-  z-index: -1;
-  border-radius: 0.4rem;
-}
-
-#ocho:hover::before {
-  transform: translateX(100%);
-}
+ 
 p {
   color: black;
   font-size: 1.4rem;
@@ -247,32 +105,10 @@ p {
   font-weight: 300;
   letter-spacing: 0.05rem;
 }
-#seis {
-  width: "";
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-  padding: 16px 16px;
-  border-radius: 0.4rem;
-}
+ 
+ 
 
-#seis::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 100%;
-  background: #1548;
-  transition: transform 0.3s;
-  z-index: -1;
-  border-radius: 0.4rem;
-}
-
-#seis:hover::before {
-  transform: translateX(100%);
-}
+ 
 p {
   color: black;
   font-size: 1.4rem;
@@ -396,7 +232,7 @@ p {
 }
 
 #header .nav-list ul a:hover {
-  color: #fff;
+  color:green;
   padding: 20px 20px;
 }
 
