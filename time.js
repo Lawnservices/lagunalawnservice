@@ -16,7 +16,7 @@ setTimeout(() =>{
     timesaludo();
 },6000); 
 
-let corte = "Lawn Mowing Call Now"
+let corte = "Lawn Mowing Call Now 240 883 8479"
 let day;
 switch (new Date().getDay()){
     case 0:
