@@ -45,4 +45,10 @@ setTimeout(()=>{
     document.getElementById('dias').innerHTML = "Today is" +" "+ day +" "+ corte;
     document.getElementById('dias').style.color = "#fff";
 },9000);
+
+const tiempo = new Date().getHours();
+const colores = tiempo >= 12 ? 'PM' : 'AM';
+const color = tiempo >= 12 ? '#022148' : '#000';
+ 
+document.getElementById('orario').style.color = color;
  

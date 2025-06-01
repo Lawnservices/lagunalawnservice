@@ -21,6 +21,9 @@
   font-size: 18px;
   white-space: nowrap;
 }
+#orario{
+color: #fff;
+}
 .lanham{
 background: linear-gradient(black,white);
 padding: 10px; 
