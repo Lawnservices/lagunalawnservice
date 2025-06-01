@@ -1,23 +1,25 @@
 .mass {
   width: 100%;
+  margin-top:90px;
   height: auto;
-  background-color: #fff;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  background-color: #15853e;
+  color: #fff;
+  
 }
 .mass .orario {
-  background-color: #fff;
-  overflow: hidden;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px; 
 }
 .mass .orario p {
-  color: #003349;
+  color: #fff;
   padding: 6px 6px;
   text-align: right;
   font-size: 18px;
+  white-space: nowrap;
 }
 .lanham{
 background: linear-gradient(black,white);

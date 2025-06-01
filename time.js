@@ -10,7 +10,7 @@ if(hour < 12 ){
     greeting = 'Good evening';
 }
 document.getElementById('time').innerHTML = greeting + ' ' + mensaje;
-document.getElementById('time').style.color = 'blue';
+document.getElementById('time').style.color = '#fff';
 }
 setTimeout(() =>{
     timesaludo();
@@ -43,6 +43,6 @@ switch (new Date().getDay()){
 }
 setTimeout(()=>{
     document.getElementById('dias').innerHTML = "Today is" +" "+ day +" "+ corte;
-    document.getElementById('dias').style.color = "green";
+    document.getElementById('dias').style.color = "#fff";
 },9000);
  
