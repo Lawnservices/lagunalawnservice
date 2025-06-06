@@ -323,9 +323,8 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #hero {
-  background-image: url(../img/casa-28.jpg);
-
-  background-size: cover;
+  background-color: #239305;
+   background-size: cover;
   background-position: top center;
   position: relative;
   border-bottom: 4px solid #ed8080;
