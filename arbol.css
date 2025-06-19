@@ -33,3 +33,28 @@ font-size: 20px; color: #2e7d32;
 .las{
 font-size: 20px; color: #000;
 }
+.nota{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+.nota{
+padding: 4px;
+background-color:  rgba(77, 8, 8, 0.1);
+margin-top: 60px;
+}
+.nota h2{
+text-align: center;
+margin-top: 60px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 24px;
+color: #051e63;
+border-radius: 0.4rem;
+}
+.nota p{
+text-align: justify;
+color: #141d1f;
+letter-spacing: 1px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 4px;
+}
