@@ -1,7 +1,7 @@
 function timesaludo(){
 const  hour = new Date().getHours();
 let greeting;
-const mensaje = 'time to put down new mulch.';
+const mensaje = 'to put down new mulch.';
 if(hour < 12 ){
     greeting = 'Good morning';
 } else if(hour < 18) {
@@ -16,7 +16,7 @@ setTimeout(() =>{
     timesaludo();
 },6000); 
 
-let corte = "Lawn Mowing Call Now 240 883 8479"
+let corte = "Call Now 240 883 8479"
 let day;
 switch (new Date().getDay()){
     case 0:
@@ -32,7 +32,7 @@ switch (new Date().getDay()){
         day = "Wednesday";
         break;
     case 4:
-        day = "Thurday";
+        day = "Thursday";
         break;
     case 5:
         day = "Friday";
