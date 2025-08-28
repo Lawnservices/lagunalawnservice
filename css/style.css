@@ -324,8 +324,7 @@ p {
 }
 /* donde ponemos las imagenes de background */
 #hero {
-  background-color: #183012;
-   background-size: cover;
+  background-size: cover;
   background-position: top center;
   position: relative;
   border-bottom: 4px solid #ed8080;
