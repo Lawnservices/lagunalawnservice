@@ -11,7 +11,7 @@ if (dia < 12){
      
     
 } else if (dia < 18){
-    document.getElementById('hero').style.backgroundImage = 'url("https://lagunalawnservice.com/img/galeria9.jpg")';
+    document.getElementById('hero').style.backgroundImage = 'url("https://lagunalawnservice.com/img/galeria8.jpg")';
      document.getElementById('hero').style.backgroundSize = 'cover';
     document.getElementById('hero').style.backgroundRepeat = 'no-repeat';
     document.getElementById('servicio').textContent =  lawn[1];
