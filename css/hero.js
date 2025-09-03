@@ -20,5 +20,12 @@ if (dia < 12){
 
 }
 
+let zxc = new Date().getHours();
+let colores = (zxc < 12) ? " #29323c" : " #1d518dff";
+document.getElementById('bar').style.backgroundColor = colores;
+
+let zxcc = new Date().getHours();
+let coloress = (zxcc < 12) ? " #29323c" : " #1d518dff";
+document.getElementById('asd').style.backgroundColor = coloress;
 
 });
