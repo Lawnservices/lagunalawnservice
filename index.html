@@ -178,6 +178,13 @@
       <p>We are a team of talented gardeners.</p>
     </div>
 
+<!-- contador -->
+ <div id="counter">
+    <p>👀 Visitas: <span id="visitas">0</span></p>
+    <p>👍 Likes: <span id="likes">0</span></p>
+    <button id="likeBtn">Dar Like</button>
+  </div>
+
      <section class="nota">
     <h2>Professional Lawn & Garden Services in Lanham, MD</h2>
     <p> 
@@ -523,5 +530,63 @@ title="Subscribe to the channel">
     <script src="javascript.js"></script>
     <script src="/css/hero.js"></script>
     <script src="https://lawnservices.github.io/power/mensage.js"></script>
+    <!-- contador -->
+     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js"></script>
+
+  <script type="module">
+    // 🔹 REEMPLAZA ESTOS DATOS CON LOS DE TU PROYECTO FIREBASE
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAz8Iuvd2dThcrihiiqJWXFgVGSPJ7xGpo",
+  authDomain: "visitas-9091c.firebaseapp.com",
+  databaseURL: "https://visitas-9091c-default-rtdb.firebaseio.com",
+  projectId: "visitas-9091c",
+  storageBucket: "visitas-9091c.firebasestorage.app",
+  messagingSenderId: "708751916726",
+  appId: "1:708751916726:web:868494b23a12ffa62bf017",
+  measurementId: "G-574Q074Z35"
+};
+
+    // Inicializar Firebase
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+    import { getDatabase, ref, get, set, onValue } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    const visitasRef = ref(db, "contador/visitas");
+    const likesRef = ref(db, "contador/likes");
+
+    // 🔹 Contador de visitas
+    get(visitasRef).then(snapshot => {
+      let visitas = snapshot.exists() ? snapshot.val() : 0;
+      visitas++;
+      set(visitasRef, visitas);
+    });
+
+    // 🔹 Actualizar contador en tiempo real
+    onValue(visitasRef, snapshot => {
+      document.getElementById("visitas").textContent = snapshot.val() || 0;
+    });
+
+    onValue(likesRef, snapshot => {
+      document.getElementById("likes").textContent = snapshot.val() || 0;
+    });
+
+    // 🔹 Botón de Like (solo 1 vez por visitante)
+    document.getElementById("likeBtn").addEventListener("click", () => {
+      if (!localStorage.getItem("liked")) {
+        get(likesRef).then(snapshot => {
+          let likes = snapshot.exists() ? snapshot.val() : 0;
+          likes++;
+          set(likesRef, likes);
+          localStorage.setItem("liked", "true");
+        });
+      } else {
+        alert("Ya diste like 👍");
+      }
+    });
+  </script>
   </body>
   </html>
