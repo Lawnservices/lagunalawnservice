@@ -1,0 +1,33 @@
+.lista{
+text-align: center;
+font-size: 40px;
+}
+ #trabajos {
+  margin-top: 60px;
+  width: 90%; /* más flexible en móviles */
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas en PC */
+  gap: 15px;
+  text-align: justify;
+}
+
+#trabajos p {
+  color: rgb(0, 77, 182);
+  text-transform: uppercase;
+}
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+  #trabajos {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  }
+}
+
+/* Teléfonos (pantallas chicas) */
+@media (max-width: 600px) {
+  #trabajos {
+    grid-template-columns: 1fr; /* 1 columna */
+  }
+}
