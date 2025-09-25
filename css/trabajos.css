@@ -1,6 +1,14 @@
+.orario .qe{
+padding: 16px;
+ 
+float: right;
+background-color:rgb(13, 119, 45);
+color: #081616;  
+ 
+}
 .lista{
 text-align: center;
-font-size: 40px;
+font-size:20px;
 }
  #trabajos {
   margin-top: 60px;
