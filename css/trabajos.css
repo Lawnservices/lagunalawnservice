@@ -25,6 +25,8 @@ font-size:20px;
   color: rgb(0, 77, 182);
   text-transform: uppercase;
 }
+
+
 /* Tablets (pantallas medianas) */
 @media (max-width: 1024px) {
   #trabajos {
