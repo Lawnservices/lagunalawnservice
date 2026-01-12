@@ -8,9 +8,8 @@ header {
   background-color: #003349;
   position: static;
   height: 60px;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+ 
+ overflow: hidden;
 }
 .header ul {
   padding: 0;
