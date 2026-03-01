@@ -38,16 +38,17 @@ img {
   width: 100%;
   margin-bottom: cover;
 }
+
 /* animacion  */
 p {
   color: black;
-  font-size:20px;
+  font-size: 20px;
   margin-top: 5px;
   line-height: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
 }
- 
+
 .section-title {
   font-size: 4rem;
   font-weight: 300;
@@ -57,9 +58,11 @@ p {
   letter-spacing: 0.2rem;
   text-align: center;
 }
+
 .section-title span {
   color: teal;
 }
+
 /* class cta */
 .cta {
   background-color: #29323c;
@@ -76,6 +79,7 @@ p {
   position: relative;
   text-align: center;
 }
+
 .cta::after {
   content: "";
   position: absolute;
@@ -88,10 +92,12 @@ p {
   border-radius: 0.4rem;
   /* Transición suave */
 }
+
 .cta:hover::after {
   width: 100%;
   left: 0;
 }
+
 /* class cta */
 .brand h1 {
   font-size: 3rem;
@@ -102,6 +108,7 @@ p {
 .brand h1 span {
   color: green;
 }
+
 /* hero section */
 /* cavesa */
 #header {
@@ -162,7 +169,7 @@ p {
 }
 
 #header .nav-list ul a:hover {
-  color:green;
+  color: green;
   padding: 20px 20px;
 }
 
@@ -252,6 +259,7 @@ p {
 ::-webkit-scrollbar {
   width: 14px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #55e09a;
   height: 140px;
@@ -265,12 +273,14 @@ p {
   height: 80px;
   background-color: #003349;
 }
+
 .colores p {
   color: #fff;
   text-align: center;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* donde ponemos las imagenes de background */
 #hero {
   background-size: cover;
@@ -297,6 +307,7 @@ p {
   padding: 0 50px;
   justify-content: flex-start;
 }
+
 #hero h2 {
   display: block;
   width: 100%;
@@ -306,6 +317,7 @@ p {
 
   color: #fff;
 }
+
 #hero h2 span {
   color: #154;
   position: absolute;
@@ -314,6 +326,7 @@ p {
   height: 100%;
   width: 0;
 }
+
 #services .services {
   flex-direction: column;
   text-align: center;
@@ -421,9 +434,11 @@ h1 {
   font-weight: bold;
   font-size: 16px;
 }
+
 .contact-info .fecn {
   font-size: 18px;
 }
+
 .verde12 {
   color: green;
   font-size: 20px;
@@ -467,17 +482,17 @@ h1 {
 }
 
 #projects .project-info h2 {
-  font-size:22px;
+  font-size: 22px;
   font-weight: 500;
   margin-top: 10px;
   font-family: 'Merriweather', serif;
- color: #71adc7;
+  color: #71adc7;
 }
 
 #projects .project-info p {
   color: #1c9c4d;
   font-family: 'Merriweather', serif;
-   
+
 
 }
 
@@ -540,6 +555,7 @@ h1 {
   color: #fff;
   border-left: 8px solid green;
 }
+
 /* esto es donde las fotos y texto colores */
 #about .col-right p {
   margin-bottom: 20px;
@@ -548,8 +564,8 @@ h1 {
   background-color: #0d9772;
   box-shadow: 0px 2px 0px 2px #003349;
   color: #3f0c0c;
- 
-  font-size:18px;
+
+  font-size: 18px;
   text-align: justify;
   letter-spacing: 1px;
   font-family: 'Merriweather', serif;
@@ -644,7 +660,7 @@ h1 {
   font-size: 2.6rem;
   color: #fff;
   text-align: left;
-   position: fixed;
+  position: fixed;
   right: 20px;
   bottom: 120px;
   padding: 10px 14px;
@@ -672,13 +688,13 @@ h1 {
 
 /* footer */
 
-.year{
-text-align: center;
-font-size: 18px;
-} 
- 
+.year {
+  text-align: center;
+  font-size: 18px;
+}
 
- 
+
+
 
 /* hemburger */
 
@@ -687,6 +703,7 @@ font-size: 18px;
     opacity: 1;
     transform: scale(1);
   }
+
   100% {
     opacity: 0;
     transform: scale(1.7);
@@ -698,6 +715,7 @@ font-size: 18px;
     width: 100%;
     left: 0;
   }
+
   100% {
     width: 0;
     left: 100%;
@@ -735,48 +753,59 @@ font-size: 18px;
   h1.section-title {
     font-size: 6rem;
   }
+
   /* hero */
   #hero h1 {
     font-size: 7rem;
   }
+
   /* services */
   #services .service-bottom .service-item {
     flex-basis: 45%;
     margin: 2.5%;
   }
+
   #projects .project-item {
     flex-direction: row;
   }
+
   #projects .project-item:nth-child(even) {
     flex-direction: row-reverse;
   }
+
   #projects .project-item {
     height: 400px;
     margin: 0;
     width: 100%;
     border-radius: 0;
   }
-  .iconos{
-    width:"48";
-    height:"48"; 
- 
+
+  .iconos {
+    width: "48";
+    height: "48";
+
   }
+
   /* project */
   #projects .all-projects .project-info {
     height: 100%;
   }
+
   #projects .all-projects .project-img {
     height: 100%;
   }
+
   /* about */
   #about .about {
     flex-direction: row;
   }
+
   #about .col-left {
     width: 600px;
     height: 400px;
     padding-left: 60px;
   }
+
   #about .about .col-left .about-img::after {
     left: -45px;
     top: 34px;
@@ -784,13 +813,16 @@ font-size: 18px;
     width: 98%;
     border: 10px solid teal;
   }
+
   #about .col-right {
     text-align: left;
     padding: 30px;
   }
+
   #about .col-right h1 {
     text-align: left;
   }
+
   /* contact */
   #contact .contanct {
     flex-direction: column;
@@ -799,6 +831,7 @@ font-size: 18px;
     justify-content: center;
     min-width: 20vh;
   }
+
   #contact .contact-items {
     width: 100%;
     display: flex;
@@ -806,24 +839,30 @@ font-size: 18px;
     padding: 20px;
     margin: 0;
   }
+
   #contact .contact-item {
     margin: 20px;
     flex-direction: row;
   }
+
   #contact .contact-item .icon {
     height: 100px;
     width: 100px;
   }
+
   #contact .contact-item .icon img {
     object-fit: contain;
   }
+
   #contact .contact-item .contact-info {
     width: 100%;
     text-align: left;
     padding-left: 20px;
   }
+
   /* media */
 }
+
 /* boton ariva  */
 .back-to-top {
   opacity: 0;
@@ -834,16 +873,18 @@ font-size: 18px;
   opacity: 1;
   visibility: visible;
 }
+
 /* privacy */
-.privacy{
-max-width: 1200px;
-margin: 24px auto;
+.privacy {
+  max-width: 1200px;
+  margin: 24px auto;
 }
 
 @media only screen and (min-width: 1200px) {
   #header .hamburger {
     display: none;
   }
+
   #header .nav-list ul {
     position: initial;
     display: block;
@@ -851,15 +892,19 @@ margin: 24px auto;
     width: 100%;
     background-color: transparent;
   }
+
   #header .nav-list ul li {
     display: inline-block;
   }
+
   #hader .nav-list ul li a {
     font-size: 2rem;
   }
+
   #header .nav-list ul a:after {
     display: none;
   }
+
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%;
@@ -870,19 +915,23 @@ margin: 24px auto;
   #botom {
     display: none;
   }
+
   #cooke {
     display: none;
   }
+
   .cta {
     float: left;
     font-size: 20px;
     padding: 10px 20px;
     margin-left: 20px;
   }
+
   #list {
     display: none;
   }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 800px) {
   .cta {
     float: left;
@@ -891,5 +940,3 @@ margin: 24px auto;
     margin-left: 16px;
   }
 }
- 
- 
