@@ -17,6 +17,11 @@ h2{
 font-size: 36px;
 text-align: center;
 }
+/* contenido */
+#contenido{
+max-width: 1200px;
+margin: 24px auto;
+}
 #gallery {
   max-width: 1600px;
   margin: 24px auto;  

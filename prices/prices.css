@@ -43,6 +43,14 @@ body {
 /* ==============================
    TITLES / HERO
 =============================== */
+#contenido{
+ 
+text-align: center;
+}
+#contenido h1{
+color: #061125;
+}
+
 .titulos {
   max-width: 1100px;
   margin: 24px auto;
