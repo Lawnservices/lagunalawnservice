@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const backToTop = document.querySelector(".back-to-top");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
+  if (window.scrollY > 1000) {
     backToTop.classList.add("show");
   } else {
     backToTop.classList.remove("show");
@@ -20,7 +20,7 @@ if (tiempo < 12){
 } else if (tiempo < 18){
   mensaje.textContent = 'The time has come for your mulch replacement. Refresh your yard and give it a clean, polished look—call us today.';
 } else{
-  mensaje.textContent = 'We are currently closed. Our business hours resume tomorrow at 7:00 AM.';
+  mensaje.textContent = 'We are currently closed. Our business hours will resume tomorrow at 7:00 AM.';
 }
 
 });
