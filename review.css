@@ -1,0 +1,12 @@
+/* review */
+.review a{
+display:inline-block;
+background-color: #1a73e8;
+padding: 12px 20px;
+color: #ffffff;
+text-decoration: none;
+border-radius: 4px;
+font-family: sans-serif;
+font-size: 16px;
+margin-left: 26px;
+}
