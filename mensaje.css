@@ -1,5 +1,9 @@
 #mensajes{
-font-size: 22px;
-color: #061125;
+font-size: 26px;
+color: #2c68da;
 
+}
+.closed .one{
+color: #7a6251;
+font-size: 22px;
 }
