@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificación</title>
+</head>
+<body>
+
+  <div id="mensaje"></div>
+
+  <script>
+    // Obtener el token de la URL
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("token");
+
+    // Llamar a tu backend Flask
+    fetch(`https://mlaguna.pythonanywhere.com/verificar?token=${token}`)
+      .then(res => res.text())
+      .then(msg => {
+        document.getElementById("mensaje").textContent = msg;
+      })
+      .catch(err => {
+        document.getElementById("mensaje").textContent = "Error: " + err;
+      });
+  </script>
+
+</body>
+</html>

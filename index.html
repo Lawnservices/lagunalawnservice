@@ -414,7 +414,19 @@
    <script src="subcribete.js"></script>
    <script src="images/footer.js"></script>
   <!-- contador -->
-   <script>
+<script>
+  fetch(`https://mlaguna.pythonanywhere.com/verificar?token=${token}`)
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("mensaje").textContent = data.message;
+  })
+  .catch(err => {
+    document.getElementById("mensaje").textContent = "Error: " + err;
+  });
+
+</script>
+
+   <!-- <script>
     document.getElementById("formSuscribir").addEventListener("submit", async function(e) {
     e.preventDefault(); // 👈 evita que cambie de página
 
@@ -437,7 +449,7 @@
     
     },4000);
 });
-   </script>
+   </script> -->
 </body>
 
 </html>
