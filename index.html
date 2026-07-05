@@ -340,8 +340,9 @@
        Get updates, special offers, and discounts on mulch and lawn services
     </p>
 
-    <form action="https://mlaguna.pythonanywhere.com/suscribirse" method="POST">
-
+    <form action="https://mlaguna.pythonanywhere.com/suscribirse" method="POST" id="formSuscribir">
+      
+ 
         <input id="email"
             type="email"
             name="email"
@@ -350,12 +351,12 @@
             placeholder="your email address"
             required>
 
-        <button type="submit">
+        <button type="submit" onclick="enviar()">
             Subscribe 
         </button>
 
     </form>
-
+   <div id="mensaje"></div>
 </section>
   <section id="contact">
     <div class="contact container list-1">
@@ -413,6 +414,32 @@
    <script src="subcribete.js"></script>
    <script src="images/footer.js"></script>
   <!-- contador -->
+   <script>
+    document.getElementById("formSuscribir").addEventListener("submit", async function(e) {
+    e.preventDefault(); // 👈 evita que cambie de página
+
+    const email = document.getElementById("email").value;
+
+    const formData = new FormData();
+    formData.append("email", email);
+
+    const respuesta = await fetch("https://mlaguna.pythonanywhere.com/suscribirse", {
+        method: "POST",
+        body: formData
+    });
+
+    const texto = await respuesta.text(); // Flask devuelve texto
+
+    document.getElementById("mensaje").innerHTML = texto; // 👈 se muestra en tu div
+
+     setTimeout(function(){
+    document.getElementById('email').value = '';
+    
+    },4000);
+});
+   </script>
 </body>
 
 </html>
+
+

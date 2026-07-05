@@ -3,7 +3,7 @@ const btn = document.getElementById("subscribeBtn");
     
     const lang = navigator.language || navigator.userLanguage;
 
-    dioma
+    
     if (lang.startsWith("en")) {
         btn.textContent = "Subscribe to my channel";
     } else {
