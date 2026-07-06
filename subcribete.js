@@ -1,16 +1,9 @@
 const btn = document.getElementById("subscribeBtn");
 
-    
+if (btn) {
     const lang = navigator.language || navigator.userLanguage;
 
-    
-    if (lang.startsWith("en")) {
-        btn.textContent = "Subscribe";
-    } else {
-        btn.textContent = "Suscríbete";
-    }
-
-   
-    btn.onclick = () => {
-        window.open("https://www.youtube.com/channel/UC8Q51GWY9f5YsIQyLwNMfbw?sub_confirmation=1", "_blank");
-    };
+    btn.textContent = lang.startsWith("en")
+        ? "Subscribe"
+        : "Suscríbete";
+}
