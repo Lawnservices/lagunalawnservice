@@ -5,9 +5,9 @@ const btn = document.getElementById("subscribeBtn");
 
     
     if (lang.startsWith("en")) {
-        btn.textContent = "Subscribe to my channel";
+        btn.textContent = "Subscribe";
     } else {
-        btn.textContent = "Suscríbete a mi canal";
+        btn.textContent = "Suscríbete";
     }
 
    
