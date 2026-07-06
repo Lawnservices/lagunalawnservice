@@ -351,7 +351,7 @@
             placeholder="your email address"
             required>
 
-        <button type="submit" onclick="enviar()">
+        <button type="submit">
             Subscribe 
         </button>
 
@@ -414,17 +414,26 @@
    <script src="subcribete.js"></script>
    <script src="images/footer.js"></script>
   <!-- contador -->
-<script>
-  fetch(`https://mlaguna.pythonanywhere.com/verificar?token=${token}`)
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById("mensaje").textContent = data.message;
-  })
-  .catch(err => {
-    document.getElementById("mensaje").textContent = "Error: " + err;
-  });
+ <script>
+   document.getElementById("formSuscribir").addEventListener("submit", function(e) {
+    e.preventDefault(); // evita recargar la página
 
+    fetch("https://mlaguna.pythonanywhere.com/suscribirse", {
+        method: "POST",
+        body: new FormData(this)
+    })
+    .then(res => res.json())
+    .then(data => {
+        const mensaje = document.getElementById("mensaje");
+        mensaje.textContent = data.message;
+        mensaje.style.color = data.status === "error" ? "red" : "green";
+    })
+    .catch(err => {
+        document.getElementById("mensaje").textContent = "Error: " + err;
+    });
+})
 </script>
+
 
    <!-- <script>
     document.getElementById("formSuscribir").addEventListener("submit", async function(e) {
