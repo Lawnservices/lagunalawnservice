@@ -1,0 +1,5 @@
+# version 0.0.1
+User-agent: *
+Disallow: 
+Allow: /
+Sitemap: https://lagunalawnservice.com/sitemap.xml

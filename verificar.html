@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificación</title>
+</head>
+<body>
+
+  <div id="mensaje"></div>
+
+  <script>
+    // Obtener el token de la URL
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("token");
+
+    // Llamar a tu backend Flask
+    fetch(`https://mlaguna.pythonanywhere.com/verificar?token=${token}`)
+      .then(res => res.json())
+      .then(data => {
+        const mensaje = document.getElementById("mensaje");
+        mensaje.textContent = data.message;
+        mensaje.style.color = data.status === "error" ? "red" : "green";
+
+
+         setTimeout(() => {
+        window.location.href = "https://lagunalawnservice.com/";
+      }, 3000);
+
+      })
+      .catch(err => {
+        document.getElementById("mensaje").textContent = "Error: " + err;
+      });
+  </script>
+
+</body>
+</html>
