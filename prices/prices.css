@@ -164,6 +164,36 @@ color: #061125;
   background: #f8f9fa;
 }
 
+/*about*/
+.price-info {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.price-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #2a7a2a;
+  text-align: center;
+  font-weight: 700;
+}
+
+.price-info p {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.price-info p:last-child {
+  margin-bottom: 0;
+}
+
 /* ==============================
    FOOTER
 =============================== */
