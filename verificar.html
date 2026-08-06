@@ -14,7 +14,7 @@
     const token = params.get("token");
 
     // Llamar a tu backend Flask
-    fetch(`https://mlaguna.pythonanywhere.com/verificar?token=${token}`)
+    fetch(`https://www.creantunegocio.com/verificar?token=${token}`)
       .then(res => res.json())
       .then(data => {
         const mensaje = document.getElementById("mensaje");
