@@ -327,7 +327,7 @@ p {
   width: 0;
 }
 #services{
-max-width:1800px;
+max-width:1200px;
 margin: 24px auto;
 }
 #services .services {
@@ -344,7 +344,7 @@ margin: 24px auto;
 }
 
 #services .service-bottom {
-  display: flex;
+   
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
