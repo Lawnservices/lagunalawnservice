@@ -1,7 +1,8 @@
-body{
-padding: 0;
-margin: 0;
+body {
+    padding: 0;
+    margin: 0;
 }
+
 .terms-container {
     width: 90%;
     max-width: 1000px;
@@ -55,7 +56,8 @@ margin: 0;
 .business-info p {
     margin: 5px 0;
 }
- .navbar {
+
+.navbar {
     margin: 0;
     width: 100%;
     background-color: #061125;
@@ -98,5 +100,5 @@ margin: 0;
         font-size: 15px;
         line-height: 1.6;
     }
-   
+
 }

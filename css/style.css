@@ -10,13 +10,13 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background-color:#fff;
-  
+  background-color: #fff;
+
 }
 
 html {
   overflow-x: hidden;
-  
+
   scroll-behavior: smooth;
   font-size: 10px;
   font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -158,7 +158,7 @@ p {
 }
 
 #header .nav-list ul a {
-  font-size:18px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.2rem;
   text-decoration: none;
@@ -326,34 +326,36 @@ p {
   height: 100%;
   width: 0;
 }
-#services{
-max-width:1200px;
-margin: 24px auto;
+
+#services {
+  max-width: 1200px;
+  margin: 24px auto;
 }
+
 #services .services {
-  flex-direction:column;
+  flex-direction: column;
   text-align: center;
   max-width: 1800px;
-  margin:24px auto;
+  margin: 24px auto;
   padding: 60px 0;
 }
 
 #services .service-top {
-  width:600px;
+  width: 600px;
   max-width: 0 auto;
 }
 
 #services .service-bottom {
-   
+
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
-  
+
 }
 
 #services .service-item {
-  flex-basis:100%;
+  flex-basis: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -447,20 +449,21 @@ h1 {
   color: green;
   font-size: 20px;
 }
+
 /* CONTENEDOR GENERAL */
 #projects {
-  max-width: 1600px; 
-   /* MÁS GRANDE */
+  max-width: 1600px;
+  /* MÁS GRANDE */
   margin: 50px auto;
   padding: 20px;
-   
+
 }
 
 /* LISTA DE PROYECTOS */
 #projects .all-projects {
   display: flex;
   flex-direction: column;
-  gap:1px;
+  gap: 1px;
 }
 
 /* TARJETA DE PROYECTO */
@@ -468,17 +471,18 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height:auto;
+  height: auto;
   border-radius: 14px;
   overflow: hidden;
   background: #1f2a33;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
 }
 
 /* TEXTO DEL PROYECTO */
 #projects .project-info {
   flex: 1;
-  padding: 50px;       /* MÁS ESPACIO PARA EL TEXTO */
+  padding: 50px;
+  /* MÁS ESPACIO PARA EL TEXTO */
   background-image: linear-gradient(60deg, #29323c 0%, #2e3f52 100%);
   color: #fff;
   display: flex;
@@ -503,7 +507,7 @@ h1 {
 /* PÁRRAFOS */
 #projects .project-info p {
   color: #1c9c4d;
-  font-size:18px;
+  font-size: 18px;
   line-height: 2.4rem;
   font-family: 'Merriweather', serif;
 }
@@ -512,7 +516,8 @@ h1 {
 #projects .project-img {
   flex: 1;
   width: 100%;
-  min-height: 380px;   /* MÁS GRANDE */
+  min-height: 380px;
+  /* MÁS GRANDE */
   position: relative;
   overflow: hidden;
 }
@@ -540,19 +545,24 @@ h1 {
 @media (min-width: 900px) {
   #projects .project-item {
     flex-direction: row;
-    align-items: stretch;   /* IMPORTANTE: PERMITE QUE EL TEXTO CREZCA */
-    min-height: auto;       /* SE ADAPTA AL CONTENIDO */
+    align-items: stretch;
+    /* IMPORTANTE: PERMITE QUE EL TEXTO CREZCA */
+    min-height: auto;
+    /* SE ADAPTA AL CONTENIDO */
   }
 
   #projects .project-info {
     flex: 1;
-    padding: 60px;          /* MÁS ESPACIO */
+    padding: 60px;
+    /* MÁS ESPACIO */
   }
 
   #projects .project-img {
     flex: 1;
-    height: auto;           /* SE ADAPTA AL CONTENIDO */
-    min-height: 450px;      /* MÁS ALTO PARA QUE NO SE CORTE NADA */
+    height: auto;
+    /* SE ADAPTA AL CONTENIDO */
+    min-height: 450px;
+    /* MÁS ALTO PARA QUE NO SE CORTE NADA */
   }
 }
 
@@ -646,7 +656,7 @@ h1 {
 }
 
 #contact .contact-item {
-  background-color:#1a1a1a;
+  background-color: #1a1a1a;
   width: 80%;
   padding: 20px;
   text-align: center;
@@ -687,7 +697,7 @@ h1 {
 
 .ariva {
   width: 100%;
-  height:1px;
+  height: 1px;
   background-color: #1e2f30;
   text-align: center;
 }
@@ -916,8 +926,10 @@ h1 {
   margin: 24px auto;
   padding: 16px 20px;
 }
-.privacy h2,p{
-color: #656769;
+
+.privacy h2,
+p {
+  color: #656769;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -950,14 +962,15 @@ color: #656769;
     margin: 1.5%;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 800px){
- body{
-  background-color: #d4d9df;
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  body {
+    background-color: #d4d9df;
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
-  
+
   #botom {
     display: none;
   }

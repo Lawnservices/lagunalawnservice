@@ -43,12 +43,13 @@ body {
 /* ==============================
    TITLES / HERO
 =============================== */
-#contenido{
- 
-text-align: center;
+#contenido {
+
+  text-align: center;
 }
-#contenido h1{
-color: #061125;
+
+#contenido h1 {
+  color: #061125;
 }
 
 .titulos {
@@ -58,7 +59,7 @@ color: #061125;
   background: #ffffff;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .titulos h3 {
@@ -81,7 +82,7 @@ color: #061125;
   border-radius: 12px;
   padding: 32px;
   text-align: center;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   margin-bottom: 40px;
 }
 
@@ -123,7 +124,7 @@ color: #061125;
   background: #ffffff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 #contenido caption {
@@ -174,7 +175,7 @@ color: #061125;
   line-height: 1.7;
   font-size: 1.05rem;
   color: #333;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .price-info h3 {

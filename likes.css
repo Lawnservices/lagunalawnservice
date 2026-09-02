@@ -1,12 +1,12 @@
 .like-box {
     display: flex;
-    align-items:center;
+    align-items: center;
     gap: 12px;
     background: #f3f4f6;
     padding: 15px;
     border-radius: 10px;
     width: fit-content;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .like-btn {

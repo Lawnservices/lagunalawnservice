@@ -1,6 +1,6 @@
 const titulos = document.getElementsByClassName('titulo');
 
-for (let titulo of titulos){
+for (let titulo of titulos) {
     titulo.style.color = '#144297';
 }
 

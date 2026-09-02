@@ -1,13 +1,15 @@
-#mensajes{
-font-size: 26px;
-color: #2c68da;
+#mensajes {
+    font-size: 26px;
+    color: #2c68da;
 
 }
-.closed .one{
-color: #7a6251;
-font-size: 22px;
+
+.closed .one {
+    color: #7a6251;
+    font-size: 22px;
 }
-#mensaje{
-font-size: 18px;
-padding: 6px;
+
+#mensaje {
+    font-size: 18px;
+    padding: 6px;
 }

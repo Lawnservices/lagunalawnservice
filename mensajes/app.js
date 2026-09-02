@@ -1,4 +1,4 @@
-const one =  document.getElementById('one');
+const one = document.getElementById('one');
 const year = new Date().getFullYear();
 
 one.textContent = `© ${year} Miguel Laguna Lawn Services. All Rights Reserved`;
@@ -9,9 +9,10 @@ document.getElementById("name").addEventListener("input", function () {
 
     if (this.value.length < 3) {
         this.setCustomValidity("The name must be at least 8 characters long.");
-    } 
-      else if (this.value.length > 30) {
-        this.setCustomValidity("The name is too long.");}
+    }
+    else if (this.value.length > 30) {
+        this.setCustomValidity("The name is too long.");
+    }
     else {
         this.setCustomValidity("");
     }
