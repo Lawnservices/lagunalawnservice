@@ -8,7 +8,7 @@ document.getElementById("name").addEventListener("input", function () {
     this.value = this.value.replace(/[^A-Za-z\s]/g, "");
 
     if (this.value.length < 3) {
-        this.setCustomValidity("The name must be at least 8 characters long.");
+        this.setCustomValidity("The name must be at least 3 characters long.");
     }
     else if (this.value.length > 30) {
         this.setCustomValidity("The name is too long.");
@@ -32,7 +32,7 @@ document.getElementById("tel").addEventListener("input", function () {
 document.querySelector("form").addEventListener("submit", function () {
     setTimeout(() => {
         this.reset();
-    }, 100);
+    }, 500);
 });
 
 // document.getElementById("name").addEventListener("input", function () {
