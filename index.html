@@ -844,27 +844,55 @@ font-size: 18px;
   <!-- contador -->
   <script>
     document.getElementById("formSuscribir").addEventListener("submit", function (e) {
-      e.preventDefault(); // evita recargar la página
+  e.preventDefault();
 
-      fetch("https://www.creantunegocio.com/suscribirse", {
-        method: "POST",
-        body: new FormData(this)
-      })
-        .then(res => res.json())
-        .then(data => {
-          const mensaje = document.getElementById("mensaje");
-          mensaje.textContent = data.message;
-          mensaje.style.color = data.status === "error" ? "red" : "green";
+  const formulario = this;
+  const mensaje = document.getElementById("mensaje");
 
-          setTimeout(() => {
-            document.getElementById('email').value = '';
+  fetch("https://www.creantunegocio.com/suscribirse", {
+    method: "POST",
+    body: new FormData(formulario)
+  })
+    .then(res => res.json())
+    .then(data => {
+      mensaje.textContent = data.message;
+      mensaje.style.color =
+        data.status === "error" ? "red" : "green";
 
-          }, 4000)
-        })
-        .catch(err => {
-          document.getElementById("mensaje").textContent = "Error: " + err;
-        });
+      if (data.status !== "error") {
+        setTimeout(() => {
+          formulario.reset();
+        }, 4000);
+      }
     })
+    .catch(err => {
+      mensaje.textContent = "No se pudo completar la solicitud. Inténtalo de nuevo.";
+      mensaje.style.color = "red";
+      console.error(err);
+    });
+});
+    // document.getElementById("formSuscribir").addEventListener("submit", function (e) {
+    //   e.preventDefault(); // evita recargar la página
+
+    //   fetch("https://www.creantunegocio.com/suscribirse", {
+    //     method: "POST",
+    //     body: new FormData(this)
+    //   })
+    //     .then(res => res.json())
+    //     .then(data => {
+    //       const mensaje = document.getElementById("mensaje");
+    //       mensaje.textContent = data.message;
+    //       mensaje.style.color = data.status === "error" ? "red" : "green";
+
+    //       setTimeout(() => {
+    //         document.getElementById('email').value = '';
+
+    //       }, 5000)
+    //     })
+    //     .catch(err => {
+    //       document.getElementById("mensaje").textContent = "Error: " + err;
+    //     });
+    // })
   </script>
 
   <script src="likes.js"></script>
