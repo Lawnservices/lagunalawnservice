@@ -1,136 +1,531 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Terms & Conditions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="description"
+    content="Read the Terms and Conditions for Miguel Lawn Services, including website use, lawn care services, estimates, payments, and cancellations.">
+
+  <meta name="author" content="Miguel Laguna">
+  <meta name="robots" content="index, follow">
+  <meta name="google-adsense-account" content="ca-pub-4412835452950258">
+
+  <link rel="canonical"
+    href="https://lagunalawnservice.com/terms&conditions/terms&conditions">
+
+  <link rel="icon"
+    href="https://img.icons8.com/fluency/48/leaf.png"
+    type="image/png">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <title>Terms &amp; Conditions | Miguel Lawn Services</title>
+
+  <style>
+    :root {
+      --green-dark: #123b2b;
+      --green: #267447;
+      --green-light: #eaf5ed;
+      --lime: #c8f169;
+      --text: #25352c;
+      --muted: #647269;
+      --white: #ffffff;
+      --background: #f5f8f5;
+      --border: #e2eae3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .navbar {
+      background: var(--green-dark);
+      padding: 16px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .brand {
+      color: var(--white);
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .brand i {
+      color: var(--lime);
+      margin-right: 8px;
+    }
+
+    .navbar nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 22px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar nav a {
+      color: var(--white);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .navbar nav a:hover {
+      color: var(--lime);
+    }
+
+    .navbar .estimate-link {
+      background: var(--lime);
+      color: var(--green-dark);
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #123b2b, #267447);
+      color: var(--white);
+      text-align: center;
+      padding: 58px 20px 65px;
+    }
+
+    .hero-icon {
+      width: 68px;
+      height: 68px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 16px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 18px;
+      color: var(--lime);
+      font-size: 30px;
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+
+    .hero p {
+      color: #e2eee5;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .page-container {
+      width: min(900px, 92%);
+      margin: -24px auto 55px;
+      position: relative;
+    }
+
+    .terms-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: clamp(20px, 5vw, 45px);
+      box-shadow: 0 12px 35px rgba(18, 59, 43, 0.08);
+    }
+
+    .intro {
+      color: var(--muted);
+      margin-top: 0;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .last-updated {
+      display: inline-block;
+      background: var(--green-light);
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 0 0 25px;
+    }
+
+    .terms-section {
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+      scroll-margin-top: 20px;
+    }
+
+    .terms-section:last-of-type {
+      border-bottom: none;
+    }
+
+    .terms-section h2 {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--green-dark);
+      font-size: 21px;
+      line-height: 1.4;
+      margin: 0 0 12px;
+    }
+
+    .terms-section h2 i {
+      color: var(--green);
+      font-size: 19px;
+      width: 25px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .terms-section p {
+      color: #526158;
+      margin: 0 0 12px;
+    }
+
+    .terms-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .business-info {
+      background: var(--green-light);
+      padding: 18px 20px;
+      border-radius: 10px;
+      margin-top: 18px;
+    }
+
+    .business-info p {
+      margin: 4px 0;
+    }
+
+    .business-info a {
+      color: var(--green);
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-cta {
+      margin-top: 28px;
+      padding: 28px 22px;
+      background: var(--green-dark);
+      color: var(--white);
+      text-align: center;
+      border-radius: 13px;
+    }
+
+    .contact-cta h2 {
+      margin: 0 0 8px;
+      font-size: 25px;
+    }
+
+    .contact-cta p {
+      color: #e2eee5;
+      margin: 0 auto 18px;
+    }
+
+    .primary-button {
+      display: inline-block;
+      background: var(--lime);
+      color: var(--green-dark);
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: 800;
+      transition: transform 0.2s;
+    }
+
+    .primary-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      background: #0b291e;
+      color: var(--white);
+      text-align: center;
+      padding: 28px 5%;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 18px;
+      margin-bottom: 14px;
+    }
+
+    .footer a {
+      color: var(--lime);
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer p {
+      color: #d6e4da;
+      font-size: 13px;
+      margin: 5px 0;
+    }
+
+    @media (max-width: 650px) {
+      .navbar {
+        flex-direction: column;
+        padding: 17px 15px;
+      }
+
+      .navbar nav ul {
+        justify-content: center;
+        gap: 14px;
+      }
+
+      .hero {
+        padding: 45px 18px 55px;
+      }
+
+      .terms-card {
+        padding: 22px 18px;
+      }
+
+      .terms-section h2 {
+        font-size: 19px;
+      }
+
+      .contact-cta h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <header class="navbar">
-        <a href="/index">Home</a>
-    </header>
-    <main class="terms-container">
 
-        <h1>Terms &amp; Conditions</h1>
+  <header class="navbar">
+    <a class="brand" href="/index">
+      <i class="fa-solid fa-leaf"></i>
+      Miguel Lawn Services
+    </a>
 
-        <p class="last-updated">Last updated: August 16, 2026</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/index">HOME</a></li>
+        <li><a href="/prices/prices">PRICES</a></li>
+        <li>
+          <a class="estimate-link" href="tel:+12408838479">
+            <i class="fa-solid fa-phone"></i> FREE ESTIMATE
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-        <section class="terms-section">
-            <h2>1. Website Use</h2>
+  <section class="hero">
+    <div class="hero-icon">
+      <i class="fa-solid fa-file-contract"></i>
+    </div>
 
-            <p>
-                This website provides information about Miguel Lawn Services,
-                including lawn mowing, yard cleanup, leaf removal, flower planting,
-                power washing, fertilization, mulch replacement, and bush trimming services.
-            </p>
+    <h1>Terms &amp; Conditions</h1>
 
-            <p>
-                You agree to use this website only for lawful purposes.
-            </p>
-        </section>
+    <p>
+      Please review the terms that apply when using the Miguel Lawn Services website.
+    </p>
+  </section>
 
-        <section class="terms-section">
-            <h2>2. Services</h2>
+  <main class="page-container">
+    <article class="terms-card">
 
-            <p>
-                The information about our services and prices on this website is
-                provided for general information. Prices and availability may vary
-                depending on the size of the property, type of service, materials
-                required, and other conditions.
-            </p>
+      <p class="last-updated">Last updated: October 22, 2026</p>
 
-            <p>
-                A final price may be provided after evaluating the property and
-                the requested work.
-            </p>
-        </section>
+      <p class="intro">
+        These Terms &amp; Conditions explain the basic rules for using our
+        website and provide general information about our lawn care and
+        landscaping services. By using this website, you agree to use it
+        lawfully and responsibly.
+      </p>
 
-        <section class="terms-section">
-            <h2>3. Estimates and Payments</h2>
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-globe"></i> 1. Website Use</h2>
 
-            <p>
-                Any estimate provided by Miguel Lawn Services is subject to change
-                if the scope of work or conditions of the property change.
-            </p>
+        <p>
+          This website provides information about Miguel Lawn Services,
+          including lawn mowing, yard cleanup, leaf removal, flower planting,
+          power washing, fertilization, mulch replacement, and bush trimming.
+        </p>
 
-            <p>
-                Payment terms will be discussed and agreed upon before or during
-                the service.
-            </p>
-        </section>
+        <p>
+          You agree to use this website only for lawful purposes. You must not
+          use the website in a way that damages, disrupts, or interferes with
+          its operation or other users.
+        </p>
+      </section>
 
-        <section class="terms-section">
-            <h2>4. Cancellations</h2>
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-seedling"></i> 2. Services</h2>
 
-            <p>
-                Customers should contact Miguel Lawn Services as soon as possible
-                if they need to cancel or reschedule a service.
-            </p>
-        </section>
+        <p>
+          Information about our services and prices is provided for general
+          informational purposes. Prices and availability may vary depending
+          on property size, the type of service, materials required, and other
+          conditions.
+        </p>
 
-        <section class="terms-section">
-            <h2>5. Website Content</h2>
+        <p>
+          A final price may be provided after evaluating the property and
+          discussing the requested work with the customer.
+        </p>
+      </section>
 
-            <p>
-                The content on this website, including text, photographs, graphics,
-                logos, and other materials, belongs to Miguel Lawn Services unless
-                otherwise stated.
-            </p>
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-file-invoice-dollar"></i> 3. Estimates and Payments</h2>
 
-            <p>
-                You may not copy, reproduce, or use our website content without permission.
-            </p>
-        </section>
+        <p>
+          Estimates provided by Miguel Lawn Services may change if the scope
+          of work, property conditions, or material requirements change.
+          Any significant changes should be discussed with the customer.
+        </p>
 
-        <section class="terms-section">
-            <h2>6. Third-Party Websites</h2>
+        <p>
+          Payment methods, amounts, and timing will be discussed and agreed
+          upon before or during the service.
+        </p>
+      </section>
 
-            <p>
-                Our website may contain links to third-party websites. Miguel Lawn
-                Services is not responsible for the content, privacy practices, or
-                services provided by third-party websites.
-            </p>
-        </section>
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-calendar-check"></i> 4. Cancellations and Scheduling</h2>
 
-        <section class="terms-section">
-            <h2>7. Limitation of Liability</h2>
+        <p>
+          Customers should contact Miguel Lawn Services as soon as possible
+          if they need to cancel or reschedule a service. Scheduling may
+          depend on weather, availability, and other conditions.
+        </p>
+      </section>
 
-            <p>
-                Miguel Lawn Services makes reasonable efforts to keep the information
-                on this website accurate and current. However, we do not guarantee
-                that all information will always be complete, accurate, or available.
-            </p>
-        </section>
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-copyright"></i> 5. Website Content</h2>
 
-        <section class="terms-section">
-            <h2>8. Changes to These Terms</h2>
+        <p>
+          Unless otherwise stated, website content, including text,
+          photographs, graphics, logos, and other materials, belongs to
+          Miguel Lawn Services or is used with permission.
+        </p>
 
-            <p>
-                We may update these Terms &amp; Conditions from time to time.
-                Any changes will be posted on this page with an updated date.
-            </p>
-        </section>
+        <p>
+          You may not copy, reproduce, or use our website content without
+          appropriate permission, except where permitted by applicable law.
+        </p>
+      </section>
 
-        <section class="terms-section">
-            <h2>9. Contact Us</h2>
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-link"></i> 6. Third-Party Websites</h2>
 
-            <p>
-                If you have questions about these Terms &amp; Conditions, please
-                contact us through our website.
-            </p>
+        <p>
+          Our website may contain links to third-party websites or services.
+          Miguel Lawn Services does not control those websites and is not
+          responsible for their content, privacy practices, or services.
+        </p>
+      </section>
 
-            <div class="business-info">
-                <p><strong>Miguel Lawn Services</strong></p>
-                <p>Lanham, Maryland</p>
-                <p>Website: lagunalawnservice.com</p>
-            </div>
-        </section>
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-circle-exclamation"></i> 7. Website Information and Liability</h2>
 
-    </main>
+        <p>
+          We make reasonable efforts to keep website information accurate
+          and up to date. However, we do not guarantee that all information
+          will always be complete, accurate, uninterrupted, or available.
+        </p>
+
+        <p>
+          Nothing in these terms excludes or limits any liability where
+          doing so would be prohibited by applicable law.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-rotate"></i> 8. Changes to These Terms</h2>
+
+        <p>
+          We may update these Terms &amp; Conditions from time to time.
+          Updates will be posted on this page with a revised date.
+          We encourage visitors to review this page periodically.
+        </p>
+      </section>
+
+      <section class="terms-section">
+        <h2><i class="fa-solid fa-envelope"></i> 9. Contact Us</h2>
+
+        <p>
+          If you have questions about these Terms &amp; Conditions or our
+          services, please contact Miguel Lawn Services.
+        </p>
+
+        <div class="business-info">
+          <p><strong>Miguel Lawn Services</strong></p>
+          <p>Lanham, Maryland</p>
+          <p>
+            Website:
+            <a href="https://lagunalawnservice.com/">
+              lagunalawnservice.com
+            </a>
+          </p>
+          <p>
+            Phone:
+            <a href="tel:+12408838479">+1 240 883 8479</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-cta">
+        <h2>Have Questions?</h2>
+        <p>
+          Contact us to discuss our lawn care services or request a free estimate.
+        </p>
+
+        <a class="primary-button" href="tel:+12408838479">
+          <i class="fa-solid fa-phone"></i> Call Miguel Lawn Services
+        </a>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/index">Home</a>
+      <a href="/prices/prices">Prices</a>
+      <a href="/terms&conditions/terms&conditions" aria-current="page">
+        Terms &amp; Conditions
+      </a>
+      <a href="/privacy.html">Privacy Policy</a>
+    </div>
+
+    <p>
+      &copy; <span id="year"></span> Miguel Lawn Services. All rights reserved.
+    </p>
+
+    <p>Serving Lanham, Maryland, and nearby areas.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
 </body>
-
 </html>
