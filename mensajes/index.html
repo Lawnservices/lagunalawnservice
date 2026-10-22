@@ -1,36 +1,454 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="lawn mowing, lahnam md, miguel laguna, leaf removal, the best prices in thr area">
-    <meta name="author" content="Miguel Laguna">
-    <link rel="shortcut icon" href="https://img.icons8.com/liquid-glass/48/chat-message.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Request a Free Estimate</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Request a free lawn care and landscaping estimate from Miguel Lawn Services in Lanham, Maryland.">
+
+  <meta name="author" content="Miguel Laguna">
+  <meta name="robots" content="index, follow">
+  <meta name="google-adsense-account" content="ca-pub-4412835452950258">
+
+  <link rel="shortcut icon"
+    href="https://img.icons8.com/liquid-glass/48/chat-message.png"
+    type="image/png">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <title>Request a Free Estimate | Miguel Lawn Services</title>
+
+  <style>
+    :root {
+      --green-dark: #123b2b;
+      --green: #267447;
+      --green-light: #eaf5ed;
+      --lime: #c8f169;
+      --text: #25352c;
+      --muted: #647269;
+      --white: #ffffff;
+      --background: #f5f8f5;
+      --border: #e2eae3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .navbar {
+      background: var(--green-dark);
+      padding: 16px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      color: var(--white);
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .brand i {
+      color: var(--lime);
+      margin-right: 8px;
+    }
+
+    .navbar ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 22px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar ul a {
+      color: var(--white);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .navbar ul a:hover {
+      color: var(--lime);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #123b2b, #267447);
+      color: var(--white);
+      text-align: center;
+      padding: 55px 20px 70px;
+    }
+
+    .hero-icon {
+      width: 68px;
+      height: 68px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 16px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 18px;
+      color: var(--lime);
+      font-size: 30px;
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #e2eee5;
+      margin: 0 auto;
+    }
+
+    .page-container {
+      width: min(760px, 92%);
+      margin: -28px auto 55px;
+      position: relative;
+    }
+
+    .form-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: clamp(22px, 5vw, 42px);
+      box-shadow: 0 12px 35px rgba(18, 59, 43, 0.08);
+    }
+
+    .form-heading {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .form-heading h2 {
+      color: var(--green-dark);
+      font-size: 27px;
+      margin: 0 0 8px;
+    }
+
+    .form-heading p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 700;
+      color: var(--green-dark);
+      margin-bottom: 7px;
+    }
+
+    .form-group label i {
+      color: var(--green);
+      width: 20px;
+      margin-right: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      border: 1px solid #ccd8ce;
+      border-radius: 9px;
+      padding: 14px 15px;
+      font-family: inherit;
+      font-size: 16px;
+      color: var(--text);
+      background: #fcfdfc;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(38, 116, 71, 0.12);
+    }
+
+    .form-group textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .form-note {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    .submit-button {
+      display: block;
+      width: 100%;
+      border: none;
+      border-radius: 9px;
+      background: var(--green);
+      color: var(--white);
+      padding: 15px 20px;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .submit-button:hover {
+      background: var(--green-dark);
+      transform: translateY(-1px);
+    }
+
+    .privacy-note {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      background: var(--green-light);
+      padding: 14px;
+      border-radius: 9px;
+      margin-top: 20px;
+      font-size: 13px;
+      color: #43564a;
+    }
+
+    .privacy-note i {
+      color: var(--green);
+      margin-top: 4px;
+    }
+
+    .privacy-note a {
+      color: var(--green);
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    .contact-alternative {
+      text-align: center;
+      padding: 25px 10px 0;
+    }
+
+    .contact-alternative p {
+      color: var(--muted);
+      margin: 0 0 8px;
+    }
+
+    .contact-alternative a {
+      color: var(--green);
+      font-weight: 800;
+      font-size: 19px;
+    }
+
+    .footer {
+      background: #0b291e;
+      color: var(--white);
+      text-align: center;
+      padding: 28px 5%;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 18px;
+      margin-bottom: 14px;
+    }
+
+    .footer a {
+      color: var(--lime);
+    }
+
+    .footer p {
+      color: #d6e4da;
+      font-size: 13px;
+      margin: 5px 0;
+    }
+
+    @media (max-width: 650px) {
+      .navbar {
+        flex-direction: column;
+        padding: 17px 15px;
+      }
+
+      .navbar ul {
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .hero {
+        padding: 45px 18px 58px;
+      }
+
+      .form-card {
+        padding: 23px 18px;
+      }
+
+      .form-heading h2 {
+        font-size: 23px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <header>
-        <a href="/index">
-            <p>THE BEST PRICES IN THE AREA.</p>
-        </a>
-    </header>
-    <h1>Request a Free Estimate</h1>
-    <h2>Fill out the form below and we'll contact you as soon as possible.</h2>
-    <form action="https://www.creantunegocio.com/mensaje" method="POST">
-        <input type="text" name="name" id="name" placeholder="Name" required pattern="[A-Za-z\s]+"
-            title="Only letters allowed" maxlength="30" autocomplete="name">
-        <input type="tel" name="tel" id="tel" placeholder="Phone Number" required inputmode="numeric" pattern="[0-9]+"
-            maxlength="10" autocomplete="tel">
-        <input type="text" name="message" id="message" placeholder="Send Message" maxlength="100" required>
-        <button type="submit">Enviar</button>
-    </form>
-    <footer>
-        <p id="one"></p>
-    </footer>
-    <script src="app.js"></script>
-</body>
 
+  <header class="navbar">
+    <a class="brand" href="/index">
+      <i class="fa-solid fa-leaf"></i>
+      Miguel Lawn Services
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/index">HOME</a></li>
+        <li><a href="/prices/prices">PRICES</a></li>
+        <li><a href="/terms&conditions/terms&conditions">TERMS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-icon">
+      <i class="fa-solid fa-envelope-open-text"></i>
+    </div>
+
+    <h1>Request a Free Estimate</h1>
+
+    <p>
+      Tell us about your lawn care needs and we'll contact you
+      as soon as possible.
+    </p>
+  </section>
+
+  <main class="page-container">
+    <section class="form-card">
+
+      <div class="form-heading">
+        <h2>Let's Talk About Your Yard</h2>
+        <p>Fill out the form below to request your free estimate.</p>
+      </div>
+
+      <form action="https://www.creantunegocio.com/mensaje" method="POST">
+
+        <div class="form-group">
+          <label for="name">
+            <i class="fa-solid fa-user"></i> Name
+          </label>
+
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your full name"
+            required
+            pattern="[A-Za-z\s]+"
+            title="Only letters and spaces are allowed"
+            maxlength="30"
+            autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label for="tel">
+            <i class="fa-solid fa-phone"></i> Phone Number
+          </label>
+
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="Enter your 10-digit phone number"
+            required
+            inputmode="numeric"
+            pattern="[0-9]{10}"
+            title="Please enter a 10-digit phone number without spaces or dashes"
+            maxlength="10"
+            autocomplete="tel">
+        </div>
+
+        <div class="form-group">
+          <label for="message">
+            <i class="fa-solid fa-message"></i> Your Message
+          </label>
+
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Tell us what lawn care service you need..."
+            maxlength="100"
+            required></textarea>
+
+          <p class="form-note">
+            Maximum 100 characters.
+          </p>
+        </div>
+
+        <button class="submit-button" type="submit">
+          <i class="fa-solid fa-paper-plane"></i>
+          Send My Request
+        </button>
+
+        <div class="privacy-note">
+          <i class="fa-solid fa-shield-halved"></i>
+          <div>
+            Please provide accurate contact information so we can respond
+            to your request. Read our
+            <a href="/privacy.html">Privacy Policy</a>.
+          </div>
+        </div>
+
+      </form>
+
+      <div class="contact-alternative">
+        <p>Prefer to speak with us directly?</p>
+        <a href="tel:+12408838479">
+          <i class="fa-solid fa-phone"></i> +1 240 883 8479
+        </a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/index">Home</a>
+      <a href="/prices/prices">Prices</a>
+      <a href="/terms&conditions/terms&conditions">Terms &amp; Conditions</a>
+      <a href="/privacy.html">Privacy Policy</a>
+    </div>
+
+    <p>
+      &copy; <span id="year"></span> Miguel Lawn Services. All rights reserved.
+    </p>
+
+    <p>Serving Lanham, Maryland, and nearby areas.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+  <script src="app.js"></script>
+
+</body>
 </html>
