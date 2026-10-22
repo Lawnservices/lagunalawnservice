@@ -21,9 +21,9 @@
     <h2>Fill out the form below and we'll contact you as soon as possible.</h2>
     <form action="https://www.creantunegocio.com/mensaje" method="POST">
         <input type="text" name="name" id="name" placeholder="Name" required pattern="[A-Za-z\s]+"
-            title="Only letters allowed" maxlength="30">
+            title="Only letters allowed" maxlength="30" autocomplete="name">
         <input type="tel" name="tel" id="tel" placeholder="Phone Number" required inputmode="numeric" pattern="[0-9]+"
-            maxlength="10">
+            maxlength="10" autocomplete="tel">
         <input type="text" name="message" id="message" placeholder="Send Message" maxlength="100" required>
         <button type="submit">Enviar</button>
     </form>
