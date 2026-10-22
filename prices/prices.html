@@ -1,179 +1,677 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="content=language" content="english" />
-  <meta name="keywords"
-    content="grass cutter, grass trimmer, garden edger, lawn mower, brush cutter, planting flowers, power washing, yard clean-up, fertilization, leaf removal, mulch replacement, lawn mowing, trimming of bushes." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="The mission: keep gardens beautiful, give you the best services, THE BEST PRICES IN THE AREA. lawn services" />
-  <meta name="author" content="Miguel Laguna" />
-  <meta name="robots" content="index, all, follow" />
+    content="Discover affordable lawn care and landscaping prices in Lanham, Maryland. Contact Miguel Lawn Services for a free estimate.">
+  <meta name="author" content="Miguel Laguna">
+  <meta name="robots" content="index, follow">
   <meta name="google-adsense-account" content="ca-pub-4412835452950258">
 
-  <meta http-equiv="Cache-Control" content="max-age=31536000, public" />
-  <link rel="shortcut icon" href="https://img.icons8.com/fluency/48/null/price-tag-usd.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="canonical" href="https://lagunalawnservice.com/prices/prices">
+  <link rel="icon"
+    href="https://img.icons8.com/fluency/48/price-tag-usd.png"
+    type="image/png">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
   <link rel="stylesheet" href="prices.css">
-  <title>Prices</title>
+
+  <title>Lawn Care Prices | Miguel Lawn Services</title>
+
+  <style>
+    :root {
+      --green-dark: #123b2b;
+      --green: #267447;
+      --green-light: #eaf5ed;
+      --lime: #c8f169;
+      --text: #25352c;
+      --muted: #647269;
+      --white: #ffffff;
+      --background: #f5f8f5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .navbar {
+      background: var(--green-dark);
+      padding: 16px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      color: var(--white);
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .brand i {
+      color: var(--lime);
+      margin-right: 8px;
+    }
+
+    .navbar ul {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar a {
+      color: var(--white);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .navbar ul a:hover {
+      color: var(--lime);
+    }
+
+    .navbar .estimate-link {
+      background: var(--lime);
+      color: var(--green-dark);
+      padding: 10px 16px;
+      border-radius: 8px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #123b2b, #267447);
+      color: var(--white);
+      text-align: center;
+      padding: 65px 20px 75px;
+    }
+
+    .hero .eyebrow {
+      display: inline-block;
+      color: var(--lime);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.15;
+      margin: 14px 0;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 25px;
+      color: #e3eee5;
+      font-size: 17px;
+    }
+
+    .primary-button {
+      display: inline-block;
+      background: var(--lime);
+      color: var(--green-dark);
+      padding: 13px 23px;
+      border-radius: 8px;
+      font-weight: 800;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .primary-button:hover {
+      transform: translateY(-2px);
+      background: #d8ff8b;
+    }
+
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px 28px;
+      margin-top: 27px;
+      color: #f0f6f0;
+      font-size: 14px;
+    }
+
+    .trust-row i {
+      color: var(--lime);
+      margin-right: 6px;
+    }
+
+    .page-container {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+    }
+
+    .prices-section {
+      margin: -25px auto 45px;
+      position: relative;
+    }
+
+    .prices-card {
+      background: var(--white);
+      border: 1px solid #e2eae3;
+      border-radius: 16px;
+      padding: clamp(18px, 4vw, 38px);
+      box-shadow: 0 12px 35px rgba(18, 59, 43, 0.08);
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+
+    .section-heading h2 {
+      color: var(--green-dark);
+      font-size: clamp(25px, 3vw, 34px);
+      margin: 0 0 8px;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid #e4ebe5;
+      border-radius: 10px;
+    }
+
+    #servicesTable {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--white);
+    }
+
+    #servicesTable th,
+    #servicesTable td {
+      padding: 16px 14px;
+      text-align: left;
+      border-bottom: 1px solid #e8eee9;
+    }
+
+    #servicesTable th {
+      background: var(--green-dark);
+      color: var(--white);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+
+    #servicesTable tr:last-child td {
+      border-bottom: none;
+    }
+
+    #servicesTable tbody tr:hover {
+      background: #f4faf5;
+    }
+
+    #servicesTable .icon {
+      width: 45px;
+      height: 45px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    #servicesTable .price {
+      color: var(--green);
+      font-weight: 800;
+      white-space: nowrap;
+      font-size: 17px;
+    }
+
+    .loading-message {
+      padding: 25px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .price-note {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: var(--green-light);
+      border-radius: 10px;
+      padding: 17px;
+      margin-top: 22px;
+    }
+
+    .price-note i {
+      color: var(--green);
+      font-size: 21px;
+      margin-top: 3px;
+    }
+
+    .price-note p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .information-section {
+      padding: 10px 0 55px;
+    }
+
+    .information-section h2 {
+      color: var(--green-dark);
+      font-size: 30px;
+      margin: 0 0 15px;
+    }
+
+    .information-section p {
+      color: #526158;
+      margin: 0 0 18px;
+    }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 28px 0;
+    }
+
+    .benefit-card {
+      background: var(--white);
+      padding: 22px;
+      border: 1px solid #e4ebe5;
+      border-radius: 12px;
+    }
+
+    .benefit-card i {
+      color: var(--green);
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .benefit-card h3 {
+      color: var(--green-dark);
+      font-size: 17px;
+      margin: 0 0 7px;
+    }
+
+    .benefit-card p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .contact-cta {
+      background: var(--green-dark);
+      color: var(--white);
+      border-radius: 16px;
+      padding: 35px 25px;
+      text-align: center;
+      margin-bottom: 55px;
+    }
+
+    .contact-cta h2 {
+      font-size: 29px;
+      margin: 0 0 8px;
+    }
+
+    .contact-cta p {
+      color: #e0ebe3;
+      margin: 0 auto 20px;
+      max-width: 650px;
+    }
+
+    .contact-cta .phone {
+      display: block;
+      margin-top: 15px;
+      color: var(--lime);
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .footer {
+      background: #0b291e;
+      color: var(--white);
+      padding: 25px 5%;
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 5px 0;
+    }
+
+    .footer a {
+      color: var(--lime);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 700px) {
+      .navbar {
+        flex-direction: column;
+        padding: 17px 15px;
+      }
+
+      .navbar ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .hero {
+        padding: 50px 18px 60px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .prices-card {
+        padding: 15px 10px;
+      }
+
+      #servicesTable th,
+      #servicesTable td {
+        padding: 11px 9px;
+        font-size: 13px;
+      }
+
+      #servicesTable .icon {
+        width: 34px;
+        height: 34px;
+      }
+
+      #servicesTable .price {
+        font-size: 14px;
+      }
+
+      .benefits {
+        grid-template-columns: 1fr;
+      }
+
+      .information-section h2,
+      .contact-cta h2 {
+        font-size: 25px;
+      }
+    }
+  </style>
 </head>
 
 <body>
+
   <header class="navbar">
-    <ul>
-      <li><a href="/index" id="home">HOME</a></li>
-    </ul>
+    <a class="brand" href="/index">
+      <i class="fa-solid fa-leaf"></i>
+      Miguel Lawn Services
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/index">HOME</a></li>
+        <li><a href="/prices/prices" aria-current="page">PRICES</a></li>
+        <li>
+          <a class="estimate-link" href="tel:+12408838479">
+            <i class="fa-solid fa-phone"></i> FREE ESTIMATE
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
-  <div id="contenido"></div>
-  <div class="titulos">
-    <h3 id="put"></h3>
-  </div>
 
+  <section class="hero">
+    <span class="eyebrow">Lawn Care & Landscaping</span>
+    <h1>Quality Lawn Care at Fair Prices</h1>
+    <p>
+      Keep your outdoor space beautiful with dependable lawn care
+      and landscaping services in Lanham, Maryland, and nearby areas.
+    </p>
 
-  <main class="contact">
-    <div class="container" id="contenido">
-      <caption class="titulo">
-        THE BEST PRICES IN THE AREA.
-      </caption>
+    <a class="primary-button" href="tel:+12408838479">
+      <i class="fa-solid fa-phone"></i> Get Your Free Estimate
+    </a>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Icon</th>
-            <th>Services</th>
-            <th>Description</th>
-            <th>Prices</th>
-          </tr>
-        </thead>
-        <tbody id="servicesTable"></tbody>
-      </table>
+    <div class="trust-row">
+      <span><i class="fa-solid fa-check-circle"></i> Clear Pricing</span>
+      <span><i class="fa-solid fa-leaf"></i> Lawn Care Services</span>
+      <span><i class="fa-solid fa-house"></i> Local Service</span>
     </div>
+  </section>
 
+  <main class="page-container">
 
+    <section class="prices-section" aria-labelledby="prices-heading">
+      <div class="prices-card">
 
-    <section class="price-info">
-      <h3>Understanding Our Pricing</h3>
+        <div class="section-heading">
+          <h2 id="prices-heading">Our Lawn Care Prices</h2>
+          <p>Explore our services and starting prices.</p>
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Icon</th>
+                <th scope="col">Service</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody id="servicesTable">
+              <tr>
+                <td colspan="4" class="loading-message">
+                  <i class="fa-solid fa-spinner fa-spin"></i>
+                  Loading our services and prices...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-note">
+          <i class="fa-solid fa-circle-info"></i>
+          <p>
+            <strong>Please note:</strong> Prices may vary depending on
+            property size, lawn condition, materials, and the work required.
+            Contact us for a personalized estimate before work begins.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="information-section">
+      <h2>Understanding Our Pricing</h2>
 
       <p>
-        At Miguel Lawn Services, we believe in offering clear, honest, and competitive pricing for every service we
-        provide.
-        Our goal is to make professional lawn care accessible to everyone while maintaining the highest standards of
-        quality.
-        The prices listed above represent starting rates, which may vary depending on the size of your property, the
-        condition
-        of the lawn, and the specific requirements of each project. We always strive to give our customers the best
-        value in
-        the area, combining fair pricing with reliable, detailed work.
+        At Miguel Lawn Services, we believe in offering clear, honest,
+        and competitive pricing. Our goal is to make professional lawn care
+        accessible while maintaining high standards of quality. Prices shown
+        on this page are starting rates and may vary depending on the size
+        of your property, the condition of your lawn, and your project needs.
       </p>
 
       <p>
-        Every service we offer includes professional tools, careful preparation, and a commitment to customer
-        satisfaction.
-        Lawn mowing prices depend on yard size, mowing frequency, and whether edging or trimming is needed. Mulch
-        replacement
-        varies based on the type of mulch selected, the depth required, and the total square footage of the garden beds.
-        Planting flowers or bushes may involve soil preparation, plant selection, and additional materials, which can
-        influence
-        the final cost. We always provide personalized estimates so you know exactly what to expect before any work
-        begins.
+        Lawn mowing costs can depend on yard size, mowing frequency, edging,
+        and trimming requirements. Mulch replacement depends on the type of
+        mulch, depth, and total area. Planting flowers or bushes may require
+        soil preparation, plants, and additional materials. We provide
+        personalized estimates so you can understand the expected cost
+        before work begins.
+      </p>
+
+      <div class="benefits">
+        <article class="benefit-card">
+          <i class="fa-solid fa-tags"></i>
+          <h3>Fair Pricing</h3>
+          <p>We aim to provide competitive prices based on the work your property needs.</p>
+        </article>
+
+        <article class="benefit-card">
+          <i class="fa-solid fa-clipboard-check"></i>
+          <h3>Personalized Estimates</h3>
+          <p>We review your needs and explain the expected work and costs.</p>
+        </article>
+
+        <article class="benefit-card">
+          <i class="fa-solid fa-seedling"></i>
+          <h3>Seasonal Care</h3>
+          <p>Services can include mowing, trimming, leaf cleanup, planting, and more.</p>
+        </article>
+      </div>
+
+      <p>
+        Seasonal needs also influence lawn care. Spring may call for planting
+        and soil preparation; summer often requires regular mowing and trimming;
+        autumn can involve leaf removal and yard cleanup. Every property is
+        different, so we work with you to identify suitable services for your
+        yard and budget.
       </p>
 
       <p>
-        Seasonal services also affect pricing. For example, spring planting requires fresh soil, fertilizers, and
-        careful
-        placement to ensure strong root development. Summer services often involve weekly or biweekly mowing, weed
-        control,
-        and lawn fertilization to maintain healthy growth. Autumn cleanup includes leaf removal, bush trimming, and seed
-        planting to prepare your yard for winter. Winter services may include snow removal, gutter cleaning, and debris
-        clearing to keep your property safe during cold weather. Each season has unique needs, and our pricing reflects
-        the
-        time, materials, and labor required to deliver excellent results.
-      </p>
-
-      <p>
-        We understand that every property is different. Some lawns require more frequent maintenance, while others may
-        need
-        special treatments such as weed control, fertilization, or soil improvement. If you are unsure which service is
-        right
-        for your yard, we are happy to visit your property, evaluate its condition, and recommend the best options based
-        on
-        your goals and budget. Our mission is to help you maintain a clean, healthy, and beautiful outdoor space all
-        year long.
-      </p>
-
-      <p>
-        Transparency is important to us. We never add hidden fees or unexpected charges. Before starting any job, we
-        explain
-        the process, the materials involved, and the estimated time required. This ensures you feel confident and
-        informed
-        every step of the way. Our customers appreciate our honesty, reliability, and dedication to delivering
-        high-quality
-        lawn care at affordable prices.
-      </p>
-
-      <p>
-        Thank you for considering Miguel Lawn Services. We take pride in serving the Lanham, Maryland community and
-        nearby
-        areas with dependable lawn care and landscaping services. Whether you need a one-time cleanup or ongoing
-        maintenance,
-        we are here to help. Contact us anytime for a free estimate, and let us show you why we offer the best prices
-        and
-        service in the area.
+        We want you to understand the work before it begins. Contact us to
+        discuss your property, ask questions, and request a free estimate.
+        Miguel Lawn Services proudly serves Lanham, Maryland, and nearby areas.
       </p>
     </section>
 
+    <section class="contact-cta">
+      <h2>Ready to Improve Your Yard?</h2>
+      <p>
+        Contact us today to discuss your lawn care needs and request
+        a free estimate.
+      </p>
+
+      <a class="primary-button" href="tel:+12408838479">
+        <i class="fa-solid fa-phone"></i> Call for a Free Estimate
+      </a>
+
+      <a class="phone" href="tel:+12408838479">
+        +1 240 883 8479
+      </a>
+    </section>
 
   </main>
 
   <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-section">
-        <h3>Contact</h3>
+    <div class="footer-links">
+      <a href="/index">Home</a>
+      <a href="/prices/prices">Prices</a>
+      <a href="/terms&conditions/terms&conditions">Terms & Conditions</a>
+      <a href="/privacy.html">Privacy Policy</a>
+    </div>
 
-        <p>Phone: +1 240 883 8479</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy;<em id="year"></em></p>
-    </div>
+    <p>&copy; <span id="year"></span> Miguel Lawn Services. All rights reserved.</p>
+    <p>Serving Lanham, Maryland, and nearby areas.</p>
   </footer>
 
-
-  <script src="prices.js"></script>
   <script src="/content.js"></script>
   <script src="/images/footer.js"></script>
+
   <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
     async function loadServices() {
       const table = document.getElementById("servicesTable");
 
       try {
-        const res = await fetch("https://www.creantunegocio.com/api/services");
+        const res = await fetch(
+          "https://www.creantunegocio.com/api/services"
+        );
+
+        if (!res.ok) {
+          throw new Error("Could not load services");
+        }
+
         const data = await res.json();
+
+        if (!Array.isArray(data.services)) {
+          throw new Error("Invalid services response");
+        }
 
         table.innerHTML = "";
 
+        if (data.services.length === 0) {
+          table.innerHTML = `
+            <tr>
+              <td colspan="4" class="loading-message">
+                Our services and prices will be available soon.
+              </td>
+            </tr>`;
+          return;
+        }
+
         data.services.forEach(s => {
-          table.innerHTML += `
-<tr>
-<td><img class="icon" src="${s.icon || 'https://via.placeholder.com/45'}"></td>
-<td><b>${s.service}</b></td>
-<td>${s.description || "Professional lawn service"}</td>
-<td class="price">$${s.price}</td>
-</tr>`;
+          const row = document.createElement("tr");
+
+          const iconCell = document.createElement("td");
+          const icon = document.createElement("img");
+          icon.className = "icon";
+          icon.alt = s.service ? s.service + " icon" : "Service icon";
+          icon.loading = "lazy";
+          icon.src = s.icon || "https://via.placeholder.com/45";
+          iconCell.appendChild(icon);
+
+          const serviceCell = document.createElement("td");
+          const serviceName = document.createElement("strong");
+          serviceName.textContent = s.service || "Lawn Care Service";
+          serviceCell.appendChild(serviceName);
+
+          const descriptionCell = document.createElement("td");
+          descriptionCell.textContent =
+            s.description || "Professional lawn service";
+
+          const priceCell = document.createElement("td");
+          priceCell.className = "price";
+
+          const price = Number(s.price);
+          priceCell.textContent = Number.isFinite(price)
+            ? price.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD"
+              })
+            : "Contact us";
+
+          row.append(iconCell, serviceCell, descriptionCell, priceCell);
+          table.appendChild(row);
         });
 
-      } catch (e) {
-        table.innerHTML = '<tr><td colspan="4">Error loading services</td></tr>';
+      } catch (error) {
+        console.error("Error loading services:", error);
+
+        table.innerHTML = `
+          <tr>
+            <td colspan="4" class="loading-message">
+              We couldn't load the prices right now.
+              Please call <a href="tel:+12408838479">240-883-8479</a>
+              for assistance.
+            </td>
+          </tr>`;
       }
     }
 
     loadServices();
   </script>
-</body>
 
+</body>
 </html>
